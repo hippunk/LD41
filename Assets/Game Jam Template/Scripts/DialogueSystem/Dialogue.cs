@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dialogue : ANode{
+public class Dialogue : Node{
+    
 
-	public Dialogue(List<ANode> nextList){
-		
-	}
 
+}
+
+public class Answer {
 
 }

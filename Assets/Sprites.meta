@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 3c5d3437817a79149913fe03aa8e8cc5
 folderAsset: yes
+<<<<<<< Updated upstream:Assets/Sprites.meta
 timeCreated: 1524324777
+=======
+timeCreated: 1524317054
+>>>>>>> Stashed changes:Assets/Game Jam Template/Scripts/DialogueSystem.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}

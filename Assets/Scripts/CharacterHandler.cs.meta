@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Scripts/CharacterHandler.cs.meta
 guid: 6e0b981c8cb946e419dc186c3c3c1451
 timeCreated: 1524325380
+=======
+guid: 270926988b87747e09baba806f8daefc
+timeCreated: 1524317054
+>>>>>>> Stashed changes:Assets/Game Jam Template/Scripts/DialogueSystem/Dialogue.cs.meta
 licenseType: Free
 MonoImporter:
   externalObjects: {}

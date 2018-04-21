@@ -9,6 +9,7 @@ public class CharacterHandler : MonoBehaviour {
     public const float JOY_VALUE = 1.2f;
     public const float DISGUST_VALUE = 0.5f;
     public const float EMBARRASSMENT_VALUE = 0.9f;
+    public const string DIALOG_FILE_PATH = "Dialog";
 
     [SerializeField]
     private List<CharacterData> characters;
@@ -21,7 +22,8 @@ public class CharacterHandler : MonoBehaviour {
                 characterName = c.characterName,
                 titre = c.titre,
                 relation = c.relation,
-                emotion = this.EmotionToFloat(c.emotion)
+                emotion = this.EmotionToFloat(c.emotion),
+                dialog = DialogueManager.LoadDialogueFile(DIALOG_FILE_PATH).GetDialogue(c.characterName)
             };
         }
         return characters;

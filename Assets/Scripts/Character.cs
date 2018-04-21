@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Character {
 
+    public Dialogue dialog;
     public string characterName;
     public string titre;
     public int relation;

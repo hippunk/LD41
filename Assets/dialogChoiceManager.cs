@@ -28,10 +28,10 @@ public class dialogChoiceManager : MonoBehaviour {
 		if (choiceBundle.Length > 0) {
 			foreach (Dialogue.Choice elem in choiceBundle) {
 				tmp = Instantiate (choicePrefab) as GameObject;
-				tmp.transform.SetParent (this.gameObject);
+                tmp.transform.SetParent(this.gameObject.transform);
 				tmpButton = tmp.GetComponent<ChoiceButton> ();
 				tmpButton.choiceElem = elem;
-				tmpButton.choiceText = tmpButton.choiceElem.dialogue;
+				tmpButton.choiceText.text = tmpButton.choiceElem.dialogue;
 
 			}
 		}

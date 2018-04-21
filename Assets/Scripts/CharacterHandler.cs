@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CharacterHandler : MonoBehaviour {
 
+
     public const float ANGER_VALUE = 0.6f;
     public const float SADNESS_VALUE = 0.7f;
     public const float JOY_VALUE = 1.2f;

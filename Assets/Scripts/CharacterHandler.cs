@@ -25,6 +25,7 @@ public class CharacterHandler : MonoBehaviour {
                 emotion = this.EmotionToFloat(c.emotion),
                 dialog = DialogueManager.LoadDialogueFile(DIALOG_FILE_PATH).GetDialogue(c.characterName)
             };
+            index++;
         }
         return characters;
     }

@@ -18,7 +18,7 @@ MonoBehaviour:
     - Test
     - Player
   - id: Donatien
-    maxLineId: 2
+    maxLineId: 3
     speakers: []
   lines:
   - id: 0
@@ -96,7 +96,16 @@ MonoBehaviour:
     dialogue: 'easy
 
 '
-    output: 
+    output: 02000000
     position: {x: 160, y: 10}
+    userData: 
+    speaker: 
+  - id: 2
+    dialogueEntry: Donatien
+    dialogue: 'plop
+
+'
+    output: 
+    position: {x: 310, y: 10}
     userData: 
     speaker: 

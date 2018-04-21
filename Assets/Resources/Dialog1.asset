@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 740e3a72aec82c147ba72d7ab4df09ee, type: 3}
-  m_Name: Script
+  m_Name: Dialog1
   m_EditorClassIdentifier: 
   entries:
   - id: newDialogue
@@ -23,75 +23,61 @@ MonoBehaviour:
     dialogue: 
     output: 010000000100000002000000080000000f00000010000000
     position: {x: 10, y: 10}
-    userData: 
-    speaker: Player
+    userData: ca va ?
+    speaker: Test
   - id: 1
     dialogueEntry: newDialogue
     dialogue: 
     output: 
     position: {x: 199, y: 77}
-    userData: 
-    speaker: 
+    userData: non
+    speaker: Player
   - id: 2
     dialogueEntry: newDialogue
     dialogue: 
     output: 
     position: {x: 203, y: 342}
-    userData: 
-    speaker: 
+    userData: yo
+    speaker: Player
   - id: 8
     dialogueEntry: newDialogue
     dialogue: 
-    output: 0c0000000d0000000e000000
+    output: 0e000000
     position: {x: 192, y: -13}
-    userData: 
+    userData: oui
     speaker: Player
-  - id: 12
-    dialogueEntry: newDialogue
-    dialogue: 
-    output: 
-    position: {x: 532, y: 63}
-    userData: 
-    speaker: 
-  - id: 13
-    dialogueEntry: newDialogue
-    dialogue: 
-    output: 
-    position: {x: 533, y: 154}
-    userData: 
-    speaker: 
   - id: 14
     dialogueEntry: newDialogue
     dialogue: 
     output: 1100000012000000
     position: {x: 534, y: -16}
-    userData: 
+    userData: va chercher un truc
     speaker: Test
   - id: 15
     dialogueEntry: newDialogue
     dialogue: 
     output: 
     position: {x: 195, y: 245}
-    userData: 
-    speaker: 
+    userData: ta geule
+    speaker: Player
   - id: 16
     dialogueEntry: newDialogue
     dialogue: 
     output: 
     position: {x: 199, y: 160}
-    userData: 
-    speaker: 
+    userData: salut
+    speaker: Player
   - id: 17
     dialogueEntry: newDialogue
     dialogue: 
     output: 
     position: {x: 951, y: 27}
-    userData: 
-    speaker: 
+    userData: pourquoi pas
+    speaker: Player
   - id: 18
     dialogueEntry: newDialogue
     dialogue: 
     output: 
     position: {x: 962, y: 136}
-    userData: 
-    speaker: 
+    userData: walla
+    speaker: Player

@@ -2,11 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SwipeHandler : MonoBehaviour {
 
-    public Sprite[] characterPool; //TODO Change with char class later
+    private List<CharacterData> characterPool = new List<CharacterData>(); //TODO Change with char class later
     public Image currentCharacterProfile;
 
     private int currentCharacterId = -1;
@@ -14,7 +15,9 @@ public class SwipeHandler : MonoBehaviour {
 
     private void Start()
     {
-        if (characterPool.Length <= 0)
+        characterPool = GameObject.Find("DataHandler").GetComponent<CharacterHandler>().GetCharList();
+
+        if (characterPool.Count <= 0)
             Console.Error.WriteLine("Pas de personnages dans le pool");
         else
             Swipe();
@@ -23,7 +26,7 @@ public class SwipeHandler : MonoBehaviour {
     public void OnYes()
     {
         Debug.Log("Yes");
-        Debug.Log("LoadScene Date with char data");
+        SceneManager.LoadScene(2);
     }
 
     public void OnNo()
@@ -35,7 +38,7 @@ public class SwipeHandler : MonoBehaviour {
 
     public void Swipe()
     {
-        currentCharacterId = (currentCharacterId + 1) % characterPool.Length;
-        currentCharacterProfile.sprite = characterPool[currentCharacterId];
+        currentCharacterId = (currentCharacterId + 1) % characterPool.Count;
+        currentCharacterProfile.sprite = characterPool[currentCharacterId].dateCard;
     }
 }

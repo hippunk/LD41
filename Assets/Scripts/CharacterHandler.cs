@@ -14,6 +14,11 @@ public class CharacterHandler : MonoBehaviour {
     [SerializeField]
     private List<CharacterData> characters;
 
+    public List<CharacterData> GetCharList()
+    {
+        return characters;
+    }
+
     public Character[] LoadCharacters() {
         Character[] characters = new Character[this.characters.Count];
         int index = 0;

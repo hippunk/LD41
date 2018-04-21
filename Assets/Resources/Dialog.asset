@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entries:
   - id: Bob
-    maxLineId: 21
+    maxLineId: 23
     speakers:
-    - Test
+    - Him
     - Player
   - id: Donatien
     maxLineId: 3
@@ -30,18 +30,18 @@ MonoBehaviour:
     speaker: Test
   - id: 8
     dialogueEntry: Bob
-    dialogue: 
-    output: 0e0000001300000014000000
-    position: {x: 217, y: -16}
+    dialogue: Salut !
+    output: 13000000140000000e000000
+    position: {x: 203, y: 23}
     userData: 
-    speaker: Player
+    speaker: Him
   - id: 14
     dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 427, y: -19}
+    dialogue: Yo
+    output: 15000000
+    position: {x: 389, y: 231}
     userData: 
-    speaker: Test
+    speaker: Player
   - id: 0
     dialogueEntry: Donatien
     dialogue: 
@@ -69,15 +69,29 @@ MonoBehaviour:
     speaker: 
   - id: 19
     dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 445, y: 115}
+    dialogue: Coucou
+    output: 15000000
+    position: {x: 389, y: 17}
     userData: 
-    speaker: 
+    speaker: Player
   - id: 20
     dialogueEntry: Bob
-    dialogue: 
+    dialogue: Wesh
+    output: 15000000
+    position: {x: 390, y: 113}
+    userData: 
+    speaker: Player
+  - id: 21
+    dialogueEntry: Bob
+    dialogue: "\xE7a va ?"
+    output: 16000000
+    position: {x: 614, y: 148}
+    userData: 
+    speaker: Player
+  - id: 22
+    dialogueEntry: Bob
+    dialogue: Bien ou bien ?
     output: 
-    position: {x: 450, y: 237}
+    position: {x: 795, y: 143}
     userData: 
     speaker: 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class FightingSystem {
 
-	public RPS playerChoice;
+	/*public RPS playerChoice;
 	private RPS AIChoice;
 
 	private RPS[] randomChoiceTab = { RPS.Rock, RPS.Paper, RPS.Scisors };
@@ -61,5 +61,5 @@ public static class FightingSystem {
 		AIChoice = RPS.NotPlayed;
 	
 		return returned;
-	}
+	}*/
 }

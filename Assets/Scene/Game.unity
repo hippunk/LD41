@@ -401,11 +401,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38c3d13acce60a14e99269c114f2306f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  text: 
   choiceList: []
   nameBox: {fileID: 573223001}
-  dialogContentBox: {fileID: 0}
   dialogText: {fileID: 0}
   choicePrefab: {fileID: 1410920776301572, guid: 8384abca426f74cb1a8426103da0ce18,
     type: 2}

@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ANode {
-	public List<ANode> next;
+public class Node {
 
-	public ANode(List<ANode> value){
-		next = value;
+	public List<Node> children;
+
+	public Node(){
+        children = new List<Node>();
 	}
 
-	public abstract bool isOK ();
-
-	public ANode getNext(int id){
-		if (next.Count >= id) {
-			return null;
-		}
-		return next [id];
+	public void AddChild(Node node){
+        this.children.Add(node);
 	}
+
+    public Node GetChild(int id) {
+        return this.children[id];
+    }
+
 }

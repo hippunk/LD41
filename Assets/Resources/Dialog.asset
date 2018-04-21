@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entries:
   - id: Bob
-    maxLineId: 19
+    maxLineId: 21
     speakers:
     - Test
     - Player
@@ -24,66 +24,24 @@ MonoBehaviour:
   - id: 0
     dialogueEntry: Bob
     dialogue: 
-    output: 010000000100000002000000080000000f00000010000000
+    output: 0100000008000000
     position: {x: 10, y: 10}
-    userData: ca va ?
+    userData: 
     speaker: Test
-  - id: 1
-    dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 199, y: 77}
-    userData: non
-    speaker: Player
-  - id: 2
-    dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 203, y: 342}
-    userData: yo
-    speaker: Player
   - id: 8
     dialogueEntry: Bob
     dialogue: 
-    output: 0e000000
-    position: {x: 192, y: -13}
-    userData: oui
+    output: 0e0000001300000014000000
+    position: {x: 217, y: -16}
+    userData: 
     speaker: Player
   - id: 14
     dialogueEntry: Bob
     dialogue: 
-    output: 1100000012000000
-    position: {x: 534, y: -16}
-    userData: va chercher un truc
+    output: 
+    position: {x: 427, y: -19}
+    userData: 
     speaker: Test
-  - id: 15
-    dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 195, y: 245}
-    userData: ta geule
-    speaker: Player
-  - id: 16
-    dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 199, y: 160}
-    userData: salut
-    speaker: Player
-  - id: 17
-    dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 951, y: 27}
-    userData: pourquoi pas
-    speaker: Player
-  - id: 18
-    dialogueEntry: Bob
-    dialogue: 
-    output: 
-    position: {x: 962, y: 136}
-    userData: walla
-    speaker: Player
   - id: 0
     dialogueEntry: Donatien
     dialogue: 
@@ -107,5 +65,19 @@ MonoBehaviour:
 '
     output: 
     position: {x: 310, y: 10}
+    userData: 
+    speaker: 
+  - id: 19
+    dialogueEntry: Bob
+    dialogue: 
+    output: 
+    position: {x: 445, y: 115}
+    userData: 
+    speaker: 
+  - id: 20
+    dialogueEntry: Bob
+    dialogue: 
+    output: 
+    position: {x: 450, y: 237}
     userData: 
     speaker: 

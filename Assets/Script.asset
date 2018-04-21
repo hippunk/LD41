@@ -11,5 +11,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 740e3a72aec82c147ba72d7ab4df09ee, type: 3}
   m_Name: Script
   m_EditorClassIdentifier: 
-  entries: []
-  lines: []
+  entries:
+  - id: newDialogue
+    maxLineId: 19
+    speakers:
+    - Test
+    - Player
+  lines:
+  - id: 0
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 010000000100000002000000080000000f00000010000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: Player
+  - id: 1
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 199, y: 77}
+    userData: 
+    speaker: 
+  - id: 2
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 203, y: 342}
+    userData: 
+    speaker: 
+  - id: 8
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 0c0000000d0000000e000000
+    position: {x: 192, y: -13}
+    userData: 
+    speaker: Player
+  - id: 12
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 532, y: 63}
+    userData: 
+    speaker: 
+  - id: 13
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 533, y: 154}
+    userData: 
+    speaker: 
+  - id: 14
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 1100000012000000
+    position: {x: 534, y: -16}
+    userData: 
+    speaker: Test
+  - id: 15
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 195, y: 245}
+    userData: 
+    speaker: 
+  - id: 16
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 199, y: 160}
+    userData: 
+    speaker: 
+  - id: 17
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 951, y: 27}
+    userData: 
+    speaker: 
+  - id: 18
+    dialogueEntry: newDialogue
+    dialogue: 
+    output: 
+    position: {x: 962, y: 136}
+    userData: 
+    speaker: 

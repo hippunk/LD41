@@ -137,7 +137,6 @@ public class StartOptions : MonoBehaviour {
         }
 
         HideDelayed();
-        Debug.Log("Coroutine done. Game started in same scene! Put your game starting stuff here.");
 
         //Fix à l'arache pour défade le putain de fadeOutImage pour changement de scène
         elapsedTime = 0f;
@@ -148,6 +147,8 @@ public class StartOptions : MonoBehaviour {
             canvasGroupToFadeAlpha.alpha = currentAlpha;
             yield return null;
         }
+
+        Debug.Log("Coroutine done. Game started in same scene! Put your game starting stuff here.");
     }
     
 

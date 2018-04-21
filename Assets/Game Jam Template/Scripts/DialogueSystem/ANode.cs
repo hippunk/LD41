@@ -5,17 +5,17 @@ using UnityEngine;
 public class Node {
 
 	public List<Node> children;
-    public int constraint;
 
-	/*public Node(List<Node> value){
-		children = value;
-	}*/
+	public Node(){
+        children = new List<Node>();
+	}
 
 	public void AddChild(Node node){
         this.children.Add(node);
 	}
 
-    public void GetNext(ref List<Node> next) {
-
+    public Node GetChild(int id) {
+        return this.children[id];
     }
+
 }

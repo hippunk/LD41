@@ -20,4 +20,4 @@ public class CharacterData : ScriptableObject {
 
 }
 
-public enum Emotion { joy, sadness, anger, disgust, embarrassment }
+public enum Emotion { joy, sadness, anger, disgust, embarrassment, neutral }

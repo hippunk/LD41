@@ -127,7 +127,7 @@ public class DialogueEditor : EditorWindow
 		return result;
 	}
 
-	void createWindows()
+    void createWindows()
 	{
 		lastFocusWindow = -1;
 		windows.Clear();
@@ -570,8 +570,8 @@ public class DialogueEditor : EditorWindow
 
 		// dialogue line text area
 		GUI.EndScrollView();
-		if (lastFocusWindow > 0 && windows.Count > lastFocusWindow)
-			windows[lastFocusWindow].line.dialogue = GUILayout.TextArea(windows[lastFocusWindow].line.dialogue, GUILayout.Height(GUI.skin.textArea.lineHeight * 3.1f));
+		if (lastFocusWindow > 0 && windows.Count > lastFocusWindow) 
+			windows[lastFocusWindow].line.dialogue = EditorGUILayout.TextArea(windows[lastFocusWindow].line.dialogue, GUILayout.Height(GUI.skin.textArea.lineHeight * 3f*3.1f));
 		else
 			GUILayout.TextArea("", GUILayout.Height(GUI.skin.textArea.lineHeight * 3.1f));
 
@@ -581,7 +581,7 @@ public class DialogueEditor : EditorWindow
 		GUI.skin.window.alignment = oldAlignment;
 	}
 
-	void doWindow(int id)
+    void doWindow(int id)
 	{
 		if (selectedEntry == null || windows.Count <= id) return; // invalid window
 

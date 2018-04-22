@@ -57,6 +57,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
             clickFeedback.SetActive(false);
             Dialogue.Choice choice = dialogue.GetChoices()[0];
+            TriggerTransitionFade(choice);
             GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
             GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
 
@@ -100,6 +101,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         else if(selectableChoices.Count == 1)
         {
             Dialogue.Choice choice = selectableChoices.First();
+            TriggerTransitionFade(choice);
             GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
             GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
             dialogue.PickChoice(choice);
@@ -191,6 +193,25 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         return emotion;
     }
 
+    private bool TriggerTransitionFade(Dialogue.Choice choice)
+    {
+        Debug.Log("trasision fade");
+        if (choice.userData != null)
+        {
+            var parametersData = this.GetChoiceParameters(choice);
+
+            if (parametersData.Contains('F'))
+            {
+                Debug.Log("fade");
+                FadeManager startOptions = GameObject.Find("Canvas").GetComponent<FadeManager>();
+                startOptions.fadeOutImage.raycastTarget = true;
+                StartCoroutine(startOptions.FadeCanvasGroupAlpha(0f,1f));
+                return true;
+            }
+        }
+        return false;
+    }
+
     private int GetChoiceRelationParameter(Dialogue.Choice choice) {
         var relation = 0;
         if (choice.userData != null) {
@@ -214,6 +235,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         foreach (Transform transform in choiceContainer.transform) {
             Destroy(transform.gameObject);
         }
+        TriggerTransitionFade(choice);
         GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
         GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
         dialogue.PickChoice(choice);

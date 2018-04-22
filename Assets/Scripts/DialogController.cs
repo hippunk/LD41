@@ -14,7 +14,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     public bool defilement;
     private bool choicePending = false;
     public TextAnimator textAnimator;
-    private Dialogue dialogue;
+    public Dialogue dialogue;
 
     public GameObject choiceContainer;
     public GameObject choicePrefab;
@@ -47,7 +47,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         dialogue.PickChoice(dialogue.GetChoices()[0]);
     }
 
-    private void SetDialogue() {
+    public void SetDialogue() {
         if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0) {
             clickFeedback.GetComponentInChildren<Text>().text = "Fin";
         }

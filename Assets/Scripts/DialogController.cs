@@ -128,7 +128,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     private string GetChoiceConstraints(Dialogue.Choice choice) {
         if (choice.userData != null) {
             var splitData = choice.userData.Split('|');
-            if (splitData.Length > 0) {
+            if (splitData.Length > 1) {
                 return splitData[1];
             }
         }
@@ -138,7 +138,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     private string GetChoiceParameters(Dialogue.Choice choice) {
         if (choice.userData != null) {
             var splitData = choice.userData.Split('|');
-            if (splitData.Length >= 0) {
+            if (splitData.Length > 0) {
                 return splitData[0];
             }
         }

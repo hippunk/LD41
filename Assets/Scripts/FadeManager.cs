@@ -11,6 +11,7 @@ public class FadeManager : MonoBehaviour {
     public GameObject dialogPanel;
     public GameObject namePanel;
     public GameObject choicePanel;
+    public DialogController diagController;
     //public GameObject imageFeedback;
 
     public void ShowInterface(bool value)
@@ -47,7 +48,7 @@ public class FadeManager : MonoBehaviour {
             yield return null;
         }
         fadeOutImage.raycastTarget = false;
-
         ShowInterface(true);
+        
     }
 }

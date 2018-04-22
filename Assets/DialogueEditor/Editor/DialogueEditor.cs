@@ -570,10 +570,12 @@ public class DialogueEditor : EditorWindow
 
 		// dialogue line text area
 		GUI.EndScrollView();
-		if (lastFocusWindow > 0 && windows.Count > lastFocusWindow) 
-			windows[lastFocusWindow].line.dialogue = EditorGUILayout.TextArea(windows[lastFocusWindow].line.dialogue, GUILayout.Height(GUI.skin.textArea.lineHeight * 3f*3.1f));
-		else
-			GUILayout.TextArea("", GUILayout.Height(GUI.skin.textArea.lineHeight * 3.1f));
+        if (lastFocusWindow > 0 && windows.Count > lastFocusWindow)
+        {
+            windows[lastFocusWindow].line.dialogue = EditorGUILayout.TextArea(windows[lastFocusWindow].line.dialogue, GUILayout.Height(GUI.skin.textArea.lineHeight * 3f * 3.1f));
+        }
+        else
+            GUILayout.TextArea("", GUILayout.Height(GUI.skin.textArea.lineHeight * 3.1f));
 
 		GUILayout.EndVertical();
 
@@ -585,8 +587,12 @@ public class DialogueEditor : EditorWindow
 	{
 		if (selectedEntry == null || windows.Count <= id) return; // invalid window
 
-		if (Event.current.type == EventType.MouseDown)
-			FocusedWindow = id;
+        if (Event.current.type == EventType.MouseDown)
+        {
+            FocusedWindow = id;
+            GUI.SetNextControlName("");
+            GUI.FocusControl("");
+        }
 
 		if (linkDragging && Event.current.type == EventType.MouseDown)
 		{
@@ -639,7 +645,7 @@ public class DialogueEditor : EditorWindow
 		if (windows[id].line.userData == null)
 			windows[id].line.userData = "";
 
-		windows[id].line.userData = GUILayout.TextField(windows[id].line.userData);
+		windows[id].line.userData = EditorGUILayout.TextField(windows[id].line.userData);
 		if (GUI.changed)
 			EditorUtility.SetDirty(files[filePopupSelectedIndex]);
 	}

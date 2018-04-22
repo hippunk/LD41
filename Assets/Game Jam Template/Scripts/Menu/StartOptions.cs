@@ -127,7 +127,7 @@ public class StartOptions : MonoBehaviour {
 
         float elapsedTime = 0f;
         float totalDuration = menuSettingsData.menuFadeTime;
-
+        Debug.Log("fade in");
         while (elapsedTime < totalDuration)
         {
             elapsedTime += Time.deltaTime;
@@ -135,19 +135,22 @@ public class StartOptions : MonoBehaviour {
             canvasGroupToFadeAlpha.alpha = currentAlpha;
             yield return null;
         }
+        Debug.Log("fin fade in");
 
-        HideDelayed();
-
+        Debug.Log("fade out");
         //Fix à l'arache pour défade le putain de fadeOutImage pour changement de scène
         elapsedTime = 0f;
         while (elapsedTime < totalDuration)
         {
             elapsedTime += Time.deltaTime;
             float currentAlpha = Mathf.Lerp(endAlpha,startAlpha, elapsedTime / totalDuration);
+            Debug.Log(currentAlpha);
             canvasGroupToFadeAlpha.alpha = currentAlpha;
             yield return null;
         }
 
+        Debug.Log("fin fade out");
+        HideDelayed();
         Debug.Log("Coroutine done. Game started in same scene! Put your game starting stuff here.");
     }
     

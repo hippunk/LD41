@@ -82,7 +82,6 @@ public class FightingSystem
 
     public void Testing()
     {
-        Result testResult;
 
         try
         {
@@ -105,7 +104,7 @@ public class FightingSystem
         }
         catch (AssertionException e)
         {
-            Debug.Log("RPS Fail");
+            Debug.Log("RPS Fail"+e.ToString());
         }
 
         playerChoice = RPS.NotPlayed;

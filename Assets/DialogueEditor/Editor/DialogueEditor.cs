@@ -65,7 +65,7 @@ public class DialogueEditor : EditorWindow
 		editor.linetexture = AssetDatabase.LoadAssetAtPath("Assets/Dialogue/Editor/Line.png", typeof(Texture2D)) as Texture2D;
 		editor.files.Clear();
 		// get dialogue from scene
-		DialogueFile[] files = FindObjectsOfTypeIncludingAssets(typeof(DialogueFile)) as DialogueFile[];
+		DialogueFile[] files = Resources.FindObjectsOfTypeAll(typeof(DialogueFile)) as DialogueFile[];
 		if (files != null)
 		{
 			foreach (DialogueFile f in files)
@@ -191,7 +191,9 @@ public class DialogueEditor : EditorWindow
 			Object[] saveObjects = new Object[2];
 			saveObjects[0] = this;
 			saveObjects[1] = files[filePopupSelectedIndex];
-			Undo.RegisterUndo(saveObjects, name);
+            Undo.RegisterCompleteObjectUndo(saveObjects, name);
+
+            //Undo.RegisterUndo(saveObjects, name);
 		}
 	}
 

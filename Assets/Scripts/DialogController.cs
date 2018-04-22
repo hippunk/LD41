@@ -23,13 +23,34 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     {
         dialogue = GameLogicManager.currentDialogue;
         SetDialogue();
+        
+        //RawDebug();
+    }
+
+    void RawDebug()
+    {
+        Dialogue.Choice choice = dialogue.GetChoices()[0];
+        Debug.Log(choice.dialogue+" count choices"+ dialogue.GetChoices().Length);
+        dialogue.PickChoice(dialogue.GetChoices()[0]);
+
+        choice = dialogue.GetChoices()[0];
+        Debug.Log(choice.dialogue + " count choices" + dialogue.GetChoices().Length);
+        dialogue.PickChoice(dialogue.GetChoices()[0]);
+
+        choice = dialogue.GetChoices()[0];
+        Debug.Log(choice.dialogue + " count choices" + dialogue.GetChoices().Length);
+        dialogue.PickChoice(dialogue.GetChoices()[0]);
+
+        choice = dialogue.GetChoices()[0];
+        Debug.Log(choice.dialogue + " count choices" + dialogue.GetChoices().Length);
+        dialogue.PickChoice(dialogue.GetChoices()[0]);
     }
 
     private void SetDialogue()
     {
         if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0)
         {
-            clickFeedback.GetComponent<Text>().text = "Fin";
+            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
         }
         else if (dialogue.GetChoices().Length == 1)
         {
@@ -40,16 +61,21 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         }
         else
         {
-            clickFeedback.GetComponentInChildren<Text>().text = "Answer";
-            choicePending = true;
-            foreach (Dialogue.Choice choice in dialogue.GetChoices())
-            {
-                GameObject newRow = Instantiate(choicePrefab, choiceContainer.transform);
-                newRow.GetComponentInChildren<Text>().text = choice.dialogue;
-                newRow.GetComponent<Button>().onClick.AddListener(() => ButtonHandler(choice));
-            }
+            GenerateChoiceList();
         }
 
+    }
+
+    void GenerateChoiceList()
+    {
+        clickFeedback.GetComponentInChildren<Text>().text = "Answer";
+        choicePending = true;
+        foreach (Dialogue.Choice choice in dialogue.GetChoices())
+        {
+            GameObject newRow = Instantiate(choicePrefab, choiceContainer.transform);
+            newRow.GetComponentInChildren<Text>().text = choice.dialogue;
+            newRow.GetComponent<Button>().onClick.AddListener(() => ButtonHandler(choice));
+        }
     }
 
     void ButtonHandler(Dialogue.Choice choice)

@@ -6,10 +6,24 @@ using UnityEngine.UI;
 public class FadeManager : MonoBehaviour {
 
     public float duration = 2.0f;
+    public float fadeStayDuration = 2.0f;
     public Image fadeOutImage;
+    public GameObject dialogPanel;
+    public GameObject namePanel;
+    public GameObject choicePanel;
+    //public GameObject imageFeedback;
+
+    public void ShowInterface(bool value)
+    {
+        dialogPanel.SetActive(value);
+        namePanel.SetActive(value);
+        choicePanel.SetActive(value);
+        //imageFeedback.SetActive(value);
+    }
 
     public IEnumerator FadeCanvasGroupAlpha(float startAlpha, float endAlpha)
     {
+        ShowInterface(false);
         float elapsedTime = 0f;
         float totalDuration = duration;
 
@@ -21,6 +35,8 @@ public class FadeManager : MonoBehaviour {
             yield return null;
         }
 
+        yield return new WaitForSeconds(fadeStayDuration);
+
         //Fix à l'arache pour défade le putain de fadeOutImage pour changement de scène
         elapsedTime = 0f;
         while (elapsedTime < totalDuration)
@@ -31,5 +47,7 @@ public class FadeManager : MonoBehaviour {
             yield return null;
         }
         fadeOutImage.raycastTarget = false;
+
+        ShowInterface(true);
     }
 }

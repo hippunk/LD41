@@ -366,8 +366,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26f655c214f9b27488472cc76fe626cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 2
+  duration: 1
+  fadeStayDuration: 1
   fadeOutImage: {fileID: 2137589920}
+  dialogPanel: {fileID: 1165203947}
+  namePanel: {fileID: 1259908991}
+  choicePanel: {fileID: 874412386}
+  imageFeedback: {fileID: 390500758}
 --- !u!1 &298965688
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +402,6 @@ RectTransform:
   - {fileID: 1165203948}
   - {fileID: 1259908992}
   - {fileID: 874412387}
-  - {fileID: 390500759}
   m_Father: {fileID: 286830036}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -531,17 +535,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 390500758}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2132035479}
-  m_Father: {fileID: 298965689}
-  m_RootOrder: 3
+  m_Father: {fileID: 1165203948}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 626.72, y: -333.62}
+  m_AnchoredPosition: {x: 626.72, y: -158.62001}
   m_SizeDelta: {x: 70.82, y: 32.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &390500760
@@ -927,6 +931,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 573223000}
+  - {fileID: 390500759}
   m_Father: {fileID: 298965689}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

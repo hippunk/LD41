@@ -19,7 +19,7 @@ MonoBehaviour:
     maxLineId: 2
     speakers: []
   - id: Bob
-    maxLineId: 11
+    maxLineId: 13
     speakers:
     - Bob
     - Moi
@@ -73,15 +73,15 @@ MonoBehaviour:
   - id: 1
     dialogueEntry: Bob
     dialogue: Salut
-    output: 05000000
-    position: {x: 233, y: 7}
+    output: 0b000000
+    position: {x: 174, y: 20}
     userData: 
     speaker: Bob
   - id: 5
     dialogueEntry: Bob
     dialogue: hey !
     output: 060000000700000008000000
-    position: {x: 387, y: 10}
+    position: {x: 387, y: 14}
     userData: 
     speaker: Moi
   - id: 6
@@ -119,3 +119,10 @@ MonoBehaviour:
     position: {x: 773, y: 11}
     userData: '|R:>1000'
     speaker: Bob
+  - id: 11
+    dialogueEntry: Bob
+    dialogue: 
+    output: 05000000
+    position: {x: 250, y: 139}
+    userData: F
+    speaker: 

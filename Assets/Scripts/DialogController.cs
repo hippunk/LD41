@@ -19,6 +19,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     public GameObject choicePrefab;
 
     public GameObject clickFeedback;
+    public bool fin = false;
 
     void Start() {
         dialogue = GameLogicManager.currentDialogue;
@@ -54,9 +55,16 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             setContent(dialogue.GetChoices()[0].dialogue);
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
             clickFeedback.SetActive(false);
+            dialogue.PickChoice(dialogue.GetChoices()[0]);
         }
         else {
             GenerateChoiceList();
+        }
+
+        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0)
+        {
+            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
+            fin = true;
         }
 
     }
@@ -165,12 +173,10 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         }
         else if (!textAnimator.finished) {
             textAnimator.finished = true;
-
             clickFeedback.SetActive(true);
         }
         else if (!choicePending) {
             setName(dialogue.GetChoices()[0].speaker);
-            dialogue.PickChoice(dialogue.GetChoices()[0]);
             SetDialogue();
         }
     }

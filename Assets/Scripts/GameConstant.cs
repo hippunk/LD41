@@ -1,0 +1,52 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameConstant : MonoBehaviour {
+
+    public const float ANGER_VALUE = 0.6f;
+    public const float SADNESS_VALUE = 0.7f;
+    public const float JOY_VALUE = 1.2f;
+    public const float DISGUST_VALUE = 0.5f;
+    public const float EMBARRASSMENT_VALUE = 0.9f;
+    public const string DIALOG_FILE_PATH = "Dialog";
+
+    public static float EmotionToFloat(Emotion emotion) {
+        switch (emotion) {
+            case Emotion.anger:
+                return GameConstant.ANGER_VALUE;
+            case Emotion.disgust:
+                return GameConstant.DISGUST_VALUE;
+            case Emotion.embarrassment:
+                return GameConstant.EMBARRASSMENT_VALUE;
+            case Emotion.joy:
+                return GameConstant.JOY_VALUE;
+            case Emotion.sadness:
+                return GameConstant.SADNESS_VALUE;
+            default:
+                return 1;
+
+        }
+    }
+    public static float EmotionToFloat(string emotion) {
+        if (emotion == Emotion.joy.ToString()) {
+            return GameConstant.JOY_VALUE;
+        }
+        if (emotion == Emotion.sadness.ToString()) {
+            return GameConstant.SADNESS_VALUE;
+        }
+        if (emotion == Emotion.anger.ToString()) {
+            return GameConstant.ANGER_VALUE;
+        }
+        if (emotion == Emotion.disgust.ToString()) {
+            return GameConstant.DISGUST_VALUE;
+        }
+        if (emotion == Emotion.embarrassment.ToString()) {
+            return GameConstant.EMBARRASSMENT_VALUE;
+        }
+        return 1;
+    }
+
+}
+
+public enum Emotion { joy, sadness, anger, disgust, embarrassment, neutral }

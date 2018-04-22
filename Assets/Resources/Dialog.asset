@@ -37,8 +37,8 @@ MonoBehaviour:
 
 '
     output: 02000000
-    position: {x: 197, y: 120}
-    userData: 
+    position: {x: 195, y: 31}
+    userData: R:>50 E:anger
     speaker: 
   - id: 2
     dialogueEntry: Donatien
@@ -61,7 +61,7 @@ MonoBehaviour:
     dialogue: Wesh
     output: 
     position: {x: 160, y: 10}
-    userData: 
+    userData: E:sadness R:<30
     speaker: 
   - id: 0
     dialogueEntry: Bob

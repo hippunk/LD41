@@ -4009,6 +4009,7 @@ MonoBehaviour:
   changeMusicOnStart: 0
   fadeOutImageCanvasGroup: {fileID: 59394720}
   fadeImage: {fileID: 59394717}
+  background: {fileID: 1483236682}
   inMainMenu: 1
   fadeAlphaAnimationClip: {fileID: 7400000, guid: 60ffe2e0cce24e54eb5aa46966d599a8,
     type: 2}

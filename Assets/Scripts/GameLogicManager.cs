@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class GameLogicManager : MonoBehaviour {
 
-    public static CharacterData currentCharacter;
+    public static Character currentCharacter;
 
-    public static void SetCurrentCharacter(CharacterData character)
+    [HideInInspector]
+    public static Dialogue currentDialogue;
+
+
+    public static void SetCurrentCharacter(Character character)
     {
         currentCharacter = character;
+        currentDialogue = character.dialog;
     }
 
 
@@ -18,7 +23,7 @@ public class GameLogicManager : MonoBehaviour {
 	}
 	
 
-    public static CharacterData GetCurrentCharacter()
+    public static Character GetCurrentCharacter()
     {
         return currentCharacter;
     }

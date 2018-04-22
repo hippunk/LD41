@@ -23,7 +23,9 @@ public class CharacterData : ScriptableObject {
 
     [Header("Chara Sprite")]
     public Sprite charaSprite;
-
 }
 
 public enum Emotion { joy, sadness, anger, disgust, embarrassment, neutral }
+
+
+

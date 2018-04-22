@@ -9,5 +9,7 @@ public class Character {
     public string titre;
     public int relation;
     public float emotion;
+    public Sprite dateCard;
+    public Sprite charaSprite;
 
 }

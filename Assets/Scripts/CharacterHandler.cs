@@ -29,7 +29,10 @@ public class CharacterHandler : MonoBehaviour {
                 titre = c.titre,
                 relation = c.relation,
                 emotion = this.EmotionToFloat(c.emotion),
-                dialog = DialogueManager.LoadDialogueFile(DIALOG_FILE_PATH).GetDialogue(c.characterName)
+                dialog = DialogueManager.LoadDialogueFile(DIALOG_FILE_PATH).GetDialogue(c.characterName),
+                dateCard = c.dateCard,
+                charaSprite = c.charaSprite
+
             };
             index++;
         }

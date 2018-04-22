@@ -12,36 +12,18 @@ MonoBehaviour:
   m_Name: Dialog
   m_EditorClassIdentifier: 
   entries:
-  - id: Bob
-    maxLineId: 23
-    speakers:
-    - Him
-    - Player
   - id: Donatien
     maxLineId: 3
     speakers: []
+  - id: Toto
+    maxLineId: 2
+    speakers: []
+  - id: Bob
+    maxLineId: 10
+    speakers:
+    - Bob
+    - Moi
   lines:
-  - id: 0
-    dialogueEntry: Bob
-    dialogue: 
-    output: 0100000008000000
-    position: {x: 10, y: 10}
-    userData: 
-    speaker: Test
-  - id: 8
-    dialogueEntry: Bob
-    dialogue: Salut !
-    output: 13000000140000000e000000
-    position: {x: 203, y: 23}
-    userData: 
-    speaker: Him
-  - id: 14
-    dialogueEntry: Bob
-    dialogue: Yo
-    output: 15000000
-    position: {x: 389, y: 231}
-    userData: 
-    speaker: Player
   - id: 0
     dialogueEntry: Donatien
     dialogue: 
@@ -55,7 +37,7 @@ MonoBehaviour:
 
 '
     output: 02000000
-    position: {x: 160, y: 10}
+    position: {x: 197, y: 120}
     userData: 
     speaker: 
   - id: 2
@@ -64,34 +46,69 @@ MonoBehaviour:
 
 '
     output: 
-    position: {x: 310, y: 10}
+    position: {x: 446, y: 29}
     userData: 
     speaker: 
-  - id: 19
-    dialogueEntry: Bob
-    dialogue: Coucou
-    output: 15000000
-    position: {x: 389, y: 17}
+  - id: 0
+    dialogueEntry: Toto
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
     userData: 
-    speaker: Player
-  - id: 20
-    dialogueEntry: Bob
+    speaker: 
+  - id: 1
+    dialogueEntry: Toto
     dialogue: Wesh
-    output: 15000000
-    position: {x: 390, y: 113}
+    output: 
+    position: {x: 160, y: 10}
     userData: 
-    speaker: Player
-  - id: 21
+    speaker: 
+  - id: 0
+    dialogueEntry: Bob
+    dialogue: 
+    output: 01000000
+    position: {x: 10, y: 10}
+    userData: 
+    speaker: 
+  - id: 1
+    dialogueEntry: Bob
+    dialogue: Salut
+    output: 05000000
+    position: {x: 233, y: 7}
+    userData: 
+    speaker: Bob
+  - id: 5
+    dialogueEntry: Bob
+    dialogue: hey !
+    output: 060000000700000008000000
+    position: {x: 387, y: 10}
+    userData: 
+    speaker: Moi
+  - id: 6
+    dialogueEntry: Bob
+    dialogue: Salut !
+    output: 09000000
+    position: {x: 537, y: 10}
+    userData: 
+    speaker: Moi
+  - id: 7
     dialogueEntry: Bob
     dialogue: "\xE7a va ?"
-    output: 16000000
-    position: {x: 614, y: 148}
+    output: 09000000
+    position: {x: 539, y: 152}
     userData: 
-    speaker: Player
-  - id: 22
+    speaker: Moi
+  - id: 8
     dialogueEntry: Bob
-    dialogue: Bien ou bien ?
-    output: 
-    position: {x: 795, y: 143}
+    dialogue: "\xE8\xE8\xE8"
+    output: 09000000
+    position: {x: 545, y: 299}
     userData: 
-    speaker: 
+    speaker: Moi
+  - id: 9
+    dialogueEntry: Bob
+    dialogue: bloubloup
+    output: 
+    position: {x: 761, y: 152}
+    userData: 
+    speaker: Moi

@@ -169,7 +169,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     public void OnPointerClick(PointerEventData eventData) {
         if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0) {
-            clickFeedback.GetComponent<Text>().text = "Fin";
+            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
         }
         else if (!textAnimator.finished) {
             textAnimator.finished = true;

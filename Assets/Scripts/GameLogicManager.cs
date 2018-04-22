@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class GameLogicManager : MonoBehaviour {
 
-    public static Character currentCharacter;
-
+    public static Character currentCharacter = null;
+    public Character charaDebug;
     [HideInInspector]
     public static Dialogue currentDialogue;
+    private bool set = false;
 
 
     public static void SetCurrentCharacter(Character character)
@@ -18,10 +19,20 @@ public class GameLogicManager : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
+
         DontDestroyOnLoad(this);
 	}
-	
+
+    private void Update()
+    {
+        if (currentCharacter != null && !set) {
+            charaDebug = currentCharacter;
+            set = true;
+        }
+    }
+
 
     public static Character GetCurrentCharacter()
     {

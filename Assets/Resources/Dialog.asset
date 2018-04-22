@@ -47,7 +47,7 @@ MonoBehaviour:
 '
     output: 
     position: {x: 446, y: 29}
-    userData: 
+    userData: R:-20 E:sadness
     speaker: 
   - id: 0
     dialogueEntry: Toto

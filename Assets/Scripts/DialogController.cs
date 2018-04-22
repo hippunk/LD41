@@ -55,7 +55,12 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             setContent(dialogue.GetChoices()[0].dialogue);
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
             clickFeedback.SetActive(false);
+            Dialogue.Choice choice = dialogue.GetChoices()[0];
+            GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
+            GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+
             dialogue.PickChoice(dialogue.GetChoices()[0]);
+
         }
         else {
             GenerateChoiceList();
@@ -71,6 +76,8 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     void GenerateChoiceList() {
         clickFeedback.GetComponentInChildren<Text>().text = "Answer";
         choicePending = true;
+
+
         foreach (Dialogue.Choice choice in dialogue.GetChoices()) {
             if (this.isChoiceSelectable(choice)) {
                 GameObject newRow = Instantiate(choicePrefab, choiceContainer.transform);

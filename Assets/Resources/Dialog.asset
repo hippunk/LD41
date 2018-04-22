@@ -74,7 +74,7 @@ MonoBehaviour:
     dialogueEntry: Bob
     dialogue: Salut wesh wesh yo
     output: 0d000000
-    position: {x: 174, y: 20}
+    position: {x: 149, y: 16}
     userData: 
     speaker: Bob
   - id: 5
@@ -82,7 +82,7 @@ MonoBehaviour:
     dialogue: Repaint()
     output: 060000000700000008000000
     position: {x: 413, y: 43}
-    userData: R:10 F
+    userData: 
     speaker: Moi
   - id: 6
     dialogueEntry: Bob
@@ -109,7 +109,7 @@ MonoBehaviour:
     dialogueEntry: Bob
     dialogue: bloubloup
     output: 
-    position: {x: 761, y: 152}
+    position: {x: 774, y: 151}
     userData: '|R:<1000'
     speaker: Bob
   - id: 10
@@ -123,6 +123,6 @@ MonoBehaviour:
     dialogueEntry: Bob
     dialogue: 
     output: 05000000
-    position: {x: 269, y: 138}
+    position: {x: 277, y: 97}
     userData: F
     speaker: 

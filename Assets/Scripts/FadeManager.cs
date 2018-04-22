@@ -48,6 +48,8 @@ public class FadeManager : MonoBehaviour {
             yield return null;
         }
         fadeOutImage.raycastTarget = false;
+        diagController.textAnimator.finished = false;
+        diagController.SetDialogue();
         ShowInterface(true);
         
     }

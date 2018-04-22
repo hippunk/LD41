@@ -25,7 +25,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     void Start() {
         dialogue = GameLogicManager.currentDialogue;
         SetDialogue();
-
+        SetDialogueRefactor();
         //RawDebug();
     }
 
@@ -45,6 +45,11 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         choice = dialogue.GetChoices()[0];
         Debug.Log(choice.dialogue + " count choices" + dialogue.GetChoices().Length);
         dialogue.PickChoice(dialogue.GetChoices()[0]);
+    }
+
+    public void SetDialogueRefactor()
+    {
+
     }
 
     public void SetDialogue() {
@@ -75,11 +80,8 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     }
 
-    void GenerateChoiceList() {
-        clickFeedback.GetComponentInChildren<Text>().text = "Answer";
-        choicePending = true;
-
-
+    public List<Dialogue.Choice> GetAviableChoices()
+    {
         List<Dialogue.Choice> selectableChoices = new List<Dialogue.Choice>();
         foreach (Dialogue.Choice choice in dialogue.GetChoices())
         {
@@ -88,6 +90,16 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
                 selectableChoices.Add(choice);
             }
         }
+
+        return selectableChoices;
+    }
+
+    void GenerateChoiceList() {
+        clickFeedback.GetComponentInChildren<Text>().text = "Answer";
+        choicePending = true;
+
+        List<Dialogue.Choice> selectableChoices = GetAviableChoices();
+
         Debug.Log(selectableChoices.Count);
         if (selectableChoices.Count > 1)
         {

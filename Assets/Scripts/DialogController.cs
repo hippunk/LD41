@@ -18,6 +18,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     public GameObject choicePrefab;
 
     public GameObject clickFeedback;
+    public bool fin = false;
 
     void Start()
     {
@@ -48,20 +49,24 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     private void SetDialogue()
     {
-        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0)
-        {
-            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
-        }
-        else if (dialogue.GetChoices().Length == 1)
+
+        if (dialogue.GetChoices().Length == 1)
         {
             clickFeedback.GetComponentInChildren<Text>().text = "Next...";
             setContent(dialogue.GetChoices()[0].dialogue);
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
             clickFeedback.SetActive(false);
+            dialogue.PickChoice(dialogue.GetChoices()[0]);
         }
         else
         {
             GenerateChoiceList();
+        }
+
+        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0)
+        {
+            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
+            fin = true;
         }
 
     }
@@ -124,20 +129,19 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0)
+        if (fin)
         {
-            clickFeedback.GetComponent<Text>().text = "Fin";
+            Debug.Log("Fin");
+            //TODO Chargement de l'ecran de fin
         }
         else if (!textAnimator.finished)
         {
             textAnimator.finished = true;
-
             clickFeedback.SetActive(true);
         }
         else if(!choicePending)
         {
             setName(dialogue.GetChoices()[0].speaker);
-            dialogue.PickChoice(dialogue.GetChoices()[0]);
             SetDialogue();
         }
     }

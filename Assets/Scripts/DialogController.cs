@@ -61,8 +61,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             GenerateChoiceList();
         }
 
-        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0)
-        {
+        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0) {
             clickFeedback.GetComponentInChildren<Text>().text = "Fin";
             fin = true;
         }
@@ -82,22 +81,23 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     private bool isChoiceSelectable(Dialogue.Choice choice) {
-        if (choice.userData != null) {
-            var constraint = choice.userData.Split(' ');
-            foreach (var c in constraint) {
-                if (c.StartsWith("E:")) {
-                    var trimData = c.TrimStart('E', ':');
+        var constraintData = this.GetChoiceConstraints(choice);
+        if (constraintData != null) {
+            var constraints = constraintData.Split(' ');
+            foreach (var constraint in constraints) {
+                if (constraint.StartsWith("E:")) {
+                    var trimData = constraint.TrimStart('E', ':');
                     if (GameLogicManager.currentCharacter.emotion.ToString() != trimData) {
                         return false;
                     }
                 }
-                else if (c.StartsWith("R:")) {
+                else if (constraint.StartsWith("R:")) {
                     int relationConstraint;
-                    var trimData = c.TrimStart('R', ':');
+                    var trimData = constraint.TrimStart('R', ':');
                     if (trimData.StartsWith(">")) {
                         var processedTrimData = trimData.Trim('>');
                         if (!Int32.TryParse(processedTrimData, out relationConstraint)) {
-                            Debug.Log("DIALOG CONTROLLER :: A constraint is undefined (" + GameLogicManager.currentCharacter.characterName + ")");
+                            Debug.Log("DIALOG CONTROLLER :: Error in relation constraint value (" + GameLogicManager.currentCharacter.characterName + ")");
                         }
                         if (GameLogicManager.currentCharacter.relation <= relationConstraint) {
                             return false;
@@ -106,7 +106,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
                     else {
                         var processedTrimData = trimData.Trim('<');
                         if (!Int32.TryParse(processedTrimData, out relationConstraint)) {
-                            Debug.Log("DIALOG CONTROLLER :: A constraint is undefined (" + GameLogicManager.currentCharacter.characterName + ")");
+                            Debug.Log("DIALOG CONTROLLER :: Error in relation constraint value (" + GameLogicManager.currentCharacter.characterName + ")");
                         }
                         if (GameLogicManager.currentCharacter.relation < relationConstraint) {
                             return false;
@@ -118,27 +118,71 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         return true;
     }
 
-    void ButtonHandler(Dialogue.Choice choice) {
-        foreach (Transform transform in choiceContainer.transform) {
-            Destroy(transform.gameObject);
+    private string GetChoiceConstraints(Dialogue.Choice choice) {
+        if (choice.userData != null) {
+            var splitData = choice.userData.Split('|');
+            if (splitData.Length > 0) {
+                return splitData[1];
+            }
         }
-        GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotion(choice);
-        dialogue.PickChoice(choice);
-        choicePending = false;
-        SetDialogue();
+        return null;
     }
 
-    private float GetChoiceEmotion(Dialogue.Choice choice) {
+    private string GetChoiceParameters(Dialogue.Choice choice) {
+        if (choice.userData != null) {
+            var splitData = choice.userData.Split('|');
+            if (splitData.Length >= 0) {
+                return splitData[0];
+            }
+        }
+        return null;
+    }
+
+    private Emotion GetChoiceEmotionParameter(Dialogue.Choice choice) {
         var emotion = GameLogicManager.currentCharacter.emotion;
         if (choice.userData != null) {
-            var trimData = choice.userData.Split(' ');
-            foreach (var data in trimData) {
-                if (!(data.StartsWith("E:") || data.StartsWith("R:"))) {
-                    emotion = GameConstant.EmotionToFloat(data);
+            var parametersData = this.GetChoiceParameters(choice);
+            var parameters = parametersData.Split(' ');
+            foreach (var parameter in parameters) {
+                if (parameter.StartsWith("E:")) {
+                    var trimParameter = parameter.TrimStart('E', ':');
+                    if (GameConstant.StringToEmotion(trimParameter) != Emotion.none) {
+                        emotion = GameConstant.StringToEmotion(trimParameter);
+                    }
                 }
             }
         }
         return emotion;
+    }
+
+    private int GetChoiceRelationParameter(Dialogue.Choice choice) {
+        var relation = 0;
+        if (choice.userData != null) {
+            var parametersData = this.GetChoiceParameters(choice);
+            var parameters = parametersData.Split(' ');
+            foreach (var parameter in parameters) {
+                if (parameter.StartsWith("R:")) {
+                    int relationParameter;
+                    var trimParameter = parameter.TrimStart('R', ':');
+                    if (!Int32.TryParse(trimParameter, out relationParameter)) {
+                        Debug.Log("DIALOG CONTROLLER :: Error in relation parameter value (" + GameLogicManager.currentCharacter.characterName + ")");
+                    }
+                    relation += relationParameter;
+                }
+            }
+        }
+        return relation;
+    }
+
+    void ButtonHandler(Dialogue.Choice choice) {
+        foreach (Transform transform in choiceContainer.transform) {
+            Destroy(transform.gameObject);
+        }
+        GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
+        GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+        dialogue.PickChoice(choice);
+        choicePending = false;
+        SetDialogue();
     }
 
     public void setContent(string text) {

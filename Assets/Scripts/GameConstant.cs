@@ -11,6 +11,28 @@ public class GameConstant : MonoBehaviour {
     public const float EMBARRASSMENT_VALUE = 0.9f;
     public const string DIALOG_FILE_PATH = "Dialog";
 
+    public static Emotion StringToEmotion(string emotion) {
+        if (emotion == Emotion.joy.ToString()) {
+            return Emotion.joy;
+        }
+        if (emotion == Emotion.sadness.ToString()) {
+            return Emotion.sadness;
+        }
+        if (emotion == Emotion.anger.ToString()) {
+            return Emotion.anger;
+        }
+        if (emotion == Emotion.disgust.ToString()) {
+            return Emotion.disgust;
+        }
+        if (emotion == Emotion.embarrassment.ToString()) {
+            return Emotion.embarrassment;
+        }
+        if (emotion == Emotion.neutral.ToString()) {
+            return Emotion.neutral;
+        }
+        return Emotion.none;
+    }
+
     public static float EmotionToFloat(Emotion emotion) {
         switch (emotion) {
             case Emotion.anger:
@@ -49,4 +71,4 @@ public class GameConstant : MonoBehaviour {
 
 }
 
-public enum Emotion { joy, sadness, anger, disgust, embarrassment, neutral }
+public enum Emotion { joy, sadness, anger, disgust, embarrassment, neutral, none }

@@ -20,7 +20,7 @@ public class CharacterHandler : MonoBehaviour {
                 characterName = c.characterName,
                 titre = c.titre,
                 relation = c.relation,
-                emotion = GameConstant.EmotionToFloat(c.emotion),
+                emotion = c.emotion,
                 dialog = DialogueManager.LoadDialogueFile(GameConstant.DIALOG_FILE_PATH).GetDialogue(c.characterName),
                 dateCard = c.dateCard,
                 charaSprite = c.charaSprite

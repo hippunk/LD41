@@ -8,7 +8,7 @@ public class Character {
     public string characterName;
     public string titre;
     public int relation;
-    public float emotion;
+    public Emotion emotion;
     public Sprite dateCard;
     public Sprite charaSprite;
 

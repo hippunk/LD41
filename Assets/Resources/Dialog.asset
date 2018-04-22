@@ -72,28 +72,28 @@ MonoBehaviour:
     speaker: 
   - id: 1
     dialogueEntry: Bob
-    dialogue: Salut
+    dialogue: Salut wesh wesh yo
     output: 0b000000
     position: {x: 174, y: 20}
     userData: 
     speaker: Bob
   - id: 5
     dialogueEntry: Bob
-    dialogue: hey !
+    dialogue: Repaint()
     output: 060000000700000008000000
     position: {x: 387, y: 14}
-    userData: 
+    userData: R:10
     speaker: Moi
   - id: 6
     dialogueEntry: Bob
     dialogue: Salut !
     output: 090000000a000000
-    position: {x: 568, y: 0}
+    position: {x: 567, y: 0}
     userData: R:10
     speaker: Moi
   - id: 7
     dialogueEntry: Bob
-    dialogue: "\xE7a va ?"
+    dialogue: wehs !
     output: 090000000a000000
     position: {x: 574, y: 121}
     userData: R:-10

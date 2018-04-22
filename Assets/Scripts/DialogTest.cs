@@ -49,7 +49,7 @@ public class DialogTest : MonoBehaviour {
                         if (!Int32.TryParse(processedTrimData, out relationConstraint)) {
                             Debug.Log("DIALOG CONTROLLER :: Error in relation constraint value (" + ")");
                         }
-                        if (0 < relationConstraint) {
+                        if (0 >= relationConstraint) {
                             return false;
                         }
                     }

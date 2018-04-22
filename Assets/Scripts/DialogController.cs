@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -78,12 +79,40 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         choicePending = true;
 
 
-        foreach (Dialogue.Choice choice in dialogue.GetChoices()) {
-            if (this.isChoiceSelectable(choice)) {
+        List<Dialogue.Choice> selectableChoices = new List<Dialogue.Choice>();
+        foreach (Dialogue.Choice choice in dialogue.GetChoices())
+        {
+            if (this.isChoiceSelectable(choice))
+            {
+                selectableChoices.Add(choice);
+            }
+        }
+        Debug.Log(selectableChoices.Count);
+        if (selectableChoices.Count > 1)
+        {
+            foreach (Dialogue.Choice choice in selectableChoices)
+            {
                 GameObject newRow = Instantiate(choicePrefab, choiceContainer.transform);
                 newRow.GetComponentInChildren<Text>().text = choice.dialogue;
                 newRow.GetComponent<Button>().onClick.AddListener(() => ButtonHandler(choice));
             }
+        }
+        else if(selectableChoices.Count == 1)
+        {
+            Dialogue.Choice choice = selectableChoices.First();
+            GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
+            GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+            dialogue.PickChoice(choice);
+            choicePending = false;
+            clickFeedback.GetComponentInChildren<Text>().text = "Next...";
+            setContent(choice.dialogue);
+            textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
+            clickFeedback.SetActive(false);
+        }
+        else
+        {
+            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
+            choicePending = false;
         }
     }
 
@@ -115,7 +144,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
                         if (!Int32.TryParse(processedTrimData, out relationConstraint)) {
                             Debug.Log("DIALOG CONTROLLER :: Error in relation constraint value (" + GameLogicManager.currentCharacter.characterName + ")");
                         }
-                        if (GameLogicManager.currentCharacter.relation < relationConstraint) {
+                        if (GameLogicManager.currentCharacter.relation >= relationConstraint) {
                             return false;
                         }
                     }

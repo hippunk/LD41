@@ -19,7 +19,7 @@ MonoBehaviour:
     maxLineId: 2
     speakers: []
   - id: Bob
-    maxLineId: 10
+    maxLineId: 11
     speakers:
     - Bob
     - Moi
@@ -87,22 +87,22 @@ MonoBehaviour:
   - id: 6
     dialogueEntry: Bob
     dialogue: Salut !
-    output: 09000000
-    position: {x: 537, y: 10}
-    userData: 
+    output: 090000000a000000
+    position: {x: 568, y: 0}
+    userData: R:10
     speaker: Moi
   - id: 7
     dialogueEntry: Bob
     dialogue: "\xE7a va ?"
-    output: 09000000
-    position: {x: 539, y: 152}
-    userData: 
+    output: 090000000a000000
+    position: {x: 574, y: 121}
+    userData: R:-10
     speaker: Moi
   - id: 8
     dialogueEntry: Bob
-    dialogue: "\xE8\xE8\xE8"
-    output: 09000000
-    position: {x: 545, y: 299}
+    dialogue: Yolop
+    output: 090000000a000000
+    position: {x: 574, y: 242}
     userData: 
     speaker: Moi
   - id: 9
@@ -110,5 +110,12 @@ MonoBehaviour:
     dialogue: bloubloup
     output: 
     position: {x: 761, y: 152}
-    userData: 
-    speaker: Moi
+    userData: '|R:<1000'
+    speaker: Bob
+  - id: 10
+    dialogueEntry: Bob
+    dialogue: wapwapwap
+    output: 
+    position: {x: 773, y: 11}
+    userData: '|R:>1000'
+    speaker: Bob

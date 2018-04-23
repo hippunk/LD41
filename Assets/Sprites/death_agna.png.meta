@@ -1,0 +1,1427 @@
+fileFormatVersion: 2
+guid: 997a5cb50175e7f4b8b76d1e340e4bb8
+timeCreated: 1524505251
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: death_agna_0
+    21300002: death_agna_1
+    21300004: death_agna_2
+    21300006: death_agna_3
+    21300008: death_agna_4
+    21300010: death_agna_5
+    21300012: death_agna_6
+    21300014: death_agna_7
+    21300016: death_agna_8
+    21300018: death_agna_9
+    21300020: death_agna_10
+    21300022: death_agna_11
+    21300024: death_agna_12
+    21300026: death_agna_13
+    21300028: death_agna_14
+    21300030: death_agna_15
+    21300032: death_agna_16
+    21300034: death_agna_17
+    21300036: death_agna_18
+    21300038: death_agna_19
+    21300040: death_agna_20
+    21300042: death_agna_21
+    21300044: death_agna_22
+    21300046: death_agna_23
+    21300048: death_agna_24
+    21300050: death_agna_25
+    21300052: death_agna_26
+    21300054: death_agna_27
+    21300056: death_agna_28
+    21300058: death_agna_29
+    21300060: death_agna_30
+    21300062: death_agna_31
+    21300064: death_agna_32
+    21300066: death_agna_33
+    21300068: death_agna_34
+    21300070: death_agna_35
+    21300072: death_agna_36
+    21300074: death_agna_37
+    21300076: death_agna_38
+    21300078: death_agna_39
+    21300080: death_agna_40
+    21300082: death_agna_41
+    21300084: death_agna_42
+    21300086: death_agna_43
+    21300088: death_agna_44
+    21300090: death_agna_45
+    21300092: death_agna_46
+    21300094: death_agna_47
+    21300096: death_agna_48
+    21300098: death_agna_49
+    21300100: death_agna_50
+    21300102: death_agna_51
+    21300104: death_agna_52
+    21300106: death_agna_53
+    21300108: death_agna_54
+    21300110: death_agna_55
+    21300112: death_agna_56
+    21300114: death_agna_57
+    21300116: death_agna_58
+    21300118: death_agna_59
+    21300120: death_agna_60
+    21300122: death_agna_61
+    21300124: death_agna_62
+    21300126: death_agna_63
+    21300128: death_agna_64
+    21300130: death_agna_65
+    21300132: death_agna_66
+    21300134: death_agna_67
+    21300136: death_agna_68
+    21300138: death_agna_69
+    21300140: death_agna_70
+    21300142: death_agna_71
+    21300144: death_agna_72
+    21300146: death_agna_73
+    21300148: death_agna_74
+    21300150: death_agna_75
+    21300152: death_agna_76
+    21300154: death_agna_77
+    21300156: death_agna_78
+    21300158: death_agna_79
+    21300160: death_agna_80
+    21300162: death_agna_81
+    21300164: death_agna_82
+    21300166: death_agna_83
+    21300168: death_agna_84
+    21300170: death_agna_85
+    21300172: death_agna_86
+    21300174: death_agna_87
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: death_agna_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_4
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_5
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_6
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_7
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2310
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_10
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_11
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_12
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_13
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_14
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_15
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2079
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_17
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_18
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_19
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_20
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_21
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_22
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_23
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1848
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_25
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_26
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_27
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_28
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_29
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_30
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_31
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1617
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_34
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_35
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_36
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_37
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_38
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_39
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1386
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_42
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_43
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_44
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_45
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_46
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_47
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1155
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_49
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_50
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_51
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_52
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_53
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_54
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_55
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 924
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_57
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_58
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_59
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_60
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_61
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_62
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_63
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 693
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_65
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_66
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_67
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_68
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_69
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_70
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_71
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 462
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_73
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_74
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_75
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_76
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_77
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_78
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_79
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 231
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_81
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_82
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_83
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_84
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_85
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_86
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: death_agna_87
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 0
+        width: 315
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

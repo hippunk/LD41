@@ -13,6 +13,7 @@ public class GameConstant : MonoBehaviour {
     public const string PLAYER_NAME_TEMPLATE = "[PP]";
     public const string PLAYER_NAME = "Drargka";
     public const float MUSIC_FADE_TIME = 1;
+    public const int END_SCENE_NUMBER = 3;
 
     public static Emotion StringToEmotion(string emotion) {
         if (emotion == Emotion.joy.ToString()) {

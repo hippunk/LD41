@@ -8,6 +8,7 @@ public class GameLogicManager : MonoBehaviour {
     public static Character currentCharacter = null;
     public static string playerName = GameConstant.PLAYER_NAME;
     [HideInInspector] public static Dialogue currentDialogue;
+    [HideInInspector] public static int endNumber;
     public Character charaDebug;
     private PlayMusic playMusic;
     private int savedScene = 1;

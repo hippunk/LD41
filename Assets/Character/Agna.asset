@@ -21,3 +21,4 @@ MonoBehaviour:
   dateCard: {fileID: 21300000, guid: b568ce0831a59b94d9a2de1af4c412a3, type: 3}
   charaSprite: {fileID: 0}
   prefab: {fileID: 1591145441479804, guid: 1fe45af0769bdd34e9e614a80f733cb3, type: 2}
+  endings: []

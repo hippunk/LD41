@@ -849,6 +849,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf4b2fb875a0f449ac8b57d534ca68c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  charaDebug:
+    characterName: 
+    titre: 
+    age: 
+    description: 
+    relation: 0
+    emotion: 0
+    dateCard: {fileID: 0}
+    charaSprite: {fileID: 0}
+    prefab: {fileID: 0}
+    endings: []
 --- !u!4 &421741620
 Transform:
   m_ObjectHideFlags: 0

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: Dialog
   m_EditorClassIdentifier: 
   entries:
-  - id: The rock
+  - id: Darock
     maxLineId: 3
     speakers:
     - Moi
-    - The rock
+    - Darock
   - id: Agna
     maxLineId: 2
     speakers:
@@ -29,23 +29,23 @@ MonoBehaviour:
     - Moi
   lines:
   - id: 0
-    dialogueEntry: The rock
+    dialogueEntry: Darock
     dialogue: 
     output: 01000000
     position: {x: 10, y: 10}
     userData: 
     speaker: 
   - id: 1
-    dialogueEntry: The rock
+    dialogueEntry: Darock
     dialogue: 'easy peasy
 
 '
     output: 02000000
     position: {x: 209, y: 16}
     userData: 
-    speaker: The rock
+    speaker: Darock
   - id: 2
-    dialogueEntry: The rock
+    dialogueEntry: Darock
     dialogue: 'plop
 
 '

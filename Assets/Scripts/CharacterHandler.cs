@@ -23,6 +23,7 @@ public class CharacterHandler : MonoBehaviour {
                 age = c.age,
                 description = c.description,
                 emotion = c.emotion,
+                endings = c.endings,
                 dialog = DialogueManager.LoadDialogueFile(GameConstant.DIALOG_FILE_PATH).GetDialogue(c.characterName),
                 dateCard = c.dateCard,
                 charaSprite = c.charaSprite,

@@ -53,7 +53,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
         if (aviableChoices.Count == 1) {
             Dialogue.Choice choice = dialogue.GetChoices()[0];
-            setName(choice.speaker);
+
             clickFeedback.GetComponentInChildren<Text>().text = "Next...";
             setContent(choice.dialogue);
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
@@ -80,9 +80,11 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         if(choice.speaker == "Moi")
         {
             dateImage.sprite = meSprite;
+            setName(GameLogicManager.playerName);
         }
         else
         {
+            setName(choice.speaker);
             dateImage.sprite = GameLogicManager.currentCharacter.dateCard;
         }
     }
@@ -103,6 +105,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     void GenerateChoiceList(List<Dialogue.Choice> aviableChoices) {
+
         fonduChoix.SetActive(true);
         clickFeedback.GetComponentInChildren<Text>().text = "Answer";
         choicePending = true;
@@ -285,7 +288,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             clickFeedback.SetActive(true);
         }
         else if (!choicePending) {
-            setName(dialogue.GetChoices()[0].speaker);
+            //setName(dialogue.GetChoices()[0].speaker);
             SetDialogue();
         }
     }

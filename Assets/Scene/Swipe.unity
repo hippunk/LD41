@@ -361,7 +361,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &421741619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,6 +383,7 @@ MonoBehaviour:
     dateCard: {fileID: 0}
     charaSprite: {fileID: 0}
     prefab: {fileID: 0}
+    endings: []
 --- !u!4 &421741620
 Transform:
   m_ObjectHideFlags: 0

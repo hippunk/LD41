@@ -76,9 +76,9 @@ MonoBehaviour:
     speaker: 
   - id: 1
     dialogueEntry: Ratchet
-    dialogue: Salut wesh wesh yo !!
+    dialogue: Salut wesh wesh yo [PP]!!
     output: 0d000000
-    position: {x: 151, y: 17}
+    position: {x: 150, y: 17}
     userData: 
     speaker: Ratchet
   - id: 5

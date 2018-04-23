@@ -23,6 +23,10 @@ public class CharacterData : ScriptableObject {
 
     [Header("Chara Sprite")]
     public Sprite charaSprite;
+
+    [Header("Prefab")]
+    public GameObject prefab;
+
 }
 
 

@@ -12,5 +12,6 @@ public class Character {
     public Emotion emotion;
     public Sprite dateCard;
     public Sprite charaSprite;
+    public GameObject prefab;
 
 }

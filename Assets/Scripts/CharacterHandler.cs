@@ -23,7 +23,8 @@ public class CharacterHandler : MonoBehaviour {
                 emotion = c.emotion,
                 dialog = DialogueManager.LoadDialogueFile(GameConstant.DIALOG_FILE_PATH).GetDialogue(c.characterName),
                 dateCard = c.dateCard,
-                charaSprite = c.charaSprite
+                charaSprite = c.charaSprite,
+                prefab = c.prefab
 
             };
             index++;

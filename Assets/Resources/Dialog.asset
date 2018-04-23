@@ -16,7 +16,7 @@ MonoBehaviour:
     maxLineId: 3
     speakers:
     - Moi
-    - The Rock
+    - The rock
   - id: Agna
     maxLineId: 2
     speakers:
@@ -43,7 +43,7 @@ MonoBehaviour:
     output: 02000000
     position: {x: 209, y: 16}
     userData: 
-    speaker: The Rock
+    speaker: The rock
   - id: 2
     dialogueEntry: The rock
     dialogue: 'plop

@@ -244,7 +244,9 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     void setName(string name) {
+        
         Text nameText = nameGO.GetComponent<Text>();
+        Debug.Log(name.Replace(" ", "-") + ")");
         nameText.text = name.Replace(" ","-")+")";
     }
 

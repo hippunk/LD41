@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Name: Agna
   m_EditorClassIdentifier: 
   characterName: Agna
-  titre: 
+  titre: fear monger
+  age: 32
+  description: "\xAB Roses are dead, Violets I screw, I hit enemies, Why not on you
+    too ? \xBB"
   relation: 0
   emotion: 5
   dateCard: {fileID: 21300000, guid: b568ce0831a59b94d9a2de1af4c412a3, type: 3}

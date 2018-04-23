@@ -12,6 +12,13 @@ public class CharacterData : ScriptableObject {
     [Header("Titre")]
     public string titre;
 
+    [Header("age")]
+    public string age;
+
+    [Header("description")]
+    public string description;
+
+
     [Header("Relation")]
     public int relation;
 

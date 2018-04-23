@@ -431,6 +431,8 @@ MonoBehaviour:
   choicePrefab: {fileID: 1410920776301572, guid: 8384abca426f74cb1a8426103da0ce18,
     type: 2}
   clickFeedback: {fileID: 390500758}
+  meSprite: {fileID: 21300000, guid: 1e3f6f4cd534e794f801cc086564adb6, type: 3}
+  dateImage: {fileID: 591754370}
   fin: 0
 --- !u!1 &303483939
 GameObject:

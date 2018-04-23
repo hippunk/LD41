@@ -9,6 +9,7 @@ public class SwipeHandler : MonoBehaviour {
 
     private Character[] characterPool; //TODO Change with char class later
     public Image currentCharacterProfile;
+    public Text note;
 
     private int currentCharacterId = -1;
     //Pool personnage 
@@ -39,6 +40,13 @@ public class SwipeHandler : MonoBehaviour {
 
     public void Swipe() {
         currentCharacterId = (currentCharacterId + 1) % characterPool.Length;
+        Character chara = characterPool[currentCharacterId];
         currentCharacterProfile.sprite = characterPool[currentCharacterId].dateCard;
+
+        //Mep description
+        note.text = chara.characterName + " " + chara.titre + ", " + chara.age+"\n";
+        note.text += chara.description;
+
+
     }
 }

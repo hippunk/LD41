@@ -76,7 +76,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     public void SetImage(Dialogue.Choice choice)
     {
-        Debug.Log(choice.speaker);
+        //Debug.Log(choice.speaker);
         if(choice.speaker == "Moi")
         {
             dateImage.sprite = meSprite;
@@ -194,7 +194,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     private bool TriggerTransitionFade(Dialogue.Choice choice)
     {
-        Debug.Log("trasision fade");
+        //Debug.Log("trasision fade");
         if (choice.userData != null)
         {
             var parametersData = this.GetChoiceParameters(choice);

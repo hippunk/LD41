@@ -229,6 +229,7 @@ public class DialogueEditor : EditorWindow
 		}
 		GUILayout.EndHorizontal();
 
+
 		// import export buttons
 		GUILayout.BeginHorizontal();
 		if (filePopupSelectedIndex < 0)
@@ -504,7 +505,6 @@ public class DialogueEditor : EditorWindow
 			int w = addWindow(line);
 			GUI.FocusWindow(w);
 			createdWindow = w;
-
 			EditorUtility.SetDirty(files[filePopupSelectedIndex]);
 		}
 
@@ -581,8 +581,10 @@ public class DialogueEditor : EditorWindow
 
 		GUILayout.EndHorizontal();
 		GUI.skin.window.alignment = oldAlignment;
-	}
+        saveUndo("force");
 
+    }
+    //Yay
     void doWindow(int id)
 	{
 		if (selectedEntry == null || windows.Count <= id) return; // invalid window

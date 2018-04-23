@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Dialog
   m_EditorClassIdentifier: 
   entries:
-  - id: Pierre
+  - id: The Rock
     maxLineId: 3
     speakers:
     - Moi
@@ -29,28 +29,28 @@ MonoBehaviour:
     - Moi
   lines:
   - id: 0
-    dialogueEntry: Pierre
+    dialogueEntry: The Rock
     dialogue: 
     output: 01000000
     position: {x: 10, y: 10}
     userData: 
     speaker: 
   - id: 1
-    dialogueEntry: Pierre
-    dialogue: 'easy
+    dialogueEntry: The Rock
+    dialogue: 'easy peasy
 
 '
     output: 02000000
-    position: {x: 195, y: 31}
+    position: {x: 209, y: 16}
     userData: R:10 E:anger|R:>50 E:anger
     speaker: Pierre
   - id: 2
-    dialogueEntry: Pierre
+    dialogueEntry: The Rock
     dialogue: 'plop
 
 '
     output: 
-    position: {x: 446, y: 29}
+    position: {x: 430, y: 16}
     userData: R:-20 E:sadness
     speaker: Moi
   - id: 0

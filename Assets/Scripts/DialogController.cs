@@ -100,6 +100,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         }
     }
 
+
     private bool isChoiceSelectable(Dialogue.Choice choice) {
         var constraintData = this.GetChoiceConstraints(choice);
         if (constraintData != null) {

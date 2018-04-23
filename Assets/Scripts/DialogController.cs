@@ -48,14 +48,14 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     public void SetDialogue() {
-         
+
         List<Dialogue.Choice> aviableChoices = GetAviableChoices();
 
         if (aviableChoices.Count == 1) {
             Dialogue.Choice choice = dialogue.GetChoices()[0];
 
             clickFeedback.GetComponentInChildren<Text>().text = "Next...";
-            setContent(choice.dialogue);
+            SetContent(choice.dialogue);
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
             clickFeedback.SetActive(false);
             UpdateCharacterData(choice);
@@ -74,29 +74,23 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     }
 
-    public void SetImage(Dialogue.Choice choice)
-    {
+    public void SetImage(Dialogue.Choice choice) {
         //Debug.Log(choice.speaker);
-        if(choice.speaker == "Moi")
-        {
+        if (choice.speaker == "Moi") {
             dateImage.sprite = meSprite;
-            setName(GameLogicManager.playerName);
+            SetName(GameLogicManager.playerName);
         }
-        else
-        {
-            setName(choice.speaker);
+        else {
+            SetName(choice.speaker);
             dateImage.sprite = GameLogicManager.currentCharacter.dateCard;
         }
     }
 
-    public List<Dialogue.Choice> GetAviableChoices()
-    {
+    public List<Dialogue.Choice> GetAviableChoices() {
         List<Dialogue.Choice> selectableChoices = new List<Dialogue.Choice>();
         Debug.Log(dialogue);
-        foreach (Dialogue.Choice choice in dialogue.GetChoices())
-        {
-            if (this.isChoiceSelectable(choice))
-            {
+        foreach (Dialogue.Choice choice in dialogue.GetChoices()) {
+            if (this.isChoiceSelectable(choice)) {
                 selectableChoices.Add(choice);
             }
         }
@@ -111,8 +105,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         choicePending = true;
 
 
-        foreach (Dialogue.Choice choice in aviableChoices)
-        {
+        foreach (Dialogue.Choice choice in aviableChoices) {
             GameObject newRow = Instantiate(choicePrefab, choiceContainer.transform);
             newRow.GetComponentInChildren<Text>().text = choice.dialogue;
             newRow.GetComponent<Button>().onClick.AddListener(() => ButtonHandler(choice));
@@ -195,25 +188,6 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         return emotion;
     }
 
-    private bool TriggerTransitionFade(Dialogue.Choice choice)
-    {
-        //Debug.Log("trasision fade");
-        if (choice.userData != null)
-        {
-            var parametersData = this.GetChoiceParameters(choice);
-
-            if (parametersData.Contains('F'))
-            {
-                Debug.Log("fade");
-                FadeManager startOptions = GameObject.Find("Canvas").GetComponent<FadeManager>();
-                startOptions.fadeOutImage.raycastTarget = true;
-                StartCoroutine(startOptions.FadeCanvasGroupAlpha(0f,1f));
-                return true;
-            }
-        }
-        return false;
-    }
-
     private int GetChoiceRelationParameter(Dialogue.Choice choice) {
         var relation = 0;
         if (choice.userData != null) {
@@ -233,11 +207,57 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         return relation;
     }
 
-    void UpdateCharacterData(Dialogue.Choice choice)
-    {
-        TriggerTransitionFade(choice);
-        GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
-        GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+    private bool TriggerTransitionFade(Dialogue.Choice choice) {
+        //Debug.Log("trasision fade");
+        if (choice.userData != null) {
+            var parametersData = this.GetChoiceParameters(choice);
+
+            if (parametersData.Contains('F')) {
+                Debug.Log("fade");
+                FadeManager startOptions = GameObject.Find("Canvas").GetComponent<FadeManager>();
+                startOptions.fadeOutImage.raycastTarget = true;
+                StartCoroutine(startOptions.FadeCanvasGroupAlpha(0f, 1f));
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private bool IsItAnEnd(Dialogue.Choice choice) {
+        if (choice.userData != null) {
+            var parametersData = this.GetChoiceParameters(choice);
+            if (parametersData.Contains("End:")) {
+                Debug.Log("End");
+                this.SetEndNumber(choice);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private void TriggerEnd() {
+        GameObject.Find("Menu UI").GetComponent<StartOptions>().Fade(GameConstant.END_SCENE_NUMBER);
+    }
+
+    private void SetEndNumber(Dialogue.Choice choice) {
+        var parametersData = this.GetChoiceParameters(choice);
+        int endNumber = 0;
+        var trimParameter = parametersData.TrimStart('E', 'n', 'd', ':');
+        if (!Int32.TryParse(trimParameter, out endNumber)) {
+            Debug.Log("DIALOG CONTROLLER :: Error in relation parameter value (" + GameLogicManager.currentCharacter.characterName + ")");
+        }
+        GameLogicManager.endNumber = endNumber;
+    }
+
+    void UpdateCharacterData(Dialogue.Choice choice) {
+        if (!this.IsItAnEnd(choice)) {
+            TriggerTransitionFade(choice);
+            GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
+            GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+        }
+        else {
+            this.TriggerEnd();
+        }
     }
 
     void ButtonHandler(Dialogue.Choice choice) {
@@ -251,24 +271,24 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         SetDialogue();
     }
 
-    public void setContent(string text) {
+    public void SetContent(string text) {
         var processedText = text.Replace(GameConstant.PLAYER_NAME_TEMPLATE, GameLogicManager.playerName);
         Text contentText = contentGO.GetComponent<Text>();
         contentText.text = processedText;
     }
 
-    public void clearContent() {
+    public void ClearContent() {
         Text contentText = contentGO.GetComponent<Text>();
         contentText.text = "";
     }
 
-    void setName(string name) {
-        
+    void SetName(string name) {
+
         Text nameText = nameGO.GetComponent<Text>();
-        nameText.text = name.Replace(" ","-")+")";
+        nameText.text = name.Replace(" ", "-") + ")";
     }
 
-    void openDialogBox() {
+    void OpenDialogBox() {
         //set animation here
     }
 

@@ -582,6 +582,10 @@ public class DialogueEditor : EditorWindow
 		GUILayout.EndHorizontal();
 		GUI.skin.window.alignment = oldAlignment;
         saveUndo("force");
+        foreach (DialogueFile file in files)
+        {
+            EditorUtility.SetDirty(file);
+        }
 
     }
     //Yay

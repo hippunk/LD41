@@ -10,6 +10,7 @@ using UnityEngine;
 /// <summary>
 /// This class stores the actual dialogues. This is the actual asset you see in the project
 /// </summary>
+[System.Serializable]
 public class DialogueFile : ScriptableObject
 {
     /// <summary>

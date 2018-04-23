@@ -8,6 +8,8 @@ public class Character {
     public Dialogue dialog;
     public string characterName;
     public string titre;
+    public string age;
+    public string description;
     public int relation;
     public Emotion emotion;
     public Sprite dateCard;

@@ -20,6 +20,8 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     public GameObject choicePrefab;
 
     public GameObject clickFeedback;
+    public Sprite meSprite;
+    public Image dateImage;
     public bool fin = false;
 
     void Start() {
@@ -57,7 +59,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
             clickFeedback.SetActive(false);
             UpdateCharacterData(choice);
-
+            SetImage(choice);
             dialogue.PickChoice(choice);
 
         }
@@ -72,9 +74,23 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     }
 
+    public void SetImage(Dialogue.Choice choice)
+    {
+        Debug.Log(choice.speaker);
+        if(choice.speaker == "Moi")
+        {
+            dateImage.sprite = meSprite;
+        }
+        else
+        {
+            dateImage.sprite = GameLogicManager.currentCharacter.dateCard;
+        }
+    }
+
     public List<Dialogue.Choice> GetAviableChoices()
     {
         List<Dialogue.Choice> selectableChoices = new List<Dialogue.Choice>();
+        Debug.Log(dialogue);
         foreach (Dialogue.Choice choice in dialogue.GetChoices())
         {
             if (this.isChoiceSelectable(choice))
@@ -246,7 +262,6 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     void setName(string name) {
         
         Text nameText = nameGO.GetComponent<Text>();
-        Debug.Log(name.Replace(" ", "-") + ")");
         nameText.text = name.Replace(" ","-")+")";
     }
 

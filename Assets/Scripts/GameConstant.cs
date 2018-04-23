@@ -12,6 +12,7 @@ public class GameConstant : MonoBehaviour {
     public const string DIALOG_FILE_PATH = "Dialog";
     public const string PLAYER_NAME_TEMPLATE = "[PP]";
     public const string PLAYER_NAME = "Drargka";
+    public const float MUSIC_FADE_TIME = 3;
 
     public static Emotion StringToEmotion(string emotion) {
         if (emotion == Emotion.joy.ToString()) {

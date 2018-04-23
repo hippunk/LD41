@@ -34,6 +34,9 @@ public class CharacterData : ScriptableObject {
     [Header("Prefab")]
     public GameObject prefab;
 
+    [Header("Endings")]
+    public GameObject[] endings;
+
 }
 
 

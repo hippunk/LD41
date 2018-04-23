@@ -122,8 +122,12 @@ public class StartOptions : MonoBehaviour {
         
         StartCoroutine(FadeCanvasGroupAlpha(1f,0f, menuCanvasGroup));
 	}
+    public void Fade(int scene)
+    {
+        StartCoroutine(FadeCanvasGroupAlpha(0f, 1f, fadeOutImageCanvasGroup,scene));
+    }
 
-    public IEnumerator FadeCanvasGroupAlpha(float startAlpha, float endAlpha, CanvasGroup canvasGroupToFadeAlpha)
+    public IEnumerator FadeCanvasGroupAlpha(float startAlpha, float endAlpha, CanvasGroup canvasGroupToFadeAlpha,int scene = -1)
     {
 
         float elapsedTime = 0f;
@@ -137,6 +141,8 @@ public class StartOptions : MonoBehaviour {
             yield return null;
         }
         Debug.Log("fin fade in");
+        if(scene != -1)
+            SceneManager.LoadScene(scene);
 
         Debug.Log("fade out");
         //Fix à l'arache pour défade le putain de fadeOutImage pour changement de scène
@@ -152,7 +158,6 @@ public class StartOptions : MonoBehaviour {
 
         Debug.Log("fin fade out");
         HideDelayed();
-        Debug.Log("Coroutine done. Game started in same scene! Put your game starting stuff here.");
     }
     
 

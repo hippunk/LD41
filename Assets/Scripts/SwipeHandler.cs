@@ -26,10 +26,12 @@ public class SwipeHandler : MonoBehaviour {
 
     public void OnYes() {
         //Load chara in GameManager
-
+        StartOptions startOptions = GameObject.Find("Menu UI").GetComponent<StartOptions>();
         Character curentCharacter = characterPool[currentCharacterId];
         GameLogicManager.SetCurrentCharacter(curentCharacter);
-        SceneManager.LoadScene(2);
+        startOptions.Fade(2);
+
+
     }
 
     public void OnNo() {

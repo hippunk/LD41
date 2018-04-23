@@ -15,7 +15,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     private bool choicePending = false;
     public TextAnimator textAnimator;
     public Dialogue dialogue;
-
+    public GameObject fonduChoix;
     public GameObject choiceContainer;
     public GameObject choicePrefab;
 
@@ -46,7 +46,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     public void SetDialogue() {
-
+         
         List<Dialogue.Choice> aviableChoices = GetAviableChoices();
 
         if (aviableChoices.Count == 1) {
@@ -87,6 +87,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     void GenerateChoiceList(List<Dialogue.Choice> aviableChoices) {
+        fonduChoix.SetActive(true);
         clickFeedback.GetComponentInChildren<Text>().text = "Answer";
         choicePending = true;
 
@@ -220,6 +221,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     void ButtonHandler(Dialogue.Choice choice) {
+        fonduChoix.SetActive(false);
         foreach (Transform transform in choiceContainer.transform) {
             Destroy(transform.gameObject);
         }

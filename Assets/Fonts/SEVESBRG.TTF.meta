@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 843908e9c0a761b47a876e347c8b67bc
+timeCreated: 1524447989
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Seven Swordsmen BB
+  fontNames:
+  - Seven Swordsmen BB
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -422,10 +422,10 @@ RectTransform:
   m_Father: {fileID: 146978982}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -169.9, y: -53}
-  m_SizeDelta: {x: -573.9, y: -106}
+  m_AnchorMin: {x: 0, y: 0.10166667}
+  m_AnchorMax: {x: 0.44000003, y: 0.90000004}
+  m_AnchoredPosition: {x: -0.16000366, y: -0.5}
+  m_SizeDelta: {x: -2.600006, y: 0.69999695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &583308054
 MonoBehaviour:
@@ -493,8 +493,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.178, y: 0.07300001}
   m_AnchorMax: {x: 0.35580382, y: 0.201}
-  m_AnchoredPosition: {x: 488.77, y: 156.17}
-  m_SizeDelta: {x: -80.96, y: -25.17}
+  m_AnchoredPosition: {x: 347.7, y: 122.70989}
+  m_SizeDelta: {x: -46.93, y: -21.19}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &713964819
 MonoBehaviour:
@@ -644,10 +644,10 @@ RectTransform:
   m_Father: {fileID: 146978982}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22000001, y: 0.42700002}
-  m_AnchorMax: {x: 0.44000003, y: 0.69069797}
-  m_AnchoredPosition: {x: -0.5000763, y: -0.19677734}
-  m_SizeDelta: {x: -0.6, y: 23.9}
+  m_AnchorMin: {x: 0.043239262, y: 0.38200003}
+  m_AnchorMax: {x: 0.3455215, y: 0.689}
+  m_AnchoredPosition: {x: 1.1000061, y: 0.80322266}
+  m_SizeDelta: {x: -6.4000015, y: -2.1000004}
   m_Pivot: {x: 0.50000006, y: 1}
 --- !u!1 &954665835
 GameObject:
@@ -682,8 +682,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.178, y: 0.07300001}
   m_AnchorMax: {x: 0.35580382, y: 0.201}
-  m_AnchoredPosition: {x: 387.49615, y: 156.17001}
-  m_SizeDelta: {x: -80.95999, y: -25.169998}
+  m_AnchoredPosition: {x: 268.2, y: 122.71}
+  m_SizeDelta: {x: -45.13, y: -21.772}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &954665837
 MonoBehaviour:
@@ -957,8 +957,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characters:
-  - {fileID: 11400000, guid: dd8a38dda85ed7343bd465e3c27cb20f, type: 2}
   - {fileID: 11400000, guid: c241caa06c04bee40ae71f0bbba65821, type: 2}
+  - {fileID: 11400000, guid: 1cbf2fdab7cc40c49a5829804501aca0, type: 2}
+  - {fileID: 11400000, guid: 06ea5ad9bf82bdc45b69b5ef9e92b579, type: 2}
 --- !u!4 &2060103490
 Transform:
   m_ObjectHideFlags: 0

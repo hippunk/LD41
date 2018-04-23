@@ -9,11 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3298f138dbc5db4469b91c37c01932cd, type: 3}
-  m_Name: Bob
+  m_Name: Agna
   m_EditorClassIdentifier: 
-  characterName: Bob
-  titre: ay
-  relation: 1000
-  emotion: 1
-  dateCard: {fileID: 21300000, guid: 1e3f6f4cd534e794f801cc086564adb6, type: 3}
+  characterName: Agna
+  titre: 
+  relation: 0
+  emotion: 5
+  dateCard: {fileID: 21300000, guid: b568ce0831a59b94d9a2de1af4c412a3, type: 3}
   charaSprite: {fileID: 0}

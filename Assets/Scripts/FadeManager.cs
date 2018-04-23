@@ -49,8 +49,9 @@ public class FadeManager : MonoBehaviour {
         }
         fadeOutImage.raycastTarget = false;
         diagController.textAnimator.finished = false;
-        diagController.SetDialogue();
         ShowInterface(true);
+        diagController.SetDialogue();
+
         
     }
 }

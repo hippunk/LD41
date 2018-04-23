@@ -25,8 +25,6 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     void Start() {
         dialogue = GameLogicManager.currentDialogue;
         SetDialogue();
-        SetDialogueRefactor();
-        //RawDebug();
     }
 
     void RawDebug() {
@@ -47,33 +45,27 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         dialogue.PickChoice(dialogue.GetChoices()[0]);
     }
 
-    public void SetDialogueRefactor()
-    {
-
-    }
-
     public void SetDialogue() {
-        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0) {
-            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
-        }
-        else if (dialogue.GetChoices().Length == 1) {
+
+        List<Dialogue.Choice> aviableChoices = GetAviableChoices();
+
+        if (aviableChoices.Count == 1) {
+            Dialogue.Choice choice = dialogue.GetChoices()[0];
+            setName(choice.speaker);
             clickFeedback.GetComponentInChildren<Text>().text = "Next...";
-            setContent(dialogue.GetChoices()[0].dialogue);
+            setContent(choice.dialogue);
             textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
             clickFeedback.SetActive(false);
-            Dialogue.Choice choice = dialogue.GetChoices()[0];
-            TriggerTransitionFade(choice);
-            GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
-            GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+            UpdateCharacterData(choice);
 
-            dialogue.PickChoice(dialogue.GetChoices()[0]);
+            dialogue.PickChoice(choice);
 
         }
         else {
-            GenerateChoiceList();
+            GenerateChoiceList(aviableChoices);
         }
 
-        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0) {
+        if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0 || aviableChoices.Count == 0) {
             clickFeedback.GetComponentInChildren<Text>().text = "Fin";
             fin = true;
         }
@@ -94,39 +86,16 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         return selectableChoices;
     }
 
-    void GenerateChoiceList() {
+    void GenerateChoiceList(List<Dialogue.Choice> aviableChoices) {
         clickFeedback.GetComponentInChildren<Text>().text = "Answer";
         choicePending = true;
 
-        List<Dialogue.Choice> selectableChoices = GetAviableChoices();
 
-        Debug.Log(selectableChoices.Count);
-        if (selectableChoices.Count > 1)
+        foreach (Dialogue.Choice choice in aviableChoices)
         {
-            foreach (Dialogue.Choice choice in selectableChoices)
-            {
-                GameObject newRow = Instantiate(choicePrefab, choiceContainer.transform);
-                newRow.GetComponentInChildren<Text>().text = choice.dialogue;
-                newRow.GetComponent<Button>().onClick.AddListener(() => ButtonHandler(choice));
-            }
-        }
-        else if(selectableChoices.Count == 1)
-        {
-            Dialogue.Choice choice = selectableChoices.First();
-            TriggerTransitionFade(choice);
-            GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
-            GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
-            dialogue.PickChoice(choice);
-            choicePending = false;
-            clickFeedback.GetComponentInChildren<Text>().text = "Next...";
-            setContent(choice.dialogue);
-            textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
-            clickFeedback.SetActive(false);
-        }
-        else
-        {
-            clickFeedback.GetComponentInChildren<Text>().text = "Fin";
-            choicePending = false;
+            GameObject newRow = Instantiate(choicePrefab, choiceContainer.transform);
+            newRow.GetComponentInChildren<Text>().text = choice.dialogue;
+            newRow.GetComponent<Button>().onClick.AddListener(() => ButtonHandler(choice));
         }
     }
 
@@ -243,13 +212,18 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         return relation;
     }
 
+    void UpdateCharacterData(Dialogue.Choice choice)
+    {
+        TriggerTransitionFade(choice);
+        GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
+        GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+    }
+
     void ButtonHandler(Dialogue.Choice choice) {
         foreach (Transform transform in choiceContainer.transform) {
             Destroy(transform.gameObject);
         }
-        TriggerTransitionFade(choice);
-        GameLogicManager.currentCharacter.emotion = this.GetChoiceEmotionParameter(choice);
-        GameLogicManager.currentCharacter.relation += this.GetChoiceRelationParameter(choice);
+        UpdateCharacterData(choice);
         dialogue.PickChoice(choice);
         choicePending = false;
         SetDialogue();

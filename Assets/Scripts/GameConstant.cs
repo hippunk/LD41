@@ -10,6 +10,8 @@ public class GameConstant : MonoBehaviour {
     public const float DISGUST_VALUE = 0.5f;
     public const float EMBARRASSMENT_VALUE = 0.9f;
     public const string DIALOG_FILE_PATH = "Dialog";
+    public const string PLAYER_NAME_TEMPLATE = "[PP]";
+    public const string PLAYER_NAME = "Drargka";
 
     public static Emotion StringToEmotion(string emotion) {
         if (emotion == Emotion.joy.ToString()) {

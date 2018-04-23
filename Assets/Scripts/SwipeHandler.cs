@@ -13,10 +13,9 @@ public class SwipeHandler : MonoBehaviour {
     private int currentCharacterId = -1;
     //Pool personnage 
 
-    private void Start()
-    {
+    private void Start() {
         CharacterHandler charHandler = GameObject.Find("DataHandler").GetComponent<CharacterHandler>();
-        characterPool  = charHandler.LoadCharacters();
+        characterPool = charHandler.LoadCharacters();
 
         if (characterPool.Length <= 0)
             Console.Error.WriteLine("Pas de personnages dans le pool");
@@ -24,8 +23,7 @@ public class SwipeHandler : MonoBehaviour {
             Swipe();
     }
 
-    public void OnYes()
-    {
+    public void OnYes() {
         //Load chara in GameManager
 
         Character curentCharacter = characterPool[currentCharacterId];
@@ -33,15 +31,13 @@ public class SwipeHandler : MonoBehaviour {
         SceneManager.LoadScene(2);
     }
 
-    public void OnNo()
-    {
+    public void OnNo() {
         Debug.Log("No");
         Swipe();
         Debug.Log("New char ID : ");
     }
 
-    public void Swipe()
-    {
+    public void Swipe() {
         currentCharacterId = (currentCharacterId + 1) % characterPool.Length;
         currentCharacterProfile.sprite = characterPool[currentCharacterId].dateCard;
     }

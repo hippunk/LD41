@@ -232,8 +232,9 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     public void setContent(string text) {
+        var processedText = text.Replace(GameConstant.PLAYER_NAME_TEMPLATE, GameLogicManager.playerName);
         Text contentText = contentGO.GetComponent<Text>();
-        contentText.text = text;
+        contentText.text = processedText;
     }
 
     public void clearContent() {

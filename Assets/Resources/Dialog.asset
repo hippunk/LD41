@@ -1682,7 +1682,7 @@ MonoBehaviour:
       right now as an another step in this cycle. \nI don\u2019t want to keep doing
       what I\u2019m doing till I die. \nKorm will laugh at my face when facing him
       in the halls of Vallhala. "
-    output: 
+    output: 35000000
     position: {x: 1174, y: 493}
     userData: 
     speaker: Moi

@@ -21,6 +21,7 @@ public class EndController : MonoBehaviour {
 
     public void OnRestart() {
         GameLogicManager.currentCharacter.relation = 0;
+        GameLogicManager.currentCharacter.emotion = Emotion.neutral;
         this.win.SetActive(false);
         this.table.SetActive(false);
         GameObject.Find("Menu UI").GetComponent<StartOptions>().Fade(1);

@@ -437,7 +437,7 @@ MonoBehaviour:
       our tribe\u2019s arms. \n\n"
     output: 2d000000
     position: {x: 313, y: 609}
-    userData: 
+    userData: E:anger
     speaker: Agna
   - id: 44
     dialogueEntry: Agna
@@ -499,7 +499,7 @@ MonoBehaviour:
     dialogue: "You\u2019re afraid"
     output: 36000000
     position: {x: 895, y: 594}
-    userData: 
+    userData: E:anger
     speaker: Moi
   - id: 51
     dialogueEntry: Agna

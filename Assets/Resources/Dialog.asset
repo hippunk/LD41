@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entries:
   - id: Darock
-    maxLineId: 13
+    maxLineId: 14
     speakers:
     - Moi
     - Darock
@@ -1089,14 +1089,14 @@ MonoBehaviour:
     dialogueEntry: Darock
     dialogue: '[...]'
     output: 0e000000
-    position: {x: 662, y: 179}
+    position: {x: 638, y: 166}
     userData: 
     speaker: Darock
   - id: 14
     dialogueEntry: Darock
     dialogue: '[...]'
     output: 0f000000
-    position: {x: 780, y: 180}
+    position: {x: 775, y: 163}
     userData: 
     speaker: Moi
   - id: 15
@@ -1307,7 +1307,7 @@ MonoBehaviour:
     dialogue: "Then why did you come to talk to me ? You wanted to hurt me even more?
       Well done, you\u2019ve managed to do it. \nStones have souls you know ? [DaRock
       blasts you, you are left as no more than a small pile of brutal dust.] "
-    output: 
+    output: 90010000
     position: {x: 1265, y: 458}
     userData: 
     speaker: Darock
@@ -1927,4 +1927,11 @@ MonoBehaviour:
     output: 
     position: {x: 551, y: 1421}
     userData: End:1
+    speaker: 
+  - id: 400
+    dialogueEntry: Darock
+    dialogue: 
+    output: 
+    position: {x: 1415, y: 458}
+    userData: End:0
     speaker: 

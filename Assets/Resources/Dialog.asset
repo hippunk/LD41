@@ -116,7 +116,7 @@ MonoBehaviour:
     dialogueEntry: Ratchet
     dialogue: I MISS IT
     output: 1c000000
-    position: {x: 223, y: 566}
+    position: {x: 181, y: 536}
     userData: 
     speaker: Moi
   - id: 22
@@ -132,7 +132,7 @@ MonoBehaviour:
       good memories of the poorest district of your city.]\nI\u2019d rather not dwell
       on these old days. \n"
     output: 19000000
-    position: {x: 405, y: 280}
+    position: {x: 371, y: 203}
     userData: 
     speaker: Moi
   - id: 25
@@ -166,7 +166,7 @@ MonoBehaviour:
       time to take a stroll through the neighborhood recently but I have fond memories
       of this place.\n"
     output: 1e000000
-    position: {x: 368, y: 565}
+    position: {x: 311, y: 522}
     userData: 
     speaker: Moi
   - id: 29
@@ -174,7 +174,7 @@ MonoBehaviour:
     dialogue: "Well I\u2019m not, and I really don\u2019t appreciate you saying these
       sort of things. I too was raised in \u201Cthese slums\u201D.\n"
     output: 1a000000
-    position: {x: 401, y: 453}
+    position: {x: 514, y: 441}
     userData: R:-1 E:anger
     speaker: Ratchet
   - id: 30
@@ -193,7 +193,7 @@ MonoBehaviour:
       mass and I\u2019m talking muscles and mentally here, he is quite stone-headed
       now\u2026\nAnd the old Karga..."
     output: 1a000000
-    position: {x: 425, y: 603}
+    position: {x: 515, y: 653}
     userData: 
     speaker: Ratchet
   - id: 32
@@ -240,7 +240,7 @@ MonoBehaviour:
       the embarrassement or if there\u2019s something in his beer, but he stares at
       his tankard, avoiding your gaze.]\nHem\u2026 I\u2026 Hum\u2026 Thank you.\n"
     output: 28000000
-    position: {x: 397, y: 797}
+    position: {x: 529, y: 790}
     userData: E:embarrassment R:2
     speaker: Ratchet
   - id: 39
@@ -299,7 +299,7 @@ MonoBehaviour:
       but no one has destroyed community buildings. This is the kind of attitude that
       will doom you all.]\n"
     output: 35000000
-    position: {x: 395, y: 1240}
+    position: {x: 518, y: 1256}
     userData: 
     speaker: Moi
   - id: 47
@@ -325,7 +325,7 @@ MonoBehaviour:
     dialogue: I guess it can be difficult to return to a quiet life after all these
       years of fighting. But maybe you should give it a try.
     output: 37000000
-    position: {x: 399, y: 1146}
+    position: {x: 520, y: 1139}
     userData: R:-1
     speaker: Ratchet
   - id: 53
@@ -335,7 +335,7 @@ MonoBehaviour:
       It\u2019s rewarding to feel like what you\u2019re doing is really changing things
       around for everyone.\n"
     output: 37000000
-    position: {x: 421, y: 1261}
+    position: {x: 674, y: 1263}
     userData: R:1
     speaker: Ratchet
   - id: 54
@@ -345,7 +345,7 @@ MonoBehaviour:
       nostalgic about this time. It makes me happy that you take pleasure in that
       activity. [His smile broadens before continuing]"
     output: 37000000
-    position: {x: 410, y: 1365}
+    position: {x: 523, y: 1365}
     userData: R:2
     speaker: Ratchet
   - id: 55
@@ -356,7 +356,7 @@ MonoBehaviour:
       good massacre at times. I miss the days I could throw a spear and skewer three
       or four heads at once."
     output: 38000000
-    position: {x: 623, y: 1392}
+    position: {x: 766, y: 1400}
     userData: 
     speaker: Ratchet
   - id: 56
@@ -394,7 +394,7 @@ MonoBehaviour:
       me is that I can shed blood.\n[You stand still on your chair, looking at him
       boldly]"
     output: 44000000
-    position: {x: 455, y: 1479}
+    position: {x: 393, y: 1485}
     userData: 
     speaker: Moi
   - id: 64
@@ -441,7 +441,7 @@ MonoBehaviour:
     dialogue: "I see\u2026\n[He\u2019s looks worried. He moves awkwardly on his chair,
       repositionning himself, as if you were a kind of a\u2026 beast ?]\n"
     output: 47000000
-    position: {x: 491, y: 1506}
+    position: {x: 576, y: 1507}
     userData: E:disgust R:-2
     speaker: Ratchet
   - id: 69
@@ -1268,7 +1268,7 @@ MonoBehaviour:
     dialogue: 
     output: 56010000
     position: {x: 630, y: 2050}
-    userData: '|R:>5'
+    userData: '|R:>4'
     speaker: Ratchet
   - id: 342
     dialogueEntry: Ratchet

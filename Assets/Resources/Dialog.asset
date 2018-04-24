@@ -51,79 +51,1244 @@ MonoBehaviour:
     speaker: 
   - id: 1
     dialogueEntry: Ratchet
-    dialogue: Salut wesh wesh yo [PP]!!
-    output: 0d000000
-    position: {x: 150, y: 17}
-    userData: 
-    speaker: Ratchet
-  - id: 5
-    dialogueEntry: Ratchet
-    dialogue: Repaint()
-    output: 060000000700000008000000
-    position: {x: 413, y: 43}
-    userData: 
-    speaker: Moi
-  - id: 6
-    dialogueEntry: Ratchet
-    dialogue: Salut !
-    output: 
-    position: {x: 567, y: 0}
-    userData: R:10
-    speaker: Moi
-  - id: 7
-    dialogueEntry: Ratchet
-    dialogue: wehs !
-    output: 14000000
-    position: {x: 574, y: 121}
-    userData: R:-10
-    speaker: Moi
-  - id: 8
-    dialogueEntry: Ratchet
-    dialogue: Yolop
+    dialogue: "[You\u2019ve chosen to meet Ratchet around a fresh beer at the local
+      pub, the Axe and Roses. You\u2019ve arrived early because of the pouring rain
+      that has been falling [till] the beginning of the day. Dripping wet, you\u2019re
+      slowly sipping on the bubbly drink near the tavern\u2019s fireplace]\n"
     output: 12000000
-    position: {x: 574, y: 241}
+    position: {x: 150, y: 17}
     userData: 
     speaker: Moi
   - id: 13
     dialogueEntry: Ratchet
-    dialogue: 
-    output: 0f000000
-    position: {x: 207, y: 135}
-    userData: E:sadness
-    speaker: 
-  - id: 15
-    dialogueEntry: Ratchet
-    dialogue: 
+    dialogue: "Hello, [PP]. To be frank, I was quite surprised when I received your
+      message. I didn\u2019t think you\u2019d be ready to see me again, especially
+      after what happened last time at the Wolfman\u2019s Bridge."
     output: 10000000
-    position: {x: 223, y: 313}
-    userData: E:joy
-    speaker: 
-  - id: 16
-    dialogueEntry: Ratchet
-    dialogue: 
-    output: 05000000
-    position: {x: 386, y: 272}
-    userData: E:sadness
-    speaker: 
-  - id: 18
-    dialogueEntry: Ratchet
-    dialogue: pop
-    output: 13000000
-    position: {x: 722, y: 242}
+    position: {x: 148, y: 96}
     userData: 
     speaker: Ratchet
+  - id: 16
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019m sorry about the pickaxe in your chest. I suppose it left an
+      impressive scar. I really don\u2019t know why we\u2019re always on the opposite
+      side of the fight, but I guess it\u2019s part of the mercenary job. Also, don\u2019t
+      worry about the chopped finger. I didn\u2019t need it anyway\u2026 "
+    output: 11000000
+    position: {x: 17, y: 187}
+    userData: 
+    speaker: Ratchet
+  - id: 17
+    dialogueEntry: Ratchet
+    dialogue: "[He smiles widely, shaking his right hand. Replacing his right index
+      is a little and very detailed handmade sculpted hook. You can tell Ratchet has
+      been spending a lot of time making that. He sure seems very proud of it. You
+      can\u2019t help but feeling a little admiration.]\n"
+    output: 13000000
+    position: {x: 149, y: 188}
+    userData: 
+    speaker: Ratchet
+  - id: 18
+    dialogueEntry: Ratchet
+    dialogue: '[when the door opens in a loud crack to let Ratchet in. He looks at
+      you with a warm smile when he walks to you and sits.]'
+    output: 0d000000
+    position: {x: 19, y: 96}
+    userData: 
+    speaker: 
   - id: 19
     dialogueEntry: Ratchet
-    dialogue: 
-    output: 
-    position: {x: 874, y: 242}
-    userData: End:1
-    speaker: 
+    dialogue: "But then again, I don\u2019t think we could stay mad at each other
+      too long, after all we\u2019ve been through when we were younger\u2026 Do you
+      ever go back to the Cloud District sometimes ?\n"
+    output: 140000001500000016000000
+    position: {x: 18, y: 276}
+    userData: 
+    speaker: Ratchet
   - id: 20
+    dialogueEntry: Ratchet
+    dialogue: "DON\u2019T WANT TO TALK ABOUT IT"
+    output: 17000000
+    position: {x: 223, y: 280}
+    userData: 
+    speaker: Moi
+  - id: 21
+    dialogueEntry: Ratchet
+    dialogue: I MISS IT
+    output: 1c000000
+    position: {x: 223, y: 566}
+    userData: 
+    speaker: Moi
+  - id: 22
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019M ASHAMED"
+    output: 1b000000
+    position: {x: 220, y: 427}
+    userData: 
+    speaker: Moi
+  - id: 23
+    dialogueEntry: Ratchet
+    dialogue: "[You stare at your feet in cold anger. You obviously don\u2019t have
+      good memories of the poorest district of your city.]\nI\u2019d rather not dwell
+      on these old days. \n"
+    output: 19000000
+    position: {x: 405, y: 280}
+    userData: 
+    speaker: Moi
+  - id: 25
+    dialogueEntry: Ratchet
+    dialogue: "I wouldn\u2019t say it was a piece of skull everyday, sure. We were
+      poor, malnourished, dirty. We didn\u2019t have the comfort we deserved. I shall
+      respect your choice.\n[You can tell Ratchet is overwhelmed with sadness.]"
+    output: 1a000000
+    position: {x: 431, y: 300}
+    userData: E:sadness
+    speaker: Ratchet
+  - id: 26
+    dialogueEntry: Ratchet
+    dialogue: "[...] But I\u2019m talking like a blabbermouth, and you\u2019re just
+      listening. That\u2019s kind of you.\n"
+    output: 200000002300000024000000
+    position: {x: 57, y: 821}
+    userData: 
+    speaker: Ratchet
+  - id: 27
+    dialogueEntry: Ratchet
+    dialogue: "No, I\u2019m so ashamed to be coming from these slums."
+    output: 1d000000
+    position: {x: 357, y: 423}
+    userData: 
+    speaker: Moi
+  - id: 28
+    dialogueEntry: Ratchet
+    dialogue: "[You smile. You\u2019re having a Sehnsucht feeling that tastes both
+      bitter and sweet. These are old, unreachable days] \nI didn\u2019t have any
+      time to take a stroll through the neighborhood recently but I have fond memories
+      of this place.\n"
+    output: 1e000000
+    position: {x: 368, y: 565}
+    userData: 
+    speaker: Moi
+  - id: 29
+    dialogueEntry: Ratchet
+    dialogue: "Well I\u2019m not, and I really don\u2019t appreciate you saying these
+      sort of things. I too was raised in \u201Cthese slums\u201D.\n"
+    output: 1a000000
+    position: {x: 401, y: 453}
+    userData: R:-1 E:anger
+    speaker: Ratchet
+  - id: 30
+    dialogueEntry: Ratchet
+    dialogue: "I saw the old Ordrid the other day, and that got me thinking of this
+      one time when we had jumped over his fence and butchered all the livestock in
+      the village to train for the annual anvil-throwing contest, do you remember
+      ? Oh ! And the old Henryk\u2019s farm with this ugly cow of his !\n"
+    output: 1f000000
+    position: {x: 399, y: 585}
+    userData: E:joy R:1
+    speaker: Ratchet
+  - id: 31
+    dialogueEntry: Ratchet
+    dialogue: "And the little Ogar ! Do you know he grew up to be quite the  unmovable
+      mass and I\u2019m talking muscles and mentally here, he is quite stone-headed
+      now\u2026\nAnd the old Karga..."
+    output: 1a000000
+    position: {x: 425, y: 603}
+    userData: 
+    speaker: Ratchet
+  - id: 32
+    dialogueEntry: Ratchet
+    dialogue: "IT\u2019S OK"
+    output: 22000000
+    position: {x: 220, y: 883}
+    userData: 
+    speaker: Moi
+  - id: 34
+    dialogueEntry: Ratchet
+    dialogue: '[He looks puzzled. Maybe he is boring you ?]
+
+'
+    output: 28000000
+    position: {x: 358, y: 886}
+    userData: E:neutral
+    speaker: Ratchet
+  - id: 35
+    dialogueEntry: Ratchet
+    dialogue: I LIKE IT
+    output: 25000000
+    position: {x: 222, y: 776}
+    userData: 
+    speaker: Moi
+  - id: 36
+    dialogueEntry: Ratchet
+    dialogue: HE ANNOYS YOU
+    output: 27000000
+    position: {x: 223, y: 983}
+    userData: 
+    speaker: Moi
+  - id: 37
+    dialogueEntry: Ratchet
+    dialogue: "[You look at him with a tender glint in the eyes. He\u2019s cute.]\nYou
+      don\u2019t have to apologize. I like listening to your stories.\n"
+    output: 26000000
+    position: {x: 368, y: 778}
+    userData: 
+    speaker: Moi
+  - id: 38
+    dialogueEntry: Ratchet
+    dialogue: "[Suddenly, he blushes. Red as a beet. You don\u2019t know if it\u2019s
+      the embarrassement or if there\u2019s something in his beer, but he stares at
+      his tankard, avoiding your gaze.]\nHem\u2026 I\u2026 Hum\u2026 Thank you.\n"
+    output: 28000000
+    position: {x: 397, y: 797}
+    userData: E:embarrassment R:2
+    speaker: Ratchet
+  - id: 39
+    dialogueEntry: Ratchet
+    dialogue: "What ? I didn\u2019t quite hear you ?\n[By the look on his face, you
+      can tell he has heard. And he\u2019s hurt. You almost saw the exact moment when
+      his heart broke a little.]"
+    output: 28000000
+    position: {x: 359, y: 986}
+    userData: R:-2
+    speaker: Ratchet
+  - id: 40
+    dialogueEntry: Ratchet
+    dialogue: "[\u2026] Anyway, what have you been up to these days ? Since the beginning
+      of the Great Truce, many of us have been forced to change their occupations.
+      What did you do ?"
+    output: 2a0000002b0000002c000000
+    position: {x: 51, y: 1165}
+    userData: 
+    speaker: Ratchet
+  - id: 42
+    dialogueEntry: Ratchet
+    dialogue: THE HUNT
+    output: 2f000000
+    position: {x: 229, y: 1124}
+    userData: 
+    speaker: Moi
+  - id: 43
+    dialogueEntry: Ratchet
+    dialogue: IN A FARM
+    output: 2d000000
+    position: {x: 232, y: 1229}
+    userData: 
+    speaker: Moi
+  - id: 44
+    dialogueEntry: Ratchet
+    dialogue: IN THE ARCHIVES
+    output: 30000000
+    position: {x: 242, y: 1339}
+    userData: 
+    speaker: Moi
+  - id: 45
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019m working on Connhilda\u2019s farm. It\u2019s a tough job, but
+      my strength is useful there. I don\u2019t think the farm would have resisted
+      Hunhelm\u2019s anger when he threw the standing stone on the pigsty last week,
+      had I not been there\u2026 \n"
+    output: 2e000000
+    position: {x: 372, y: 1222}
+    userData: 
+    speaker: Moi
+  - id: 46
+    dialogueEntry: Ratchet
+    dialogue: "[You nod in disapproval. Hunhelm couldn\u2019t have been more annoying
+      than he has been this last week. The truce is driving everyone in the clan crazy,
+      but no one has destroyed community buildings. This is the kind of attitude that
+      will doom you all.]\n"
+    output: 35000000
+    position: {x: 395, y: 1240}
+    userData: 
+    speaker: Moi
+  - id: 47
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019ve joined the Hunt. I\u2019m way too good at killing to stop.\n[You
+      smirk in a cruel way.]\n"
+    output: 34000000
+    position: {x: 370, y: 1124}
+    userData: 
+    speaker: Moi
+  - id: 48
+    dialogueEntry: Ratchet
+    dialogue: "The Elders have asked me to work in the Archives. Thanks to the truce,
+      we\u2019ve been able to record many fights and many songs. It\u2019s a rewarding
+      job. It reminds me of the old days, when we were learning and singing between
+      training. \n"
+    output: 36000000
+    position: {x: 383, y: 1344}
+    userData: 
+    speaker: Moi
+  - id: 52
+    dialogueEntry: Ratchet
+    dialogue: I guess it can be difficult to return to a quiet life after all these
+      years of fighting. But maybe you should give it a try.
+    output: 37000000
+    position: {x: 399, y: 1146}
+    userData: R:-1
+    speaker: Ratchet
+  - id: 53
+    dialogueEntry: Ratchet
+    dialogue: "I understand. Feeling useful is pretty nice, isn\u2019t it ? I always
+      thought that if I had to stop fighting, I would try to be a pillar of the community.
+      It\u2019s rewarding to feel like what you\u2019re doing is really changing things
+      around for everyone.\n"
+    output: 37000000
+    position: {x: 421, y: 1261}
+    userData: R:1
+    speaker: Ratchet
+  - id: 54
+    dialogueEntry: Ratchet
+    dialogue: "Really ? You are still in the middle of the battlefield, another kind
+      of battlefield this time. [He smiles gently] I know\u2026 I\u2019m still a tad
+      nostalgic about this time. It makes me happy that you take pleasure in that
+      activity. [His smile broadens before continuing]"
+    output: 37000000
+    position: {x: 410, y: 1365}
+    userData: R:2
+    speaker: Ratchet
+  - id: 55
+    dialogueEntry: Ratchet
+    dialogue: "I for myself am now an apprentice jeweller. That\u2019s how I made
+      the hook. It\u2019s very different from a mercenary\u2019s everyday life, but
+      I think I could get used to it in time. Of course, I wouldn\u2019t spit on a
+      good massacre at times. I miss the days I could throw a spear and skewer three
+      or four heads at once."
+    output: 38000000
+    position: {x: 623, y: 1392}
+    userData: 
+    speaker: Ratchet
+  - id: 56
+    dialogueEntry: Ratchet
+    dialogue: "But that last contract really got the best of me. I couldn\u2019t even
+      understand why these guys were fighting. Did you ?"
+    output: 3c0000003d0000003e000000
+    position: {x: 34, y: 1533}
+    userData: 
+    speaker: Ratchet
+  - id: 60
+    dialogueEntry: Ratchet
+    dialogue: "I DON\u2019T CARE"
+    output: 3f000000
+    position: {x: 184, y: 1533}
+    userData: 
+    speaker: Moi
+  - id: 61
+    dialogueEntry: Ratchet
+    dialogue: "I DIDN\u2019T GET IT"
+    output: 40000000
+    position: {x: 186, y: 1609}
+    userData: 
+    speaker: Moi
+  - id: 62
+    dialogueEntry: Ratchet
+    dialogue: TELL HIM WHAT YOU KNOW
+    output: 41000000
+    position: {x: 185, y: 1689}
+    userData: 
+    speaker: Moi
+  - id: 63
+    dialogueEntry: Ratchet
+    dialogue: "I don\u2019t care about the reason of the fight. All that matters to
+      me is that I can shed blood.\n[You stand still on your chair, looking at him
+      boldly]"
+    output: 44000000
+    position: {x: 455, y: 1479}
+    userData: 
+    speaker: Moi
+  - id: 64
+    dialogueEntry: Ratchet
+    dialogue: " [You shrug]\nSomething about chickens and a straw ? I didn\u2019t
+      really get it either.\n"
+    output: 45000000
+    position: {x: 355, y: 1577}
+    userData: 
+    speaker: Moi
+  - id: 65
+    dialogueEntry: Ratchet
+    dialogue: '[You pose a moment, trying to recollect all the memories you have of
+      this last contract]
+
+      It all began 10 moons ago. The Norngak had organised a raid on the Clan of Thunder,
+      in order to steal all their livestock. It turns out that the Clan of Thunder
+      were ready for'
+    output: 42000000
+    position: {x: 371, y: 1686}
+    userData: 
+    speaker: Moi
+  - id: 66
+    dialogueEntry: Ratchet
+    dialogue: "this attack. The Norngak stole almost nothing, except the chicken and
+      the last of their eggs. The Clan of Thunder were really angry about it and one
+      of their warmonger challenged their leader to a single combat. He won. He killed
+      their leader. With the man\u2019s own straw. They say it was his favorite, the
+      one he used to suck the brain out of his enemy\u2019s skulls. "
+    output: 43000000
+    position: {x: 390, y: 1709}
+    userData: 
+    speaker: Moi
+  - id: 67
+    dialogueEntry: Ratchet
+    dialogue: "They also say it wasn\u2019t really an honorable fight, nor an honorable
+      death. It\u2019s what started the conflict, as I have understood.\n"
+    output: 46000000
+    position: {x: 404, y: 1730}
+    userData: 
+    speaker: Moi
+  - id: 68
+    dialogueEntry: Ratchet
+    dialogue: "I see\u2026\n[He\u2019s looks worried. He moves awkwardly on his chair,
+      repositionning himself, as if you were a kind of a\u2026 beast ?]\n"
+    output: 47000000
+    position: {x: 491, y: 1506}
+    userData: E:disgust R:-2
+    speaker: Ratchet
+  - id: 69
+    dialogueEntry: Ratchet
+    dialogue: "It seemed a bit absurd\u2026\n[Always his gentle smile. Humoring him
+      seems a bit hard.]\n"
+    output: 47000000
+    position: {x: 382, y: 1605}
+    userData: E:neutral
+    speaker: Ratchet
+  - id: 70
+    dialogueEntry: Ratchet
+    dialogue: "You are really surprising my friend. Even I couldn\u2019t quite comprehend
+      it. It is admirable that you are so committed to fully understanding the reasons
+      of this fight. It does you credit.\n[He looks at you with a bit of admiration,
+      getting closer and closer while you were telling the story.]\n"
+    output: 47000000
+    position: {x: 419, y: 1746}
+    userData: R:2
+    speaker: Ratchet
+  - id: 71
+    dialogueEntry: Ratchet
+    dialogue: '[The rain has stopped. You can see the sun slowly fading by the window
+      of the tavern. When he finally manages to draw himself out of looking at you,
+      he gasps]'
+    output: 48000000
+    position: {x: 647, y: 1610}
+    userData: 
+    speaker: Moi
+  - id: 72
+    dialogueEntry: Ratchet
+    dialogue: "Oh my, is it already this late ? I should really head home, I\u2019m
+      up for a hard day\u2019s work tomorrow."
+    output: 4b0000004c00000050000000
+    position: {x: 34, y: 1904}
+    userData: 
+    speaker: Ratchet
+  - id: 73
+    dialogueEntry: Ratchet
+    dialogue: '[Ratchet has left the village. Is it your fault ? Is it because you
+      rejected him ? You may never know. But sometimes your heart aches thinking about
+      this man you had respect and admiration for.]'
+    output: 56000000
+    position: {x: 625, y: 1898}
+    userData: '|R:<5'
+    speaker: Ratchet
+  - id: 75
+    dialogueEntry: Ratchet
+    dialogue: WALK HIM HOME
+    output: 4e000000
+    position: {x: 193, y: 1883}
+    userData: '|R:>4'
+    speaker: Moi
+  - id: 76
+    dialogueEntry: Ratchet
+    dialogue: "CAN\u2019T YOU STAY ?"
+    output: 4f000000
+    position: {x: 185, y: 1964}
+    userData: 
+    speaker: Moi
+  - id: 78
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019ll walk you home then !\n"
+    output: 52000000
+    position: {x: 342, y: 1851}
+    userData: 
+    speaker: Moi
+  - id: 79
+    dialogueEntry: Ratchet
+    dialogue: "Can\u2019t you stay a little bit longer ? I\u2019m having fun here."
+    output: 54000000
+    position: {x: 337, y: 1959}
+    userData: 
+    speaker: Moi
+  - id: 80
+    dialogueEntry: Ratchet
+    dialogue: LEAVE HIM BE
+    output: 51000000
+    position: {x: 183, y: 2046}
+    userData: 
+    speaker: Moi
+  - id: 81
+    dialogueEntry: Ratchet
+    dialogue: I was bored anyway.
+    output: 55000000
+    position: {x: 333, y: 2066}
+    userData: 
+    speaker: Moi
+  - id: 82
+    dialogueEntry: Ratchet
+    dialogue: "Hem, ok\u2026 \n[He blushes again. You both leave the tavern, chatting
+      yourselves to his home. But you don\u2019t stop at his door. When you finish
+      your conversation, the moon is already shining its tender rays down your faces.]"
+    output: 53000000
+    position: {x: 367, y: 1868}
+    userData: E:embarrassment R:2
+    speaker: Ratchet
+  - id: 83
+    dialogueEntry: Ratchet
+    dialogue: "[When you ask him if you could meet again, he looks at you for a moment.
+      Then, he says yes. You can\u2019t help but notice his voice his trembling a
+      little.]\n"
+    output: 4900000055010000
+    position: {x: 405, y: 1881}
+    userData: 
+    speaker: Ratchet
+  - id: 84
+    dialogueEntry: Ratchet
+    dialogue: "Sorry, but I really can\u2019t. Maybe we\u2019ll talk later.\n[He leaves
+      hastily. You remain seated, slowly finishing your beer]\n"
+    output: 4900000055010000
+    position: {x: 367, y: 1981}
+    userData: E:joy R:1
+    speaker: Ratchet
+  - id: 85
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019ll take my leave then. Goodbye, sir.\n"
+    output: 57000000
+    position: {x: 357, y: 2087}
+    userData: 
+    speaker: Ratchet
+  - id: 86
     dialogueEntry: Ratchet
     dialogue: 
     output: 
-    position: {x: 724, y: 121}
+    position: {x: 778, y: 1897}
+    userData: End:0
+    speaker: 
+  - id: 87
+    dialogueEntry: Ratchet
+    dialogue: "[He\u2019s taken aback by your reaction. He looks a bit saddened, but
+      shakes your hand and leave, while you enjoy your poor ale. Alone.]  \n"
+    output: 4900000055010000
+    position: {x: 394, y: 2107}
+    userData: E:sadness R:-2
+    speaker: Ratchet
+  - id: 201
+    dialogueEntry: Ratchet
+    dialogue: "Hi there [PP]. I\u2019m surprised you asked me to come in this very
+      same tavern today. Why couldn\u2019t we go somewhere else ?\n"
+    output: ca000000cb000000cc000000
+    position: {x: 60, y: 2298}
+    userData: 
+    speaker: Ratchet
+  - id: 202
+    dialogueEntry: Ratchet
+    dialogue: IT IS BRUTAL
+    output: cd000000
+    position: {x: 359, y: 2282}
+    userData: 
+    speaker: Moi
+  - id: 203
+    dialogueEntry: Ratchet
+    dialogue: I LIKE THE PLACE
+    output: ce000000
+    position: {x: 352, y: 2370}
+    userData: 
+    speaker: Moi
+  - id: 204
+    dialogueEntry: Ratchet
+    dialogue: SPECIAL
+    output: cf000000
+    position: {x: 356, y: 2452}
+    userData: 
+    speaker: Moi
+  - id: 205
+    dialogueEntry: Ratchet
+    dialogue: "Because I like their Demonic Breath. You can really feel the taste
+      of the Targrak\u2019s heart in it. Top quality. Plus I\u2019d better enjoy it
+      while it lasts. With the truce going on and on I don\u2019t know if they\u2019ll
+      be able to refill on enemy organs anytime soon.\n"
+    output: d0000000
+    position: {x: 504, y: 2273}
+    userData: 
+    speaker: Moi
+  - id: 206
+    dialogueEntry: Ratchet
+    dialogue: "I don\u2019t know, I just like the place. Yes, there\u2019s the rats,
+      and also Thorgal who\u2019s always trying to start another game of dice, but
+      it feels like home.\n"
+    output: d1000000
+    position: {x: 502, y: 2370}
+    userData: 
+    speaker: Moi
+  - id: 207
+    dialogueEntry: Ratchet
+    dialogue: "Man, our graphic designer is a wreck. He has bags under his eyes, his
+      skin is scary-pale and he seems to have completely dried-out. We don\u2019t
+      even know if he\u2019s still alive, he\u2019s not been moving for several hours.
+      Is that enough ?\n"
+    output: d2000000
+    position: {x: 505, y: 2469}
+    userData: 
+    speaker: Moi
+  - id: 208
+    dialogueEntry: Ratchet
+    dialogue: " \u2026\n[He looks repelled. But you don\u2019t mind. You\u2019ll drink
+      whatever you want, whenever it pleases you]"
+    output: d3000000
+    position: {x: 532, y: 2294}
+    userData: E:disgust
+    speaker: Ratchet
+  - id: 209
+    dialogueEntry: Ratchet
+    dialogue: " I can relate. Sometimes you just need a place filled with familiar,
+      friendly faces to sit back and relax a bit. Even if it\u2019s a dirty tavern."
+    output: d3000000
+    position: {x: 534, y: 2391}
+    userData: R:1
+    speaker: Ratchet
+  - id: 210
+    dialogueEntry: Ratchet
+    dialogue: " That\u2019s what you get for choosing a genre that is so demanding
+      on graphic ressources when you only have one artist. Now you\u2019ll have to
+      ditch his body somewhere. Bad team planning there.\n"
+    output: d3000000
+    position: {x: 532, y: 2489}
+    userData: 
+    speaker: Ratchet
+  - id: 211
+    dialogueEntry: Ratchet
+    dialogue: "[\u2026] Anyway, I wanted to ask you about something. How do you feel
+      about the truce altogether ? "
+    output: d4000000d7000000d8000000
+    position: {x: 87, y: 2664}
+    userData: 
+    speaker: Ratchet
+  - id: 212
+    dialogueEntry: Ratchet
+    dialogue: I HATE IT
+    output: d5000000
+    position: {x: 263, y: 2626}
+    userData: 
+    speaker: Moi
+  - id: 213
+    dialogueEntry: Ratchet
+    dialogue: "It is unworthy of us Targraks to stay in this settlement and do nothing
+      but playing dice and planting cabbages. If we can\u2019t find enemies to fight
+      here, we should be moving. Korm will laugh at us. My life has began with steel,
+      and it should end with it, not cowering in my bed like an old goat.\n"
+    output: d6000000
+    position: {x: 413, y: 2626}
+    userData: 
+    speaker: Moi
+  - id: 214
+    dialogueEntry: Ratchet
+    dialogue: '[While saying that you take a big gulp of beer, getting drops everywhere
+      on the table and on yourself. ]'
+    output: db000000
+    position: {x: 434, y: 2643}
+    userData: 
+    speaker: Moi
+  - id: 215
+    dialogueEntry: Ratchet
+    dialogue: "I HOPE IT WON\u2019T LAST"
+    output: d9000000
+    position: {x: 263, y: 2718}
+    userData: 
+    speaker: Moi
+  - id: 216
+    dialogueEntry: Ratchet
+    dialogue: "I GET TO DO DIFFERENT THINGS. IT\u2019S NICE"
+    output: da000000
+    position: {x: 258, y: 2809}
+    userData: 
+    speaker: Moi
+  - id: 217
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019m bored, but I don\u2019t feel like leaving either. I\u2019m
+      just hoping I will not have to put my axe to rest for too long. It could rust."
+    output: dd000000
+    position: {x: 404, y: 2735}
+    userData: 
+    speaker: Moi
+  - id: 218
+    dialogueEntry: Ratchet
+    dialogue: "Won\u2019t spit on some rest. Plus it\u2019s a way to learn more about
+      our traditions. The old ones were way more creative about their massacres. \n"
+    output: dc000000
+    position: {x: 401, y: 2845}
+    userData: 
+    speaker: Moi
+  - id: 219
+    dialogueEntry: Ratchet
+    dialogue: "I don\u2019t see the point in fighting just for the thrill of it. It
+      is neither honorable nor loyal to our clan.\n[He looks at you with a look a
+      pity, the look you give a child trying to act like an adult]\n"
+    output: e0000000
+    position: {x: 458, y: 2663}
+    userData: R:-1 E:disgust
+    speaker: Ratchet
+  - id: 220
+    dialogueEntry: Ratchet
+    dialogue: 'We should look up to them.
+
+      [You say that with an half smile, tapping your head with your index]'
+    output: df000000
+    position: {x: 428, y: 2858}
+    userData: 
+    speaker: Moi
+  - id: 221
+    dialogueEntry: Ratchet
+    dialogue: "I get it. It\u2019s hard to get used to sit on your butt and watch
+      the world turn around you. I enjoy it for now. Maybe you will be lucky and it
+      will be over.\n"
+    output: de000000
+    position: {x: 427, y: 2751}
+    userData: 
+    speaker: Ratchet
+  - id: 222
+    dialogueEntry: Ratchet
+    dialogue: "Maybe you won\u2019t, and your axe will indeed tarnish.\n[He bursts
+      out laughing]\nBut don\u2019t forget a bad barbarian always blames his blades."
+    output: e0000000
+    position: {x: 451, y: 2770}
+    userData: R:1
+    speaker: Ratchet
+  - id: 223
+    dialogueEntry: Ratchet
+    dialogue: "I think you\u2019re right."
+    output: e0000000
+    position: {x: 453, y: 2881}
+    userData: R:2 E:joy
+    speaker: Ratchet
+  - id: 224
+    dialogueEntry: Ratchet
+    dialogue: "As for me, the truce is useful. It allows me to rest from the mercenary
+      life, and to turn to our culture. I\u2019ve been listening to the skalds lately.
+      I\u2019ve been annoying you with that since we met again, but you know of dusty
+      I am\u2026"
+    output: e1000000
+    position: {x: 661, y: 2767}
+    userData: 
+    speaker: Ratchet
+  - id: 225
+    dialogueEntry: Ratchet
+    dialogue: "Remember our teacher, Ulf ? Well, teacher is maybe a tad important
+      for him, he was more a living beating-stick. He always called me a bookworm.
+      I know it wasn\u2019t that much of an insult for him. Well. Maybe a bit."
+    output: e2000000
+    position: {x: 681, y: 2777}
+    userData: 
+    speaker: Ratchet
+  - id: 226
+    dialogueEntry: Ratchet
+    dialogue: "But still, I\u2019ve loved the sagas, so, I have a question for you,
+      I must warn, you have the right to stay silent!\n[He grins]\nGiven the news
+      about the truce lately, what is you favorite part of the Thorulfson Saga??\n"
+    output: e3000000e4000000e5000000
+    position: {x: 77, y: 3015}
+    userData: 
+    speaker: Ratchet
+  - id: 227
+    dialogueEntry: Ratchet
+    dialogue: A story about violence
+    output: e6000000
+    position: {x: 226, y: 3015}
+    userData: 
+    speaker: Moi
+  - id: 228
+    dialogueEntry: Ratchet
+    dialogue: A story about power
+    output: e7000000
+    position: {x: 228, y: 3129}
+    userData: 
+    speaker: Moi
+  - id: 229
+    dialogueEntry: Ratchet
+    dialogue: A story about loyalty
+    output: e9000000
+    position: {x: 227, y: 3274}
+    userData: 
+    speaker: Moi
+  - id: 230
+    dialogueEntry: Ratchet
+    dialogue: The story of Ragnar the Irascible, who strangled a clan leader for no
+      reason with his bare thighs when he was just a baby. They say he was blocking
+      his sight with his balls. Using all of the body is a great way of fighting.
+    output: ea000000
+    position: {x: 376, y: 3015}
+    userData: 
+    speaker: Moi
+  - id: 231
+    dialogueEntry: Ratchet
+    dialogue: "The story of Gar Thunder-Voice, who stumbled upon an enemy camp near
+      the Shiny Mountains. They were going to attack the clan. Gar\u2019s mighty roar
+      is said to have caused an avalanche so powerful that it engulfed all the raiders. "
+    output: e8000000
+    position: {x: 378, y: 3129}
+    userData: 
+    speaker: Moi
+  - id: 232
+    dialogueEntry: Ratchet
+    dialogue: "It is an admirable display of power, and even if this secret art of
+      the Dragon\u2019s Word has now been forgotten, I don\u2019t lose hope that it
+      will be once again found.\n"
+    output: eb000000
+    position: {x: 403, y: 3149}
+    userData: 
+    speaker: Moi
+  - id: 233
+    dialogueEntry: Ratchet
+    dialogue: 'The story of Anvor Skull Squasher, who, even after losing both his
+      arms in battle and being rejected by his clan for being of no use, proved his
+      worth by crushing the skulls of raiders using only his own forehead. This is
+      a strong story about courage and excelling oneself for loyalty.
+
+'
+    output: ec000000
+    position: {x: 377, y: 3274}
+    userData: 
+    speaker: Moi
+  - id: 234
+    dialogueEntry: Ratchet
+    dialogue: "I see why you would like that\u2026 A display of this kind of violence
+      fits you just right."
+    output: ef00000057010000
+    position: {x: 406, y: 3039}
+    userData: R:-1 E:disgust
+    speaker: Ratchet
+  - id: 235
+    dialogueEntry: Ratchet
+    dialogue: "You should not. I see why you value power and mental strength, but
+      the secret art of the Dragon\u2019s Word was forgotten for good reasons. At
+      the time, you could not walk for a minute without seeing barbarians, livestock,
+      even cabbages being thrown around in the air in villages, to the Speaker\u2019s
+      will. Many turf wars were started that way."
+    output: ef00000057010000
+    position: {x: 434, y: 3169}
+    userData: 
+    speaker: Ratchet
+  - id: 236
+    dialogueEntry: Ratchet
+    dialogue: "Loyalty and courage are two ideals I stand for. But the path to them
+      is crooked, and it\u2019s easy for one to be scratched by its thorns\u2026 I,
+      myself\u2026 No. I will not speak of this. "
+    output: ed000000
+    position: {x: 407, y: 3295}
+    userData: 
+    speaker: Ratchet
+  - id: 237
+    dialogueEntry: Ratchet
+    dialogue: 'Sorry my friend, but I feel the urge to withdraw to my hut. The day
+      has been long, and the night will be short. '
+    output: ee000000
+    position: {x: 434, y: 3312}
+    userData: 
+    speaker: Ratchet
+  - id: 238
+    dialogueEntry: Ratchet
+    dialogue: "[He starts to get up, tense and nervous, his finger gripping the back
+      of the chair, he\u2019s already half at the door when you hail him]"
+    output: ef00000057010000
+    position: {x: 460, y: 3332}
+    userData: R:2 E:embarrassment
+    speaker: Ratchet
+  - id: 239
+    dialogueEntry: Ratchet
+    dialogue: 'Will you join me for a drink tomorrow ?
+
+'
+    output: f0000000
+    position: {x: 676, y: 3165}
+    userData: '|R:>8'
+    speaker: Ratchet
+  - id: 240
+    dialogueEntry: Ratchet
+    dialogue: "[You gladly accept, but you can see Ratchet is nervous. Before you
+      can do anything to make him at ease, he has left the tavern. The door slams
+      behind him. You have a bad feeling about this\u2026 You hope nothing will ruin
+      the pleasure you get out of seeing him right now.]\n"
+    output: f1000000
+    position: {x: 826, y: 3165}
+    userData: 
+    speaker: Moi
+  - id: 241
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 2c010000
+    position: {x: 976, y: 3165}
+    userData: F
+    speaker: 
+  - id: 300
+    dialogueEntry: Ratchet
+    dialogue: '[When you meet at the Axe and Roses the next day, Ratchet is in a pretty
+      bad mood. He seems nervous, big drops of sweat drip off his forehead. You would
+      try to ask him what is up with him, but he stops you in a gesture when you open
+      your mouth to talk. He clears his throat and says]'
+    output: 2d010000
+    position: {x: 78, y: 3493}
+    userData: 
+    speaker: Moi
+  - id: 301
+    dialogueEntry: Ratchet
+    dialogue: "[PP]\u2026 Listen, I must tell you something. I have never been in
+      a very stable relationship. I've had a fling or two, but have so far shied away
+      from any ties or commitments. And there\u2019s a reason to that\u2026\n[He is
+      twisting is finger while telling you that, surprising as it is this 6\u2019
+      7\u201D giant reminds you of the little kid you knew younger, at the moment.]"
+    output: 2e0100002f01000030010000
+    position: {x: 227, y: 3494}
+    userData: 
+    speaker: Ratchet
+  - id: 302
+    dialogueEntry: Ratchet
+    dialogue: What is it ?
+    output: 31010000
+    position: {x: 378, y: 3493}
+    userData: 
+    speaker: Moi
+  - id: 303
+    dialogueEntry: Ratchet
+    dialogue: '[Say nothing]'
+    output: 32010000
+    position: {x: 372, y: 3629}
+    userData: 
+    speaker: Moi
+  - id: 304
+    dialogueEntry: Ratchet
+    dialogue: '[Look away]'
+    output: 33010000
+    position: {x: 370, y: 3769}
+    userData: 
+    speaker: Moi
+  - id: 305
+    dialogueEntry: Ratchet
+    dialogue: "[He notices your interest and ease up a bit, while still looking quite
+      tense. Now he\u2019s playing with the edge of his beer, he should be careful.
+      Your Demonic Breath will soon be on the floor\u2026]\n"
+    output: 34010000
+    position: {x: 399, y: 3511}
+    userData: R:2
+    speaker: Ratchet
+  - id: 306
+    dialogueEntry: Ratchet
+    dialogue: "[Glancing at you like he was waiting for a reaction, your absence of
+      expression seems to be even more unnerving to him] \n"
+    output: 34010000
+    position: {x: 396, y: 3647}
+    userData: 
+    speaker: Ratchet
+  - id: 307
+    dialogueEntry: Ratchet
+    dialogue: '[You look the other way, uninterested. He notices you disinterest,
+      his mouth grimacing for a second, looking quite angry. He regains his composure
+      before going on.]
+
+'
+    output: 34010000
+    position: {x: 402, y: 3786}
+    userData: R:-1
+    speaker: Ratchet
+  - id: 308
+    dialogueEntry: Ratchet
+    dialogue: "You see, [PP], there are a few things I value that help me set a guiding
+      line to my life. These things are courage and loyalty. I won\u2019t let my feelings
+      get in the way of my fights, nor turn me into a coward. I will not let myself
+      be overwhelmed by the fear of losing my significant other, or dying to leave
+      them alone. \n"
+    output: 35010000
+    position: {x: 687, y: 3647}
+    userData: 
+    speaker: Ratchet
+  - id: 309
+    dialogueEntry: Ratchet
+    dialogue: "I could even\u2026 I could even get scared. Can you imagine that ?"
+    output: 360100003701000038010000
+    position: {x: 75, y: 3975}
+    userData: 
+    speaker: Ratchet
+  - id: 310
+    dialogueEntry: Ratchet
+    dialogue: COMFORT HIM
+    output: 39010000
+    position: {x: 225, y: 3975}
+    userData: 
+    speaker: Moi
+  - id: 311
+    dialogueEntry: Ratchet
+    dialogue: SAY NOTHING
+    output: 3a010000
+    position: {x: 227, y: 4107}
+    userData: 
+    speaker: Moi
+  - id: 312
+    dialogueEntry: Ratchet
+    dialogue: BOOOORED
+    output: 3b010000
+    position: {x: 223, y: 4258}
+    userData: 
+    speaker: Moi
+  - id: 313
+    dialogueEntry: Ratchet
+    dialogue: "You don\u2019t have to be scared.\n[His usual, gentle smile appears
+      for a second on his face evaporating his mask of worries, his eyes brightening]\n"
+    output: 3c010000
+    position: {x: 375, y: 3975}
+    userData: 
+    speaker: Moi
+  - id: 314
+    dialogueEntry: Ratchet
+    dialogue: "[You could help this man out of his misery\u2026]\n"
+    output: 46010000
+    position: {x: 376, y: 4107}
+    userData: 
+    speaker: Moi
+  - id: 315
+    dialogueEntry: Ratchet
+    dialogue: "[You meticulously examine the cutting edge of your axe in boredom.
+      You regret not having brought your sharpener. Given the weather it could have
+      rusted, you should be more careful about that. Maybe you should take it to the
+      clan\u2019s smith... At least you would have used your time in a productive
+      way.]"
+    output: 46010000
+    position: {x: 373, y: 4258}
+    userData: R:-2
+    speaker: Moi
+  - id: 316
+    dialogueEntry: Ratchet
+    dialogue: "W\u2026 What ? Why do you say that ?"
+    output: 3d010000
+    position: {x: 400, y: 3991}
+    userData: 
+    speaker: Ratchet
+  - id: 317
+    dialogueEntry: Ratchet
+    dialogue: '[He seems to be surprised in a way, was he not hoping for this reaction
+      from you? Expectation burns his body. It reminds you of your first battle, that
+      fire burning your insides to ashes... Your only desire is to exhale in a shouting.
+      For him this exhalation seems to express itself as a relieved breath]
+
+'
+    output: 3e0100003f010000
+    position: {x: 427, y: 4015}
+    userData: 
+    speaker: Ratchet
+  - id: 318
+    dialogueEntry: Ratchet
+    dialogue: LOVE CAN BE A STRENGTH
+    output: 43010000
+    position: {x: 583, y: 3983}
+    userData: 
+    speaker: Moi
+  - id: 319
+    dialogueEntry: Ratchet
+    dialogue: YOU CAN BE LOYAL TO YOUR LOVE
+    output: 44010000
+    position: {x: 583, y: 4078}
+    userData: 
+    speaker: Moi
+  - id: 320
+    dialogueEntry: Ratchet
+    dialogue: "[Ratchet blushes. He looks at you intensely. His eyes are burning with
+      a strange flame, a flame you\u2019ve never seen before. He tries to regain his
+      composure and then stutters, the words bumping on the way of his ideas]"
+    output: 41010000
+    position: {x: 736, y: 3979}
+    userData: 
+    speaker: Ratchet
+  - id: 321
+    dialogueEntry: Ratchet
+    dialogue: "You\u2026 M\u2026 Maybe you\u2019re right. I never thought of it this
+      way\u2026\n"
+    output: 46010000
+    position: {x: 759, y: 4000}
+    userData: 
+    speaker: Ratchet
+  - id: 322
+    dialogueEntry: Ratchet
+    dialogue: '[Ratchet seems outraged, boiling as if what you said was a personal
+      offense, and maybe it was, to his honor.]'
+    output: 45010000
+    position: {x: 757, y: 4096}
+    userData: R:-1
+    speaker: Ratchet
+  - id: 323
+    dialogueEntry: Ratchet
+    dialogue: "Love can be a strength. It can make you burst like a flame and burn
+      everything that stands in your way. It can give you the utmost courage you need
+      to defeat a hundred enemies. Love doesn\u2019t have to be a weakness."
+    output: 40010000
+    position: {x: 717, y: 3958}
+    userData: 
+    speaker: Moi
+  - id: 324
+    dialogueEntry: Ratchet
+    dialogue: 'You can be loyal to your love. It can become what makes you live.
+
+'
+    output: 42010000
+    position: {x: 733, y: 4078}
+    userData: 
+    speaker: Moi
+  - id: 325
+    dialogueEntry: Ratchet
+    dialogue: "I\u2026 That\u2019s precisely what I fear. I will not serve my personal
+      interest in battle. It\u2019s cowardice. I will not stoop so low."
+    output: 46010000
+    position: {x: 795, y: 4120}
+    userData: 
+    speaker: Ratchet
+  - id: 326
+    dialogueEntry: Ratchet
+    dialogue: "Anyway, I think I should tell you something\u2026 I remember when we
+      were young, how we were spending all of our time together, running around.\n[He
+      seems lost in his memory while telling you]"
+    output: 47010000
+    position: {x: 962, y: 4226}
+    userData: 
+    speaker: Ratchet
+  - id: 327
+    dialogueEntry: Ratchet
+    dialogue: I remember I was happy to have found you, after all these years of starvation
+      and cold. When I saw you in the enemy ranks for the first time, I was anxious.
+      How could I stand against you.
+    output: 48010000
+    position: {x: 62, y: 4467}
+    userData: 
+    speaker: Ratchet
+  - id: 328
+    dialogueEntry: Ratchet
+    dialogue: And as time passed, as blood was shed, as we hurt each other in battle,
+      never winning nor losing because of our equal skills, I feared we would lose
+      this special thing we had. When you asked me to meet up with you, part of me
+      was wondering how it would turn up. I can see now that.
+    output: 490100004a010000
+    position: {x: 96, y: 4489}
+    userData: 
+    speaker: Ratchet
+  - id: 329
+    dialogueEntry: Ratchet
+    dialogue: 'You are a good man. I can sometimes see the kid I used to impale puppies
+      on a spike with beneath the manly features of your face. I see courage, loyalty,
+      intelligence in you. I want to fight knowing I have someone to look up to, at
+      your side or against you.
+
+'
+    output: 50010000
+    position: {x: 234, y: 4590}
+    userData: '|R:>8'
+    speaker: Ratchet
+  - id: 330
+    dialogueEntry: Ratchet
+    dialogue: "You have changed. You are crueler, you have lost your sense in battle.
+      I wonder where the kid I used to play lute with has gone ? \n[The recollection
+      looks painful now, his eyes looking behind you, maybe with the hope of finding
+      your old self again.]"
+    output: 4b010000
+    position: {x: 387, y: 4490}
+    userData: '|R:<9'
+    speaker: Ratchet
+  - id: 331
+    dialogueEntry: Ratchet
+    dialogue: 'The one who could kill as well as feel the beauty in the smaller things,
+      a trail of entrails, a butterfly, the polished skull of an enemy ?
+
+      [While gazing in the unknown his hand on his chin as if he was assessing his
+      memories. Trying to recompose a mental image of what he thought, of you.]'
+    output: 4c010000
+    position: {x: 537, y: 4489}
+    userData: 
+    speaker: Ratchet
+  - id: 332
+    dialogueEntry: Ratchet
+    dialogue: "I\u2019m sorry, [PP]. I think my feelings may have got lost on the
+      way\u2026\n"
+    output: 4d010000
+    position: {x: 687, y: 4489}
+    userData: 
+    speaker: Ratchet
+  - id: 333
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 
+    position: {x: 837, y: 4432}
+    userData: End:0
+    speaker: 
+  - id: 336
+    dialogueEntry: Ratchet
+    dialogue: "I\u2026 I think I\u2019m in love with you.\n"
+    output: 51010000
+    position: {x: 384, y: 4590}
+    userData: 
+    speaker: Ratchet
+  - id: 337
+    dialogueEntry: Ratchet
+    dialogue: "[You look at Ratchet\u2019s face. You know this scar so well you could
+      draw it with eyes closed. You\u2019ve learned to know this man for many years.
+      You\u2019ve come to admire his strength, his wisdom, his loyalty. You know his
+      value.]"
+    output: 52010000
+    position: {x: 534, y: 4590}
+    userData: 
+    speaker: Moi
+  - id: 338
+    dialogueEntry: Ratchet
+    dialogue: "[You realise for all these years, the only wish you had was to come
+      back from the fight knowing you\u2019d meet him in this lousy pub for a beer.
+      You had the need to talk for hours with this man, to see his bright smile, to
+      hear his familiar laughter. You still feel this burning need.]"
+    output: 53010000
+    position: {x: 684, y: 4590}
+    userData: 
+    speaker: Moi
+  - id: 339
+    dialogueEntry: Ratchet
+    dialogue: "[For all these years, you\u2019ve been loving this man. Now it\u2019s
+      time to accept this fact. You lean on to kiss Ratchet. He kisses you back. You
+      straighten up, embarrassed. He looks at you intensely. After a few minutes of
+      losing yourselves in each other\u2019s eyes, you both smile. Happy.]\n"
+    output: 54010000
+    position: {x: 834, y: 4590}
+    userData: 
+    speaker: Moi
+  - id: 340
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 
+    position: {x: 984, y: 4590}
+    userData: End:1
+    speaker: 
+  - id: 341
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 56010000
+    position: {x: 630, y: 2050}
+    userData: '|R:>5'
+    speaker: Ratchet
+  - id: 342
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: c9000000
+    position: {x: 807, y: 2073}
+    userData: F
+    speaker: 
+  - id: 343
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 58010000
+    position: {x: 700, y: 3036}
+    userData: '|R:<9'
+    speaker: 
+  - id: 344
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 
+    position: {x: 850, y: 3036}
     userData: End:0
     speaker: 
   - id: 2
@@ -1001,7 +2166,7 @@ MonoBehaviour:
   - id: 114
     dialogueEntry: Agna
     dialogue: "I am doing my best to help the clan. But I am praying to Korm everyday
-      that he\u2019ll put that time of peace to an end.\r\n"
+      that he\u2019ll put that time of peace to an end.\n"
     output: 44000000
     position: {x: 918, y: 695}
     userData: 
@@ -1031,21 +2196,27 @@ MonoBehaviour:
     speaker: Darock
   - id: 5
     dialogueEntry: Darock
-    dialogue: "By the hammer of Korm, what am I doing here?\r"
+    dialogue: 'By the hammer of Korm, what am I doing here?
+
+'
     output: 08000000
     position: {x: 310, y: 10}
     userData: 
     speaker: Moi
   - id: 6
     dialogueEntry: Darock
-    dialogue: "Hey!\r"
+    dialogue: 'Hey!
+
+'
     output: 08000000
     position: {x: 303, y: 121}
     userData: 
     speaker: Moi
   - id: 7
     dialogueEntry: Darock
-    dialogue: "What are you supposed to be?\r"
+    dialogue: 'What are you supposed to be?
+
+'
     output: 08000000
     position: {x: 303, y: 205}
     userData: 
@@ -1080,7 +2251,9 @@ MonoBehaviour:
     speaker: Moi
   - id: 12
     dialogueEntry: Darock
-    dialogue: "Calm Down Kiddo.\r\n"
+    dialogue: 'Calm Down Kiddo.
+
+'
     output: 100000001100000012000000
     position: {x: 784, y: -3}
     userData: 
@@ -1101,7 +2274,9 @@ MonoBehaviour:
     speaker: Moi
   - id: 15
     dialogueEntry: Darock
-    dialogue: "What is wrong with you?\r"
+    dialogue: 'What is wrong with you?
+
+'
     output: 100000001100000012000000
     position: {x: 912, y: 179}
     userData: 
@@ -1129,21 +2304,27 @@ MonoBehaviour:
     speaker: Moi
   - id: 19
     dialogueEntry: Darock
-    dialogue: "Witchcraft ! [Smash the rock with your mighty axe]\r"
+    dialogue: 'Witchcraft ! [Smash the rock with your mighty axe]
+
+'
     output: 16000000
     position: {x: 1195, y: -17}
     userData: 
     speaker: Moi
   - id: 20
     dialogueEntry: Darock
-    dialogue: "So you speak.\r"
+    dialogue: 'So you speak.
+
+'
     output: 17000000
     position: {x: 1205, y: 77}
     userData: 
     speaker: Moi
   - id: 21
     dialogueEntry: Darock
-    dialogue: "Do you know who you are talking to?\r"
+    dialogue: 'Do you know who you are talking to?
+
+'
     output: 18000000
     position: {x: 1203, y: 188}
     userData: 
@@ -1288,7 +2469,9 @@ MonoBehaviour:
     speaker: Moi
   - id: 42
     dialogueEntry: Darock
-    dialogue: "I felt like taking a leek.\r"
+    dialogue: 'I felt like taking a leek.
+
+'
     output: 2c000000
     position: {x: 1115, y: 458}
     userData: 
@@ -1297,7 +2480,7 @@ MonoBehaviour:
     dialogueEntry: Darock
     dialogue: "Oh, I did that a long time ago. I had forgotten about it until today.
       \nI was particularly depressed that day. I desperately wanted to talk to someone.
-      \nAt all costs. But nobody came.\r\n"
+      \nAt all costs. But nobody came.\n"
     output: 2d0000002e0000002f000000
     position: {x: 241, y: 601}
     userData: 
@@ -1389,7 +2572,7 @@ MonoBehaviour:
   - id: 55
     dialogueEntry: Darock
     dialogue: "Darock : This face has been painted. By children, a few years ago.
-      Beer is just for the look, I\u2019m a barbarian rock, remember. \r\n"
+      Beer is just for the look, I\u2019m a barbarian rock, remember. \n"
     output: 38000000
     position: {x: 963, y: 596}
     userData: 
@@ -1426,7 +2609,7 @@ MonoBehaviour:
     dialogueEntry: Darock
     dialogue: "Apparently you\u2019re a touristic attraction. You were supposed to
       be a prophet or something like that. I wonder where they got all that. You\u2019re
-      just a rock after all. \r"
+      just a rock after all. \n"
     output: 3f000000
     position: {x: 521, y: 862}
     userData: 
@@ -1543,7 +2726,9 @@ MonoBehaviour:
     speaker: Moi
   - id: 105
     dialogueEntry: Darock
-    dialogue: "Must have dragged your mine cart down.\r"
+    dialogue: 'Must have dragged your mine cart down.
+
+'
     output: 6c000000
     position: {x: 524, y: 1230}
     userData: 
@@ -1611,7 +2796,7 @@ MonoBehaviour:
     speaker: Moi
   - id: 114
     dialogueEntry: Darock
-    dialogue: "Well, I don\u2019t really know. Dating is not really my strong suit.\r"
+    dialogue: "Well, I don\u2019t really know. Dating is not really my strong suit.\n"
     output: 75000000
     position: {x: 1097, y: 1146}
     userData: 

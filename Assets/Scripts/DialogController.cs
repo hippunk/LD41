@@ -90,10 +90,16 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
     public List<Dialogue.Choice> GetAviableChoices() {
         List<Dialogue.Choice> selectableChoices = new List<Dialogue.Choice>();
-        Debug.Log(dialogue);
+        //Debug.Log(dialogue);
         foreach (Dialogue.Choice choice in dialogue.GetChoices()) {
+            Debug.Log(choice.dialogue);
             if (this.isChoiceSelectable(choice)) {
+                Debug.Log("Is Selecable");
                 selectableChoices.Add(choice);
+            }
+            else
+            {
+                Debug.Log("Is Not Selecable");
             }
         }
 

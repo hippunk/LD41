@@ -1074,7 +1074,7 @@ MonoBehaviour:
   - id: 11
     dialogueEntry: Darock
     dialogue: "[\u2026] [You start an eye duel] "
-    output: 
+    output: 0d000000
     position: {x: 518, y: 173}
     userData: 
     speaker: Moi

@@ -18,7 +18,7 @@ MonoBehaviour:
     - Moi
     - Darock
   - id: Agna
-    maxLineId: 53
+    maxLineId: 54
     speakers:
     - Moi
     - Agna
@@ -1181,7 +1181,7 @@ MonoBehaviour:
 '
     output: 50010000
     position: {x: 234, y: 4590}
-    userData: '|R:>8'
+    userData: '|R:>10'
     speaker: Ratchet
   - id: 330
     dialogueEntry: Ratchet
@@ -1191,7 +1191,7 @@ MonoBehaviour:
       your old self again.]"
     output: 4b010000
     position: {x: 387, y: 4490}
-    userData: '|R:<9'
+    userData: '|R:<11'
     speaker: Ratchet
   - id: 331
     dialogueEntry: Ratchet
@@ -1431,7 +1431,7 @@ MonoBehaviour:
     dialogueEntry: Agna
     dialogue: "Yes, actually, I have. I was a mercenary for 10 years, so I\u2019ve
       fought and won many battles. \nI once drove 5 men to cowardly take their own
-      life by just looking threateningly at them during the battle of [\u2026].\n"
+      life by just looking threateningly at them during the battle of Wolfman's Bridge.\n"
     output: 1b000000
     position: {x: 353, y: 287}
     userData: 
@@ -1682,14 +1682,14 @@ MonoBehaviour:
       right now as an another step in this cycle. \nI don\u2019t want to keep doing
       what I\u2019m doing till I die. \nKorm will laugh at my face when facing him
       in the halls of Vallhala. "
-    output: 35000000
+    output: 
     position: {x: 1174, y: 493}
     userData: 
     speaker: Moi
   - id: 53
     dialogueEntry: Agna
     dialogue: "[She frowns but wait for you to continue (provisoire)] \nI am a thane
-      of [TRIBE NAME] for Trarg\u2019s sake ! \n[You slam your fist against the table,
+      of Targrak for Trarg\u2019s sake ! \n[You slam your fist against the table,
       prompting reactions from the nearby patrons cowering on their chair] "
     output: 37000000
     position: {x: 1315, y: 504}
@@ -1715,7 +1715,7 @@ MonoBehaviour:
     dialogueEntry: Agna
     dialogue: The holy hammer
     output: 3b000000
-    position: {x: 326, y: 715}
+    position: {x: 327, y: 715}
     userData: 
     speaker: Moi
   - id: 57
@@ -1882,7 +1882,7 @@ MonoBehaviour:
     output: 4d000000
     position: {x: 544, y: 967}
     userData: 
-    speaker: Moi
+    speaker: Agna
   - id: 77
     dialogueEntry: Agna
     dialogue: "[She notices your surprise. You obviously don\u2019t understand why
@@ -1968,9 +1968,9 @@ MonoBehaviour:
     dialogue: "Judgement, rumors, sneaky vipers, I lived with it, with them all my
       life. And then, I picked up the sword. And they stopped laughing. \nOr I made
       them stop. From the poor little freak, I became the big scary one. I became
-      the mountain of [CLAN NAME] but I never forgot my little sisters, \nI carried
-      some of them with me here. I protected them when they were slaughtering us,
-      my back is still carrying the scars of my fight. \n\n"
+      the mountain of Targarg but I never forgot my little sisters, \nI carried some
+      of them with me here. I protected them when they were slaughtering us, my back
+      is still carrying the scars of my fight. \n\n"
     output: 57000000
     position: {x: 399, y: 1119}
     userData: 
@@ -2042,8 +2042,8 @@ MonoBehaviour:
       her mug on the table, she\u2019s regained her composure. \nShe looks at you
       intensely. In her eyes you can see something new. Something like gratitude.]
       \nYes, [PP]. Yes, I would appreciate that. Let\u2019s go."
-    output: 60000000
-    position: {x: 1120, y: 1141}
+    output: e8030000
+    position: {x: 1091, y: 1138}
     userData: 
     speaker: Agna
   - id: 94
@@ -2071,7 +2071,7 @@ MonoBehaviour:
     dialogueEntry: Agna
     dialogue: 
     output: 61000000
-    position: {x: 1270, y: 1141}
+    position: {x: 1429, y: 1220}
     userData: F
     speaker: 
   - id: 97
@@ -2094,7 +2094,7 @@ MonoBehaviour:
       from a handful of foes it became the tale of you and her facing armies, slaying
       monstrous beasts.'
     output: 63000000
-    position: {x: 405, y: 1321}
+    position: {x: 406, y: 1322}
     userData: 
     speaker: Moi
   - id: 99
@@ -2184,7 +2184,7 @@ MonoBehaviour:
     dialogue: "I do what I have to do. At least I don\u2019t have the hobbies of a
       candy-coated housewife !"
     output: 46000000
-    position: {x: 908, y: 878}
+    position: {x: 908, y: 877}
     userData: 
     speaker: Moi
   - id: 4
@@ -2571,15 +2571,15 @@ MonoBehaviour:
     speaker: Moi
   - id: 55
     dialogueEntry: Darock
-    dialogue: "Darock : This face has been painted. By children, a few years ago.
-      Beer is just for the look, I\u2019m a barbarian rock, remember. \n"
+    dialogue: "This face has been painted. By children, a few years ago. Beer is just
+      for the look, I\u2019m a barbarian rock, remember. \n"
     output: 38000000
     position: {x: 963, y: 596}
     userData: 
     speaker: Darock
   - id: 56
     dialogueEntry: Darock
-    dialogue: But tell me, why have I done to make you interested ?
+    dialogue: But tell me, what have I done to raise your interest ?
     output: 390000003a0000003b000000
     position: {x: 227, y: 875}
     userData: 
@@ -2711,7 +2711,7 @@ MonoBehaviour:
     speaker: Moi
   - id: 103
     dialogueEntry: Darock
-    dialogue: Be empathic
+    dialogue: Be empathetic
     output: 68000000
     position: {x: 372, y: 1312}
     userData: 
@@ -2896,9 +2896,9 @@ MonoBehaviour:
     speaker: Moi
   - id: 127
     dialogueEntry: Darock
-    dialogue: "I wanted to find love, but to make friends too. You know, always be
-      hitting on everyone, it doesn\u2019t help making besties\u2026 \nBut I think
-      you know more than anybody else that massacres don\u2019t help building trust."
+    dialogue: "I wanted to find love, but to make friends too. You know, always hitting
+      on everyone doesn\u2019t help making besties\u2026 \nBut I think you know more
+      than anybody else that massacres don\u2019t help building trust."
     output: 99000000
     position: {x: 660, y: 1573}
     userData: 
@@ -3120,3 +3120,22 @@ MonoBehaviour:
     position: {x: 1415, y: 458}
     userData: End:0
     speaker: 
+  - id: 1000
+    dialogueEntry: Agna
+    dialogue: "You walk out of the bar together. In no time, you\u2019ve found the
+      two boys who\u2019ve stolen the needles. Agna is able to retrieve them.\nAs
+      you\u2019re leaving, you go back and punish them for their irreverence. \nYou
+      come back to her with the miserable disemboweled corpses. "
+    output: e9030000
+    position: {x: 1221, y: 1127}
+    userData: 
+    speaker: Moi
+  - id: 1001
+    dialogueEntry: Agna
+    dialogue: "She invites you home, and the two of you spend the night chatting and
+      carving bones. \nAs she doesn\u2019t need new needles, you make hair pins for
+      her. \nWhen you\u2019re finished, you decide to meet the next day."
+    output: 60000000
+    position: {x: 1340, y: 1120}
+    userData: 
+    speaker: Moi

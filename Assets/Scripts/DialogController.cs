@@ -52,7 +52,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         List<Dialogue.Choice> aviableChoices = GetAviableChoices();
 
         if (aviableChoices.Count == 1) {
-            Dialogue.Choice choice = dialogue.GetChoices()[0];
+            Dialogue.Choice choice = aviableChoices.First();
 
             clickFeedback.GetComponentInChildren<Text>().text = "Next...";
             SetContent(choice.dialogue);
@@ -92,14 +92,14 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         List<Dialogue.Choice> selectableChoices = new List<Dialogue.Choice>();
         //Debug.Log(dialogue);
         foreach (Dialogue.Choice choice in dialogue.GetChoices()) {
-            Debug.Log(choice.dialogue);
+            //Debug.Log(choice.dialogue);
             if (this.isChoiceSelectable(choice)) {
-                Debug.Log("Is Selecable");
+                //Debug.Log("Is Selecable");
                 selectableChoices.Add(choice);
             }
             else
             {
-                Debug.Log("Is Not Selecable");
+                //Debug.Log("Is Not Selecable");
             }
         }
 
@@ -137,6 +137,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
                     var trimData = constraint.TrimStart('R', ':');
                     if (trimData.StartsWith(">")) {
                         var processedTrimData = trimData.Trim('>');
+                        //Debug.Log(">" + processedTrimData + " "+ GameLogicManager.currentCharacter.relation);
                         if (!Int32.TryParse(processedTrimData, out relationConstraint)) {
                             Debug.Log("DIALOG CONTROLLER :: Error in relation constraint value (" + GameLogicManager.currentCharacter.characterName + ")");
                         }
@@ -145,7 +146,9 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
                         }
                     }
                     else {
+                        
                         var processedTrimData = trimData.Trim('<');
+                        //Debug.Log("< "+ processedTrimData+" "+GameLogicManager.currentCharacter.relation);
                         if (!Int32.TryParse(processedTrimData, out relationConstraint)) {
                             Debug.Log("DIALOG CONTROLLER :: Error in relation constraint value (" + GameLogicManager.currentCharacter.characterName + ")");
                         }

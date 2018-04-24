@@ -495,7 +495,7 @@ public class DialogueEditor : EditorWindow
 			DialogueFile.DialogueLine line = new DialogueFile.DialogueLine();
 			line.dialogue = "";
 			line.dialogueEntry = selectedEntry.id;
-            //selectedEntry.maxLineId = 400;
+            //selectedEntry.maxLineId = 1000;
             line.id = selectedEntry.maxLineId++;
             Debug.Log("lineId" + selectedEntry.id);
             Debug.Log("lineId"+line.id);

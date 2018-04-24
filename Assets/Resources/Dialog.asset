@@ -13,12 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   entries:
   - id: Darock
-    maxLineId: 3
+    maxLineId: 13
     speakers:
     - Moi
     - Darock
   - id: Agna
-    maxLineId: 2
+    maxLineId: 53
     speakers:
     - Moi
     - Agna
@@ -31,42 +31,17 @@ MonoBehaviour:
   - id: 0
     dialogueEntry: Darock
     dialogue: 
-    output: 01000000
+    output: 04000000
     position: {x: 10, y: 10}
     userData: 
     speaker: 
-  - id: 1
-    dialogueEntry: Darock
-    dialogue: 'easy peasy
-
-'
-    output: 02000000
-    position: {x: 209, y: 16}
-    userData: 
-    speaker: Darock
-  - id: 2
-    dialogueEntry: Darock
-    dialogue: 'plop
-
-'
-    output: 
-    position: {x: 430, y: 16}
-    userData: R:-20 E:sadness
-    speaker: Moi
   - id: 0
     dialogueEntry: Agna
     dialogue: 
-    output: 01000000
+    output: 02000000
     position: {x: 10, y: 10}
     userData: 
     speaker: 
-  - id: 1
-    dialogueEntry: Agna
-    dialogue: Wesh
-    output: 
-    position: {x: 160, y: 10}
-    userData: E:sadness R:-30
-    speaker: Agna
   - id: 0
     dialogueEntry: Ratchet
     dialogue: 
@@ -150,4 +125,1806 @@ MonoBehaviour:
     output: 
     position: {x: 724, y: 121}
     userData: End:0
+    speaker: 
+  - id: 2
+    dialogueEntry: Agna
+    dialogue: "[When you enter the tavern, you spot Agna directly. She\u2019s sitting
+      in the back of the tavern. \nYou can\u2019t help but notice that she\u2019s
+      frantically glancing at every person in the bar. \nYou walk to her.]"
+    output: 030000000400000005000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Agna
+  - id: 3
+    dialogueEntry: Agna
+    dialogue: Hello.
+    output: 0d000000
+    position: {x: 339, y: -8}
+    userData: 
+    speaker: Moi
+  - id: 4
+    dialogueEntry: Agna
+    dialogue: Hi.
+    output: 0e000000
+    position: {x: 339, y: 82}
+    userData: 
+    speaker: Moi
+  - id: 5
+    dialogueEntry: Agna
+    dialogue: Good morning.
+    output: 0f000000
+    position: {x: 343, y: 174}
+    userData: 
+    speaker: Moi
+  - id: 6
+    dialogueEntry: Agna
+    dialogue: "[Agna stares at you silently with a cruel grin]\nI recognize you now.
+      You\u2019ve bought some venison from me last week. You looked\u2026 Different.\n"
+    output: 090000000a000000
+    position: {x: 621, y: 61}
+    userData: 
+    speaker: Agna
+  - id: 9
+    dialogueEntry: Agna
+    dialogue: Acknowledge her
+    output: 0b000000
+    position: {x: 755, y: 13}
+    userData: 
+    speaker: Moi
+  - id: 10
+    dialogueEntry: Agna
+    dialogue: "You\u2019re strong for a woman"
+    output: 0c000000
+    position: {x: 751, y: 116}
+    userData: 
+    speaker: Moi
+  - id: 11
+    dialogueEntry: Agna
+    dialogue: "Yes. And you\u2019re the Fear Monger, \nthe one that defeated Rarbar
+      Steel Fists\n in single combat. \nI heard you ripped his heart off his ribcage
+      and fed him. \nI think that\u2019s impressive.\n"
+    output: 10000000
+    position: {x: 890, y: 13}
+    userData: 
+    speaker: Moi
+  - id: 12
+    dialogueEntry: Agna
+    dialogue: "Maybe. And you looked way sexier on your pictures, but you don\u2019t
+      see me complaining ! But I recognised you anyway, Fear Monger. You\u2019re strong
+      for a woman."
+    output: 2c010000
+    position: {x: 901, y: 115}
+    userData: 
+    speaker: Moi
+  - id: 13
+    dialogueEntry: Agna
+    dialogue: 'Hello.
+
+'
+    output: 06000000
+    position: {x: 485, y: -9}
+    userData: 
+    speaker: Moi
+  - id: 14
+    dialogueEntry: Agna
+    dialogue: Hi.
+    output: 06000000
+    position: {x: 480, y: 82}
+    userData: 
+    speaker: Moi
+  - id: 15
+    dialogueEntry: Agna
+    dialogue: Good morning.
+    output: 06000000
+    position: {x: 480, y: 172}
+    userData: 
+    speaker: Moi
+  - id: 16
+    dialogueEntry: Agna
+    dialogue: "[Hearing the name \xAB Fear Monger \xBB, \nthe men in the tavern exchange
+      frightful looks. \nSlowly, they all begin to leave their sits, \ndiscreetly
+      tiptoeing to the front door. ]\n"
+    output: 12000000
+    position: {x: 1040, y: 13}
+    userData: 
+    speaker: Agna
+  - id: 17
+    dialogueEntry: Agna
+    dialogue: "In the flesh, yes. It\u2019s a fitting surname, judging by the reaction
+      of these poor fools. \nBut you\u2019re still here, and you don\u2019t seem to
+      be afraid. \nYou must have accomplished great things yourself. \nTell me about
+      your exploits."
+    output: 130000001400000017000000
+    position: {x: 1307, y: 13}
+    userData: 
+    speaker: Agna
+  - id: 18
+    dialogueEntry: Agna
+    dialogue: "[Surprised, the bartender looks around, and when his eyes meet Agna\u2019s,
+      \nhe lets out a little squeak. \nHe hastily brings a keg, mumbling muffled excuses,
+      and leaves the tavern. \nYou\u2019re alone in this. \nAgna has observed all
+      this mouvement with a smirk of pride.]"
+    output: 11000000
+    position: {x: 1166, y: 12}
+    userData: 
+    speaker: Agna
+  - id: 19
+    dialogueEntry: Agna
+    dialogue: Overstate your achievements
+    output: 15000000
+    position: {x: 188, y: 300}
+    userData: 
+    speaker: Moi
+  - id: 20
+    dialogueEntry: Agna
+    dialogue: "She\u2019s wrong"
+    output: 16000000
+    position: {x: 179, y: 446}
+    userData: 
+    speaker: Moi
+  - id: 21
+    dialogueEntry: Agna
+    dialogue: "Yes, actually, I have. I was a mercenary for 10 years, so I\u2019ve
+      fought and won many battles. \nI once drove 5 men to cowardly take their own
+      life by just looking threateningly at them during the battle of [\u2026].\n"
+    output: 1b000000
+    position: {x: 353, y: 287}
+    userData: 
+    speaker: Moi
+  - id: 22
+    dialogueEntry: Agna
+    dialogue: "[She\u2019s wrong. The ferocious light in her eyes made you piss yourself
+      3 times already. \nYou feel the urge to leave, right now. As she stares at you,
+      \nobviously waiting for your answer, you carefully observe the inside of the
+      tavern, \nwaiting for the right occasion to flee. \nDo you distract her ? How
+      ?]"
+    output: 1a000000
+    position: {x: 357, y: 443}
+    userData: 
+    speaker: Moi
+  - id: 23
+    dialogueEntry: Agna
+    dialogue: Tell her the truth
+    output: 18000000
+    position: {x: 183, y: 373}
+    userData: 
+    speaker: Moi
+  - id: 24
+    dialogueEntry: Agna
+    dialogue: "I have not done such things as you have. \nBut I was a good fighter.
+      \nThere was once an ancient rivalry between my family and the barbarians of
+      Brak. \nWe used to meet once a year, for the spring equinox. "
+    output: 19000000
+    position: {x: 351, y: 363}
+    userData: 
+    speaker: Moi
+  - id: 25
+    dialogueEntry: Agna
+    dialogue: "We\u2019d organize a single combat, with champion from both families.
+      \nI used to be my family\u2019s representative. I won for 5 years in a row,
+      until the grudge was settled. \nThe winner had the right to take all of the
+      loser\u2019s newborn. \nI put their heads on spikes to remind them of our power."
+    output: 1c000000
+    position: {x: 497, y: 362}
+    userData: 
+    speaker: Moi
+  - id: 26
+    dialogueEntry: Agna
+    dialogue: "[Maybe throwing your sword at her and running through the window ?
+      \nYou sigh, count to three and jump out of the tavern. \nAlone at her table,
+      Agna frowns and lets a faint grown. Then, sighing, she pours herself a pint
+      of beer.]"
+    output: 2d010000
+    position: {x: 504, y: 443}
+    userData: 
+    speaker: Agna
+  - id: 27
+    dialogueEntry: Agna
+    dialogue: "I find it hard to believe. You\u2019re imaginative, I guess\u2026 But
+      you\u2019ll find I hate liars.\n[She really does. The pumping vein on her forehead
+      makes you shake a little]\n"
+    output: 21000000
+    position: {x: 502, y: 285}
+    userData: 
+    speaker: Agna
+  - id: 28
+    dialogueEntry: Agna
+    dialogue: "You may not have decimated a whole clan, not everyone can brag about
+      such an accomplishment, \nbut you certainly do have respect for our ways. \nI
+      appreciate that in a person. "
+    output: 21000000
+    position: {x: 625, y: 356}
+    userData: 
+    speaker: Agna
+  - id: 31
+    dialogueEntry: Agna
+    dialogue: I like it here
+    output: 22000000
+    position: {x: 881, y: 262}
+    userData: 
+    speaker: Moi
+  - id: 32
+    dialogueEntry: Agna
+    dialogue: I agree with you
+    output: 23000000
+    position: {x: 883, y: 360}
+    userData: 
+    speaker: Moi
+  - id: 33
+    dialogueEntry: Agna
+    dialogue: "The first time I arrived to your camp, \nI was really astonished by
+      the oblivious customs of your people. \nHave all of you forgotten the thrill
+      of the fight, the freedom of nomadism ?"
+    output: 1f00000020000000
+    position: {x: 753, y: 305}
+    userData: 
+    speaker: Agna
+  - id: 34
+    dialogueEntry: Agna
+    dialogue: "It\u2019s also nice to sleep in a bed and rest from battle from time
+      to time. \nWe\u2019ve developed a real civilization here. We have water supplies,
+      \nlivestock and the craftsmen can have a place to work. \nWe had to change our
+      ways if we wanted to improve our existences."
+    output: 24000000
+    position: {x: 1012, y: 263}
+    userData: 
+    speaker: Moi
+  - id: 35
+    dialogueEntry: Agna
+    dialogue: "You are right. We should have kept our traditions alive. \nBut then
+      again, we can\u2019t go back. \nWe have to keep remembering the glorious past
+      and try to teach our youth about the old ways."
+    output: 25000000
+    position: {x: 1007, y: 363}
+    userData: 
+    speaker: Moi
+  - id: 36
+    dialogueEntry: Agna
+    dialogue: "What you call civilization I call weakness. But I also see what you
+      mean. \nYou don\u2019t have to suffer through the winters, and the young can
+      eat their fill. \nI just wish we could live up to our ancestor\u2019s glory.
+      \nIt angers me that we\u2019re forgetting about them."
+    output: 28000000
+    position: {x: 1141, y: 258}
+    userData: 
+    speaker: Agna
+  - id: 37
+    dialogueEntry: Agna
+    dialogue: "I\u2019m glad you share my views. But I also understand what you mean.
+      \nWe can\u2019t go back now. It\u2019s too late. Let us hope that one day, \nthe
+      others will understand our kind does not belong in little houses planting artichokes
+      all day."
+    output: 28000000
+    position: {x: 1135, y: 357}
+    userData: 
+    speaker: Agna
+  - id: 40
+    dialogueEntry: Agna
+    dialogue: 'You talk like your way of life has changed a lot coming here. How was
+      your first clan like ?
+
+'
+    output: 2a000000
+    position: {x: 1284, y: 319}
+    userData: 
+    speaker: Moi
+  - id: 41
+    dialogueEntry: Agna
+    dialogue: What do you do now, with the truce going on ? Are you a merchant ?
+    output: 2b000000
+    position: {x: 174, y: 618}
+    userData: 
+    speaker: Moi
+  - id: 42
+    dialogueEntry: Agna
+    dialogue: "My first clan was not like yours. We were always moving. Our ways were
+      way harder than yours. Especially for the children. \nThe ones who weren\u2019t
+      strong enough were given to Korm as an offering of blood. But even then, I wasn\u2019t
+      free. \nMy mother was part of the craftsmen guild. I was her apprentice. I didn\u2019t
+      like this life. \nI didn\u2019t wanted to forge swords, but to slice through
+      flesh with them.\n"
+    output: 2c000000
+    position: {x: 184, y: 533}
+    userData: 
+    speaker: Agna
+  - id: 43
+    dialogueEntry: Agna
+    dialogue: "[She looks right in your eyes, looking for a hint that you\u2019re
+      trying to mock her] You don\u2019t know about my shameful enterprise ? \nI thought
+      the entire tribe knew about it. I\u2026 I knit. I\u2019ve always loved knitting.
+      \nAs a child, I was hiding in our tent to make my mother everything I could
+      : scarves, pommel ornaments\u2026 \nI even did a blanket I embroidered with
+      our tribe\u2019s arms. \n\n"
+    output: 2d000000
+    position: {x: 313, y: 609}
+    userData: 
+    speaker: Agna
+  - id: 44
+    dialogueEntry: Agna
+    dialogue: "When our clan got attacked by a group of raiders in the midst of the
+      harshest winter we\u2019d ever had, not many did survive. \nThat was our chance
+      to leave. But when we arrived here, my mother and I had to prove our value.
+      \nWe always had to. Even when I came back from my solo raid after the annihilation
+      of the Stone Prophet Clan, it wasn\u2019t enough.\n"
+    output: 30000000
+    position: {x: 351, y: 523}
+    userData: 
+    speaker: Agna
+  - id: 45
+    dialogueEntry: Agna
+    dialogue: "[She\u2019s looking a bit uncomfortable telling you that. \nYou can
+      tell by the way she\u2019s playing with the pommel of her sword under the table,
+      \nand the fact that she\u2019s avoiding your gaze] \nBut I\u2019ve been discovered
+      once. Some brats in our tribe stole one of my works. "
+    output: 2e000000
+    position: {x: 455, y: 606}
+    userData: 
+    speaker: Agna
+  - id: 46
+    dialogueEntry: Agna
+    dialogue: "It was a beautiful hat with a cute little pompom and a feather I had
+      taken from the pet eagle of the Lagar\u2019s chief. \nSeveral hours of work.
+      I was livid. \nThey paid for it. [She grins, and you fear what she\u2019ll say
+      next] They tried to shame me for my craft. \nI added them to it. I used their
+      bones to make needles. They were boneheads, but they make for fine tools. "
+    output: 2f000000
+    position: {x: 603, y: 595}
+    userData: 
+    speaker: Agna
+  - id: 47
+    dialogueEntry: Agna
+    dialogue: "[Her grins widens as she\u2019s waiting for your reaction]"
+    output: 3100000032000000
+    position: {x: 728, y: 587}
+    userData: 
+    speaker: Agna
+  - id: 48
+    dialogueEntry: Agna
+    dialogue: "[You can see she\u2019s full of rage. All these years of searching
+      recognition have taken a toll on her mind. \nBut beneath the waves of anger
+      that emanate from her, you feel something else. Maybe a kind of\u2026 Sadness?]"
+    output: 29000000
+    position: {x: 544, y: 517}
+    userData: 
+    speaker: Agna
+  - id: 49
+    dialogueEntry: Agna
+    dialogue: "You\u2019re admirative"
+    output: 33000000
+    position: {x: 883, y: 497}
+    userData: 
+    speaker: Moi
+  - id: 50
+    dialogueEntry: Agna
+    dialogue: "You\u2019re afraid"
+    output: 36000000
+    position: {x: 895, y: 594}
+    userData: 
+    speaker: Moi
+  - id: 51
+    dialogueEntry: Agna
+    dialogue: "[You feel a cold shiver running down your spine. Sweat dripping from
+      your jaws. \nBut interestingly, at the same time\u2026 A thrill ? You weirdo.]
+      \nI get what you say. Battle is our natural way of life and death is part of
+      that endless cycle. "
+    output: 34000000
+    position: {x: 1027, y: 486}
+    userData: 
+    speaker: Moi
+  - id: 52
+    dialogueEntry: Agna
+    dialogue: "[You see her noding] \nNevertheless I see the change we\u2019re bringing
+      right now as an another step in this cycle. \nI don\u2019t want to keep doing
+      what I\u2019m doing till I die. \nKorm will laugh at my face when facing him
+      in the halls of Vallhala. "
+    output: 35000000
+    position: {x: 1174, y: 493}
+    userData: 
+    speaker: Moi
+  - id: 53
+    dialogueEntry: Agna
+    dialogue: "[She frowns but wait for you to continue (provisoire)] \nI am a thane
+      of [TRIBE NAME] for Trarg\u2019s sake ! \n[You slam your fist against the table,
+      prompting reactions from the nearby patrons cowering on their chair] "
+    output: 37000000
+    position: {x: 1315, y: 504}
+    userData: 
+    speaker: Moi
+  - id: 54
+    dialogueEntry: Agna
+    dialogue: " [You feel the sudden urge to spew. When you look at Agna\u2019s face,
+      you see her teeth. \nThey seem so sharp. You gulp. She notices. You can almost
+      touch her disappointment.]"
+    output: 37000000
+    position: {x: 1075, y: 608}
+    userData: 
+    speaker: Moi
+  - id: 55
+    dialogueEntry: Agna
+    dialogue: And what is your occupation during this time of peace ?
+    output: 390000003a00000038000000
+    position: {x: 158, y: 721}
+    userData: 
+    speaker: Agna
+  - id: 56
+    dialogueEntry: Agna
+    dialogue: The holy hammer
+    output: 3b000000
+    position: {x: 326, y: 715}
+    userData: 
+    speaker: Moi
+  - id: 57
+    dialogueEntry: Agna
+    dialogue: The mighty pole
+    output: 3c000000
+    position: {x: 325, y: 788}
+    userData: 
+    speaker: Moi
+  - id: 58
+    dialogueEntry: Agna
+    dialogue: The sacred calice
+    output: 3d000000
+    position: {x: 324, y: 864}
+    userData: 
+    speaker: Moi
+  - id: 59
+    dialogueEntry: Agna
+    dialogue: 'I am the Bearer of the Holy Hammer. I work at the forge.
+
+'
+    output: 3e000000
+    position: {x: 476, y: 715}
+    userData: 
+    speaker: Moi
+  - id: 60
+    dialogueEntry: Agna
+    dialogue: "I am the Holder of the Mighty Pole. I use flies to fish. That\u2019s
+      it."
+    output: 3f000000
+    position: {x: 475, y: 788}
+    userData: 
+    speaker: Moi
+  - id: 61
+    dialogueEntry: Agna
+    dialogue: "[Straightening up, gloating]  I am the Keeper of the Sacred Chalice
+      of Divine Bowels. \nI work for the Sages and the good of the rituals. "
+    output: 40000000
+    position: {x: 474, y: 864}
+    userData: 
+    speaker: Moi
+  - id: 62
+    dialogueEntry: Agna
+    dialogue: "[She nods silently] I see. That is an honorable position for a non-warrior.
+      \nI guess you must be working with my mother, Dagna. But I wouldn\u2019t boast
+      if I were you"
+    output: 410000004200000043000000
+    position: {x: 626, y: 715}
+    userData: 
+    speaker: Agna
+  - id: 63
+    dialogueEntry: Agna
+    dialogue: "A fisherman\u2026 That\u2019s\u2026 unusual. But I guess you tried
+      to keep fighting in the core of your job. \nIn your own way\u2026"
+    output: 420000004300000041000000
+    position: {x: 622, y: 788}
+    userData: 
+    speaker: Agna
+  - id: 64
+    dialogueEntry: Agna
+    dialogue: "[She gives you a disgusted look] That\u2019s a demeaning position.
+      \nWiping the arse of these old goats all day must be testing for a former warrior.
+      \nI\u2019m sure you could have found better. Or at least I hope so."
+    output: 430000004200000041000000
+    position: {x: 624, y: 864}
+    userData: 
+    speaker: Agna
+  - id: 65
+    dialogueEntry: Agna
+    dialogue: I pray for it to end
+    output: 72000000
+    position: {x: 786, y: 716}
+    userData: 
+    speaker: Moi
+  - id: 66
+    dialogueEntry: Agna
+    dialogue: It will end
+    output: 73000000
+    position: {x: 767, y: 799}
+    userData: 
+    speaker: Moi
+  - id: 67
+    dialogueEntry: Agna
+    dialogue: How dare you ?
+    output: 74000000
+    position: {x: 776, y: 874}
+    userData: 
+    speaker: Moi
+  - id: 68
+    dialogueEntry: Agna
+    dialogue: A wish I share.
+    output: 47000000
+    position: {x: 1051, y: 692}
+    userData: 
+    speaker: Agna
+  - id: 69
+    dialogueEntry: Agna
+    dialogue: "That\u2019s a wise way to see it."
+    output: 47000000
+    position: {x: 1028, y: 784}
+    userData: 
+    speaker: Agna
+  - id: 70
+    dialogueEntry: Agna
+    dialogue: "I won\u2019t let you diminish me nor the housewives. They work twice
+      more as you lazy baboon. \n[She says while standing up slowly, reaching for
+      her sword. You begin to understand that it\u2019s time for \nyou to leave if
+      you want to keep your head. (A part) Don\u2019t insult the barbarian lady with
+      a double-handed sword, \nyou fool. In fact, don\u2019t insult women. At. All.]
+      \n"
+    output: 2e010000
+    position: {x: 1059, y: 874}
+    userData: 
+    speaker: Agna
+  - id: 71
+    dialogueEntry: Agna
+    dialogue: "[She rises, drinking the remaining beer in one noisy gulp, with an
+      half-smile on her face, \nshe drops coins on the table and glance at you with
+      a look of, what seems to be, surprise and almost satisfaction]\nI must go now,
+      I have\u2026 responsibilities I suppose, knitting is a never-ending task. "
+    output: 48000000
+    position: {x: 1161, y: 748}
+    userData: 
+    speaker: Agna
+  - id: 72
+    dialogueEntry: Agna
+    dialogue: "[She sighs but regains her composure] \nLet\u2019s share an another
+      beer later, [PP] !"
+    output: 49000000
+    position: {x: 1279, y: 747}
+    userData: 
+    speaker: Agna
+  - id: 73
+    dialogueEntry: Agna
+    dialogue: 
+    output: 4a000000
+    position: {x: 1412, y: 746}
+    userData: F
+    speaker: 
+  - id: 74
+    dialogueEntry: Agna
+    dialogue: "[You\u2019ve decided to meet Agna at the Axe and Roses again. You\u2019ve
+      arrived early. \nSeated at the back of the tavern, you enjoy the last rays of
+      the setting sun, a pint of fresh beer in your hand. \nThe heavy door of the
+      pub opens in a loud crack. ]\n"
+    output: 4b000000
+    position: {x: 248, y: 968}
+    userData: 
+    speaker: Moi
+  - id: 75
+    dialogueEntry: Agna
+    dialogue: "[There she is. And she\u2019s not happy. When Agna sees you, she walks
+      to you and grabs you by your shirt. \nShe holds you so close you can sent her
+      breath. Blueberry and a hint of peppermint.]"
+    output: 4c000000
+    position: {x: 394, y: 967}
+    userData: 
+    speaker: Moi
+  - id: 76
+    dialogueEntry: Agna
+    dialogue: "You ! I should never have gave you my trust. I\u2019m sure it is you
+      who have stolen my needles. \nI NEED some. Badly. Do you really wish to become
+      my next tool ? I\u2019ll carve your bones with care. "
+    output: 4d000000
+    position: {x: 544, y: 967}
+    userData: 
+    speaker: Moi
+  - id: 77
+    dialogueEntry: Agna
+    dialogue: "[She notices your surprise. You obviously don\u2019t understand why
+      she\u2019s enraged, \nyour widen eyes and your, unwittingly of course, shaking
+      limbs speak for you.]"
+    output: 4e0000004f000000
+    position: {x: 685, y: 965}
+    userData: 
+    speaker: Agna
+  - id: 78
+    dialogueEntry: Agna
+    dialogue: You act strong
+    output: 50000000
+    position: {x: 835, y: 965}
+    userData: 
+    speaker: Moi
+  - id: 79
+    dialogueEntry: Agna
+    dialogue: "You\u2019re afraid"
+    output: 51000000
+    position: {x: 836, y: 1047}
+    userData: 
+    speaker: Moi
+  - id: 80
+    dialogueEntry: Agna
+    dialogue: "(You look her straight in the eyes) What is your problem,\n Agna, daughter
+      of Dagna ? I didn\u2019t steal anything from you."
+    output: 52000000
+    position: {x: 985, y: 965}
+    userData: 
+    speaker: Moi
+  - id: 81
+    dialogueEntry: Agna
+    dialogue: "[You try to collect yourself and fail. Miserably. Looking for backups,
+      you realize no one will even stand up to her. \nYou answer in a trembling voice]
+      What\u2026? I\u2019m\u2026 What are you talking\u2026?"
+    output: 53000000
+    position: {x: 986, y: 1047}
+    userData: 
+    speaker: Moi
+  - id: 82
+    dialogueEntry: Agna
+    dialogue: "[She stops, confused. Looking at you glassy-eyed, she, a second later,
+      \nseems to get a hold of herself. Nevertheless she spits at you]\n"
+    output: 54000000
+    position: {x: 1135, y: 965}
+    userData: 
+    speaker: Agna
+  - id: 83
+    dialogueEntry: Agna
+    dialogue: "[It seems to deepen her anger, she\u2019s now shouting, spluttering
+      all over your face. \nAs usual patrons are cowering, almost as a reflex.]"
+    output: 54000000
+    position: {x: 1136, y: 1047}
+    userData: 
+    speaker: Agna
+  - id: 84
+    dialogueEntry: Agna
+    dialogue: "Of course you\u2019d say that. As everyone else would. Bunch of weak-pantied
+      male ! Always lying, always hiding when you should woman-up. \nBut that\u2019s
+      the way of your clan right ? Hiding behind your axe to compensate your lack
+      of courage, even for the most futile of things ! \nI had to work twice as hard
+      as the men, just because I lacked the balls they said, laughing their asses
+      off. \n"
+    output: 55000000
+    position: {x: 1285, y: 965}
+    userData: 
+    speaker: Agna
+  - id: 85
+    dialogueEntry: Agna
+    dialogue: "Oh I sweated, in the forge, in the stables, on the battlefield ! \nI
+      annihilated the Stone Prophet Clan, by myself, bathing in the blood and screams
+      of my enemies. \nAnd still, still they laughed, grinned when I was there, mocking
+      me and my mother. Oh yes. \nPoor Dagna with her fatherless daughter, she needs
+      to settle down, why not with Vortharg the smith apprentice or Enthek the little
+      warrior ? \n"
+    output: 56000000
+    position: {x: 252, y: 1106}
+    userData: 
+    speaker: Agna
+  - id: 86
+    dialogueEntry: Agna
+    dialogue: "Judgement, rumors, sneaky vipers, I lived with it, with them all my
+      life. And then, I picked up the sword. And they stopped laughing. \nOr I made
+      them stop. From the poor little freak, I became the big scary one. I became
+      the mountain of [CLAN NAME] but I never forgot my little sisters, \nI carried
+      some of them with me here. I protected them when they were slaughtering us,
+      my back is still carrying the scars of my fight. \n\n"
+    output: 57000000
+    position: {x: 399, y: 1119}
+    userData: 
+    speaker: Agna
+  - id: 87
+    dialogueEntry: Agna
+    dialogue: "And you came and tell me, right in my eyes that I\u2019ve been wronged
+      ? I can\u2019t tolerate it. I won\u2019t tolerate it. \n[Her voice made the
+      walls tremble, her roaring grew louder and louder, causing the other patrons
+      to hide under the bar and the tables. \nIn the end she sat on a nearby chair,
+      exhausted radiating a mix of hate and a bit of sorrow, after pouring her heart
+      out]"
+    output: 5800000059000000
+    position: {x: 530, y: 1150}
+    userData: 
+    speaker: Agna
+  - id: 88
+    dialogueEntry: Agna
+    dialogue: You care
+    output: 5a000000
+    position: {x: 696, y: 1144}
+    userData: 
+    speaker: Moi
+  - id: 89
+    dialogueEntry: Agna
+    dialogue: You defy her
+    output: 5c000000
+    position: {x: 700, y: 1231}
+    userData: 
+    speaker: Moi
+  - id: 90
+    dialogueEntry: Agna
+    dialogue: "[You are stunned. You look at her, speechless. Obviously. You\u2019re
+      facing 6\u20193\u201D barbarian woman with a sword at her side, \nyou better
+      be careful with your next words. You answer very cautiously] I\u2026 Did not
+      think about it. Listen, Agna. I am sorry. I didn\u2019t really know about your
+      story, until now. \nI can\u2019t fix the past, but I can help you now, if you
+      will. Do you want me to go look for the ones who stole your needles with you
+      ?"
+    output: 5b000000
+    position: {x: 846, y: 1144}
+    userData: 
+    speaker: Moi
+  - id: 91
+    dialogueEntry: Agna
+    dialogue: " I don\u2019t know how to carve on bones, but maybe you could teach
+      me ?\nI didn\u2019t really know about your story, until now. I can\u2019t fix
+      the past, but I can help you now, if you will. \nDo you want me to go look for
+      the ones who stole your needles with you ? \nI don\u2019t know how to carve
+      on bones, but maybe you could teach me ?"
+    output: 5d000000
+    position: {x: 970, y: 1141}
+    userData: 
+    speaker: Moi
+  - id: 92
+    dialogueEntry: Agna
+    dialogue: "You look at her, contemptuous. No one and no thing dares to move or
+      breathe.] \nAre you finished ? I thought you were a kind of barbarian queen
+      and in the end you\u2019re just weeping your strength away. \nThat\u2019s a
+      shame. "
+    output: 5e000000
+    position: {x: 850, y: 1231}
+    userData: 
+    speaker: Moi
+  - id: 93
+    dialogueEntry: Agna
+    dialogue: "[She looks at you, surprised. A faint blush is colouring her cheekbones.
+      She grabs her tankard, \nhastily swallowing the last of her beer. When she slams
+      her mug on the table, she\u2019s regained her composure. \nShe looks at you
+      intensely. In her eyes you can see something new. Something like gratitude.]
+      \nYes, [PP]. Yes, I would appreciate that. Let\u2019s go."
+    output: 60000000
+    position: {x: 1120, y: 1141}
+    userData: 
+    speaker: Agna
+  - id: 94
+    dialogueEntry: Agna
+    dialogue: "[She looks at you with a disappointed look. Too tired to shout again.
+      Her hair falling pathetically around her head, her eyes having lost their sparkles.]
+      \nYou should get out, return to whatever activity allow you some joy. In a way,
+      I pity you."
+    output: 5f000000
+    position: {x: 1000, y: 1231}
+    userData: 
+    speaker: Agna
+  - id: 95
+    dialogueEntry: Agna
+    dialogue: "[You stand up, everyone is looking at you, some with a discontented
+      look on their face. \nYou walk proudly, flexing your muscle. A part of you seems
+      to think that you\u2019ve missed something but, blinded by your ego, \nyou\u2019re
+      thinking that you\u2019ve just escaped from some bad joke. You are a terrible
+      human being.]"
+    output: 2f010000
+    position: {x: 1124, y: 1233}
+    userData: 
+    speaker: Agna
+  - id: 96
+    dialogueEntry: Agna
+    dialogue: 
+    output: 61000000
+    position: {x: 1270, y: 1141}
+    userData: F
+    speaker: 
+  - id: 97
+    dialogueEntry: Agna
+    dialogue: "[You come back to the tavern the next day, arm in arm with Agna, bursting
+      with laughter while drinking pint after pint, \nre-telling again and again the
+      story of the last night. Surprisingly even patrons come to see the both of you,
+      and some, the brave ones, \neven ask Agna some details about the fight. At first
+      she answers begrudgingly, but more and more came and she finds herself in middle
+      of a crowd.]"
+    output: 62000000
+    position: {x: 273, y: 1316}
+    userData: 
+    speaker: Moi
+  - id: 98
+    dialogueEntry: Agna
+    dialogue: 'The story, quite familiar within the barbarians, become at each iteration
+      more and more of an epic,
+
+      from a handful of foes it became the tale of you and her facing armies, slaying
+      monstrous beasts.'
+    output: 63000000
+    position: {x: 405, y: 1321}
+    userData: 
+    speaker: Moi
+  - id: 99
+    dialogueEntry: Agna
+    dialogue: "Then, the first one begin to fall from the beer, then the others start
+      to leave. \nIt\u2019s the middle of the day but you [PP] and Agna are alone
+      in this rascal den, the soft rays of the sun heating your skin, \nthe beer rushing
+      through their veins. She looks at you. Almost\u2026 happy ? \nYou look at each
+      other for a long time, without a word. Then she lowers her head and mutters]"
+    output: 64000000
+    position: {x: 544, y: 1318}
+    userData: 
+    speaker: Moi
+  - id: 100
+    dialogueEntry: Agna
+    dialogue: "You\u2026 I\u2026 I\u2019d\u2026 I\u2019d want to thank you. "
+    output: 65000000
+    position: {x: 693, y: 1319}
+    userData: 
+    speaker: Agna
+  - id: 101
+    dialogueEntry: Agna
+    dialogue: "[You glance at her, a smile beginning to appear on your face before
+      realising she\u2019s dead serious. \nYou smile fades away. Looking at her deep
+      brown eyes, the importance of this phrase strikes you.]"
+    output: 66000000
+    position: {x: 845, y: 1317}
+    userData: 
+    speaker: Moi
+  - id: 102
+    dialogueEntry: Agna
+    dialogue: "[Looking at her amused above your beer] Thanks to you, too. You were
+      amazingly graceful with that sword. \nBut you didn\u2019t need to kick the chief\u2019s
+      head in his subordinate\u2019s face, that maybe was a tad overkill\u2026  \n"
+    output: 67000000
+    position: {x: 983, y: 1318}
+    userData: 
+    speaker: Moi
+  - id: 103
+    dialogueEntry: Agna
+    dialogue: "[Her roaring laugh exploded. A few hours ago it would have startled
+      you, now your smile broadens just hearing it. \nShe\u2019s laughing for a few
+      minutes before stopping, tears flowing down her cheeks. \nWith the rumbling
+      noise ending she hits your shoulder] "
+    output: 68000000
+    position: {x: 1133, y: 1318}
+    userData: 
+    speaker: Moi
+  - id: 104
+    dialogueEntry: Agna
+    dialogue: "You\u2019re terrible. I\u2019m trying to be serious, leave the banter
+      at bay this time. Really when I said thank you I meant it. \nYou are the first
+      person to help me in a long time. And it seems we have the same hobbies. \n[She
+      says grinning tapping the pommel of her sword with her finger] \n"
+    output: 69000000
+    position: {x: 236, y: 1419}
+    userData: 
+    speaker: Agna
+  - id: 105
+    dialogueEntry: Agna
+    dialogue: "Maybe we should, you know... Get to know each other a little bit more
+      ? \n[Her voice lingers on the \u201Cknow\u2019, and\u2026 you may be dreaming
+      but\u2026 \nHave you caught her blushing for a second ? Well. Maybe it\u2019s
+      something to consider...]\n"
+    output: 30010000
+    position: {x: 401, y: 1421}
+    userData: 
+    speaker: Agna
+  - id: 114
+    dialogueEntry: Agna
+    dialogue: "I am doing my best to help the clan. But I am praying to Korm everyday
+      that he\u2019ll put that time of peace to an end.\r\n"
+    output: 44000000
+    position: {x: 918, y: 695}
+    userData: 
+    speaker: Moi
+  - id: 115
+    dialogueEntry: Agna
+    dialogue: "I don\u2019t like what I do, but it\u2019s temporary. I won\u2019t
+      let it define me. "
+    output: 45000000
+    position: {x: 904, y: 793}
+    userData: 
+    speaker: Moi
+  - id: 116
+    dialogueEntry: Agna
+    dialogue: "I do what I have to do. At least I don\u2019t have the hobbies of a
+      candy-coated housewife !"
+    output: 46000000
+    position: {x: 908, y: 878}
+    userData: 
+    speaker: Moi
+  - id: 4
+    dialogueEntry: Darock
+    dialogue: "[\u2026]"
+    output: 050000000600000007000000
+    position: {x: 160, y: 10}
+    userData: 
+    speaker: Darock
+  - id: 5
+    dialogueEntry: Darock
+    dialogue: "By the hammer of Korm, what am I doing here?\r"
+    output: 08000000
+    position: {x: 310, y: 10}
+    userData: 
+    speaker: Moi
+  - id: 6
+    dialogueEntry: Darock
+    dialogue: "Hey!\r"
+    output: 08000000
+    position: {x: 303, y: 121}
+    userData: 
+    speaker: Moi
+  - id: 7
+    dialogueEntry: Darock
+    dialogue: "What are you supposed to be?\r"
+    output: 08000000
+    position: {x: 303, y: 205}
+    userData: 
+    speaker: Moi
+  - id: 8
+    dialogueEntry: Darock
+    dialogue: '[...]'
+    output: 090000000a0000000b000000
+    position: {x: 453, y: 20}
+    userData: 
+    speaker: Darock
+  - id: 9
+    dialogueEntry: Darock
+    dialogue: Is this a joke?
+    output: 0c000000
+    position: {x: 634, y: -3}
+    userData: 
+    speaker: Moi
+  - id: 10
+    dialogueEntry: Darock
+    dialogue: "I\u2019m out of here."
+    output: 0c000000
+    position: {x: 632, y: 81}
+    userData: 
+    speaker: Moi
+  - id: 11
+    dialogueEntry: Darock
+    dialogue: "[\u2026] [You start an eye duel] "
+    output: 
+    position: {x: 518, y: 173}
+    userData: 
+    speaker: Moi
+  - id: 12
+    dialogueEntry: Darock
+    dialogue: "Calm Down Kiddo.\r\n"
+    output: 100000001100000012000000
+    position: {x: 784, y: -3}
+    userData: 
+    speaker: Darock
+  - id: 13
+    dialogueEntry: Darock
+    dialogue: '[...]'
+    output: 0e000000
+    position: {x: 662, y: 179}
+    userData: 
+    speaker: Darock
+  - id: 14
+    dialogueEntry: Darock
+    dialogue: '[...]'
+    output: 0f000000
+    position: {x: 780, y: 180}
+    userData: 
+    speaker: Moi
+  - id: 15
+    dialogueEntry: Darock
+    dialogue: "What is wrong with you?\r"
+    output: 100000001100000012000000
+    position: {x: 912, y: 179}
+    userData: 
+    speaker: Darock
+  - id: 16
+    dialogueEntry: Darock
+    dialogue: Smash the rock
+    output: 13000000
+    position: {x: 1045, y: -17}
+    userData: 
+    speaker: Moi
+  - id: 17
+    dialogueEntry: Darock
+    dialogue: You can talk ?
+    output: 14000000
+    position: {x: 1055, y: 77}
+    userData: 
+    speaker: Moi
+  - id: 18
+    dialogueEntry: Darock
+    dialogue: You don't know who i am
+    output: 15000000
+    position: {x: 1069, y: 186}
+    userData: 
+    speaker: Moi
+  - id: 19
+    dialogueEntry: Darock
+    dialogue: "Witchcraft ! [Smash the rock with your mighty axe]\r"
+    output: 16000000
+    position: {x: 1195, y: -17}
+    userData: 
+    speaker: Moi
+  - id: 20
+    dialogueEntry: Darock
+    dialogue: "So you speak.\r"
+    output: 17000000
+    position: {x: 1205, y: 77}
+    userData: 
+    speaker: Moi
+  - id: 21
+    dialogueEntry: Darock
+    dialogue: "Do you know who you are talking to?\r"
+    output: 18000000
+    position: {x: 1203, y: 188}
+    userData: 
+    speaker: Moi
+  - id: 22
+    dialogueEntry: Darock
+    dialogue: Rocks can feel pain too, you know ?
+    output: 19000000
+    position: {x: 1345, y: -17}
+    userData: 
+    speaker: Darock
+  - id: 23
+    dialogueEntry: Darock
+    dialogue: "Indubitably, yes. You\u2019re sharp."
+    output: 19000000
+    position: {x: 1355, y: 77}
+    userData: 
+    speaker: Darock
+  - id: 24
+    dialogueEntry: Darock
+    dialogue: A particularly annoying mortal. Ha.
+    output: 19000000
+    position: {x: 1351, y: 189}
+    userData: 
+    speaker: Darock
+  - id: 25
+    dialogueEntry: Darock
+    dialogue: Did you come to relieve yourself too ? Make it quick, the Stoned gatherings
+      is about to begin.
+    output: 1b0000001c0000001d000000
+    position: {x: 243, y: 350}
+    userData: 
+    speaker: Darock
+  - id: 27
+    dialogueEntry: Darock
+    dialogue: What are you talking about ?
+    output: 1e000000
+    position: {x: 386, y: 310}
+    userData: 
+    speaker: Moi
+  - id: 28
+    dialogueEntry: Darock
+    dialogue: Why would I
+    output: 1f000000
+    position: {x: 382, y: 382}
+    userData: 
+    speaker: Moi
+  - id: 29
+    dialogueEntry: Darock
+    dialogue: You ugly
+    output: 20000000
+    position: {x: 384, y: 459}
+    userData: 
+    speaker: Moi
+  - id: 30
+    dialogueEntry: Darock
+    dialogue: What are you talking about ?
+    output: 21000000
+    position: {x: 523, y: 313}
+    userData: 
+    speaker: Moi
+  - id: 31
+    dialogueEntry: Darock
+    dialogue: "Why would I do such a thing? I am an almost civilized barbarian. By
+      the way you may have to tame what\u2019s left off savagery inside..."
+    output: 22000000
+    position: {x: 524, y: 392}
+    userData: 
+    speaker: Moi
+  - id: 32
+    dialogueEntry: Darock
+    dialogue: "Seeing your\u2026 Head\u2026 I really don\u2019t want to."
+    output: 23000000
+    position: {x: 519, y: 468}
+    userData: 
+    speaker: Moi
+  - id: 33
+    dialogueEntry: Darock
+    dialogue: I just said that for you to leave.
+    output: 24000000
+    position: {x: 673, y: 313}
+    userData: 
+    speaker: Darock
+  - id: 34
+    dialogueEntry: Darock
+    dialogue: "Looks like I\u2019d get my rock off getting to know you. I will not
+      remain unmoved by you. "
+    output: 24000000
+    position: {x: 674, y: 392}
+    userData: 
+    speaker: Darock
+  - id: 35
+    dialogueEntry: Darock
+    dialogue: "I don\u2019t technically have a head.. And obviously you don\u2019t
+      have one either."
+    output: 24000000
+    position: {x: 677, y: 464}
+    userData: 
+    speaker: Darock
+  - id: 36
+    dialogueEntry: Darock
+    dialogue: And why would a mortal like you stoop so low as to talk to me ?
+    output: 250000002600000027000000
+    position: {x: 823, y: 313}
+    userData: 
+    speaker: Darock
+  - id: 37
+    dialogueEntry: Darock
+    dialogue: "I\u2019m bored"
+    output: 28000000
+    position: {x: 969, y: 304}
+    userData: 
+    speaker: Moi
+  - id: 38
+    dialogueEntry: Darock
+    dialogue: I saw you on tandaarg
+    output: 29000000
+    position: {x: 964, y: 380}
+    userData: 
+    speaker: Moi
+  - id: 39
+    dialogueEntry: Darock
+    dialogue: Taking a leak
+    output: 2a000000
+    position: {x: 965, y: 458}
+    userData: 
+    speaker: Moi
+  - id: 40
+    dialogueEntry: Darock
+    dialogue: "Now that you mention it, you\u2019re not very interesting for a talking
+      stone. Walk away."
+    output: d0000000
+    position: {x: 1119, y: 304}
+    userData: 
+    speaker: Moi
+  - id: 41
+    dialogueEntry: Darock
+    dialogue: I saw your profile on tandaarg.
+    output: 2b000000
+    position: {x: 1114, y: 380}
+    userData: 
+    speaker: Moi
+  - id: 42
+    dialogueEntry: Darock
+    dialogue: "I felt like taking a leek.\r"
+    output: 2c000000
+    position: {x: 1115, y: 458}
+    userData: 
+    speaker: Moi
+  - id: 43
+    dialogueEntry: Darock
+    dialogue: "Oh, I did that a long time ago. I had forgotten about it until today.
+      \nI was particularly depressed that day. I desperately wanted to talk to someone.
+      \nAt all costs. But nobody came.\r\n"
+    output: 2d0000002e0000002f000000
+    position: {x: 241, y: 601}
+    userData: 
+    speaker: Darock
+  - id: 44
+    dialogueEntry: Darock
+    dialogue: "Then why did you come to talk to me ? You wanted to hurt me even more?
+      Well done, you\u2019ve managed to do it. \nStones have souls you know ? [DaRock
+      blasts you, you are left as no more than a small pile of brutal dust.] "
+    output: 
+    position: {x: 1265, y: 458}
+    userData: 
+    speaker: Darock
+  - id: 45
+    dialogueEntry: Darock
+    dialogue: You won't be alone anymore
+    output: 30000000
+    position: {x: 391, y: 601}
+    userData: 
+    speaker: Moi
+  - id: 46
+    dialogueEntry: Darock
+    dialogue: No wonder
+    output: 31000000
+    position: {x: 393, y: 677}
+    userData: 
+    speaker: Moi
+  - id: 47
+    dialogueEntry: Darock
+    dialogue: Attempt at joking
+    output: 32000000
+    position: {x: 388, y: 757}
+    userData: 
+    speaker: Moi
+  - id: 48
+    dialogueEntry: Darock
+    dialogue: "You don\u2019t have to be alone anymore. [Your insisting raised eyebrows
+      seem quite explicit to you]"
+    output: 33000000
+    position: {x: 541, y: 601}
+    userData: 
+    speaker: Moi
+  - id: 49
+    dialogueEntry: Darock
+    dialogue: Well no wonder, judging by the atmosphere.
+    output: 34000000
+    position: {x: 543, y: 677}
+    userData: 
+    speaker: Moi
+  - id: 50
+    dialogueEntry: Darock
+    dialogue: "Ah, I\u2019m sorry. But you know, you\u2019re a rock and you roll !
+      [This attempt of a joke may not be well received...]"
+    output: 35000000
+    position: {x: 538, y: 757}
+    userData: 
+    speaker: Moi
+  - id: 51
+    dialogueEntry: Darock
+    dialogue: "What\u2019s up with your facial hair ? I don\u2019t get it."
+    output: 36000000
+    position: {x: 691, y: 601}
+    userData: 
+    speaker: Darock
+  - id: 52
+    dialogueEntry: Darock
+    dialogue: If you had been turned in a day from a mountain to a gravel, would you
+      be in a better state ?
+    output: 38000000
+    position: {x: 693, y: 677}
+    userData: 
+    speaker: Darock
+  - id: 53
+    dialogueEntry: Darock
+    dialogue: I am unfortunately attached to this existence and this place forever.
+      You see, I am immortal, and unmovable.
+    output: 38000000
+    position: {x: 688, y: 757}
+    userData: 
+    speaker: Darock
+  - id: 54
+    dialogueEntry: Darock
+    dialogue: "Wait. You do have a face. And you\u2019re drinking beer. \nSo you should
+      be able to understand the idea of facial expression ?"
+    output: 37000000
+    position: {x: 821, y: 596}
+    userData: 
+    speaker: Moi
+  - id: 55
+    dialogueEntry: Darock
+    dialogue: "Darock : This face has been painted. By children, a few years ago.
+      Beer is just for the look, I\u2019m a barbarian rock, remember. \r\n"
+    output: 38000000
+    position: {x: 963, y: 596}
+    userData: 
+    speaker: Darock
+  - id: 56
+    dialogueEntry: Darock
+    dialogue: But tell me, why have I done to make you interested ?
+    output: 390000003a0000003b000000
+    position: {x: 227, y: 875}
+    userData: 
+    speaker: Darock
+  - id: 57
+    dialogueEntry: Darock
+    dialogue: Touristic attraction
+    output: 3c000000
+    position: {x: 371, y: 862}
+    userData: 
+    speaker: Moi
+  - id: 58
+    dialogueEntry: Darock
+    dialogue: Your physique
+    output: 3d000000
+    position: {x: 372, y: 941}
+    userData: 
+    speaker: Moi
+  - id: 59
+    dialogueEntry: Darock
+    dialogue: Acknowledge its value
+    output: 3e000000
+    position: {x: 369, y: 1017}
+    userData: 
+    speaker: Moi
+  - id: 60
+    dialogueEntry: Darock
+    dialogue: "Apparently you\u2019re a touristic attraction. You were supposed to
+      be a prophet or something like that. I wonder where they got all that. You\u2019re
+      just a rock after all. \r"
+    output: 3f000000
+    position: {x: 521, y: 862}
+    userData: 
+    speaker: Moi
+  - id: 61
+    dialogueEntry: Darock
+    dialogue: Your generous ancestral stony curves...
+    output: 40000000
+    position: {x: 522, y: 941}
+    userData: 
+    speaker: Moi
+  - id: 62
+    dialogueEntry: Darock
+    dialogue: "You\u2019ve had a living God\u2019s life, I figured you\u2019d have
+      interesting things to tell."
+    output: 41000000
+    position: {x: 519, y: 1017}
+    userData: 
+    speaker: Moi
+  - id: 63
+    dialogueEntry: Darock
+    dialogue: I may be a rock, but I know what a passive-aggressive answer is. You
+      seem to forget I am not ANY rock.
+    output: 42000000
+    position: {x: 671, y: 862}
+    userData: 
+    speaker: Darock
+  - id: 64
+    dialogueEntry: Darock
+    dialogue: "Oh, stop it you ! *giggles* I wasn\u2019t always so slim."
+    output: 42000000
+    position: {x: 672, y: 941}
+    userData: 
+    speaker: Darock
+  - id: 65
+    dialogueEntry: Darock
+    dialogue: "It\u2019s satisfying that a mortal acknowledges my true value, once
+      again."
+    output: 42000000
+    position: {x: 669, y: 1017}
+    userData: 
+    speaker: Darock
+  - id: 66
+    dialogueEntry: Darock
+    dialogue: "Once I served as an intermediary between the Clan of the Stone Prophet
+      and the gods : \nI made the desires of Korm known, the mortals spoke and the
+      gods listened. I traded worship for informations about the future of the tribe.
+      \nI was a recipient for praise and offerings. My people went to me for counsel.
+      \n"
+    output: 43000000
+    position: {x: 831, y: 906}
+    userData: 
+    speaker: Darock
+  - id: 67
+    dialogueEntry: Darock
+    dialogue: "I was the catalyst. But, during a moonless night, where the clouds
+      crowned the mountains, thunder struck me. \nI fell from the high peak that was
+      my altar, smashing the tribe\u2019s leader\u2019s head in my fall, killing him
+      on the blow. \nIt was an accident, but it didn\u2019t stop them from banishing
+      me, ceasing the offerings and thus cutting the link telling them of their impending
+      doom. \n"
+    output: 44000000
+    position: {x: 981, y: 906}
+    userData: 
+    speaker: Darock
+  - id: 68
+    dialogueEntry: Darock
+    dialogue: "And so, two moons later, the tribesmen were unable to protect themselves
+      from Agna Fear-Monger. \nThey perished that night. Having failed my duty as
+      their warden, the gods took away my powers. This night I became the emblem of
+      slaughter, the crest of crushing defeat. \nTheir contribution became with piss.
+      They started to piss on me, those ungrateful bastards. \n"
+    output: 45000000
+    position: {x: 1131, y: 906}
+    userData: 
+    speaker: Darock
+  - id: 69
+    dialogueEntry: Darock
+    dialogue: 'Those pilgrimages started to erode my precious and fragile obsidian
+      shell, and my heart grew colder, immersing me in an ocean of bitterness and
+      loneliness. '
+    output: 650000006600000067000000
+    position: {x: 220, y: 1144}
+    userData: 
+    speaker: Darock
+  - id: 101
+    dialogueEntry: Darock
+    dialogue: No fucks given
+    output: 6a000000
+    position: {x: 370, y: 1144}
+    userData: 
+    speaker: Moi
+  - id: 102
+    dialogueEntry: Darock
+    dialogue: Make another pun
+    output: 69000000
+    position: {x: 374, y: 1228}
+    userData: 
+    speaker: Moi
+  - id: 103
+    dialogueEntry: Darock
+    dialogue: Be empathic
+    output: 68000000
+    position: {x: 372, y: 1312}
+    userData: 
+    speaker: Moi
+  - id: 104
+    dialogueEntry: Darock
+    dialogue: "I am so sorry for what happened to you. But if that\u2019s what you
+      want, I could warm you up..."
+    output: 6d000000
+    position: {x: 523, y: 1314}
+    userData: 
+    speaker: Moi
+  - id: 105
+    dialogueEntry: Darock
+    dialogue: "Must have dragged your mine cart down.\r"
+    output: 6c000000
+    position: {x: 524, y: 1230}
+    userData: 
+    speaker: Moi
+  - id: 106
+    dialogueEntry: Darock
+    dialogue: "Lol, didn\u2019t read"
+    output: 6b000000
+    position: {x: 520, y: 1143}
+    userData: 
+    speaker: Moi
+  - id: 107
+    dialogueEntry: Darock
+    dialogue: "[You notice DaRock begins to take a rosy colour]\nI thought I had already
+      lost my self esteem, but thanks to you, \nI see now that I had a little more
+      dignity for you to smash to pieces..."
+    output: 6e000000
+    position: {x: 670, y: 1143}
+    userData: 
+    speaker: Darock
+  - id: 108
+    dialogueEntry: Darock
+    dialogue: "[You notice DaRock begins to take a rosy colour]\nYour empathy touches
+      me. I didn\u2019t think a barbarian might still have this skill... "
+    output: 6e000000
+    position: {x: 674, y: 1230}
+    userData: 
+    speaker: Darock
+  - id: 109
+    dialogueEntry: Darock
+    dialogue: '[You notice DaRock begins to take a rosy colour]
+
+      Nobody ever spoke to me like that, I feel new feelings shaking my minerals...'
+    output: 6e000000
+    position: {x: 674, y: 1314}
+    userData: 
+    speaker: Darock
+  - id: 110
+    dialogueEntry: Darock
+    dialogue: So is this what a date looks like ?
+    output: 6f0000007000000071000000
+    position: {x: 818, y: 1180}
+    userData: 
+    speaker: Darock
+  - id: 111
+    dialogueEntry: Darock
+    dialogue: I don't know
+    output: 72000000
+    position: {x: 968, y: 1144}
+    userData: 
+    speaker: Moi
+  - id: 112
+    dialogueEntry: Darock
+    dialogue: Yes
+    output: 73000000
+    position: {x: 964, y: 1225}
+    userData: 
+    speaker: Moi
+  - id: 113
+    dialogueEntry: Darock
+    dialogue: This one sucks
+    output: 74000000
+    position: {x: 966, y: 1304}
+    userData: 
+    speaker: Moi
+  - id: 114
+    dialogueEntry: Darock
+    dialogue: "Well, I don\u2019t really know. Dating is not really my strong suit.\r"
+    output: 75000000
+    position: {x: 1097, y: 1146}
+    userData: 
+    speaker: Moi
+  - id: 115
+    dialogueEntry: Darock
+    dialogue: Yes, and I wish they roxxed all like this one !
+    output: 76000000
+    position: {x: 1099, y: 1223}
+    userData: 
+    speaker: Moi
+  - id: 116
+    dialogueEntry: Darock
+    dialogue: It rarely sucks that much. I think it has to do with all these rocks
+      in your head.
+    output: 77000000
+    position: {x: 1096, y: 1305}
+    userData: 
+    speaker: Moi
+  - id: 117
+    dialogueEntry: Darock
+    dialogue: "I appreciate your honesty, mortal. I like you. I feel something growing
+      inside me... \n[Indeed, the stone seems to be growing. How peculiar.]"
+    output: 78000000
+    position: {x: 1247, y: 1146}
+    userData: 
+    speaker: Darock
+  - id: 118
+    dialogueEntry: Darock
+    dialogue: '[The magic stone is becoming a vivid red] Oh stop it, hu hu.'
+    output: 78000000
+    position: {x: 1249, y: 1223}
+    userData: 
+    speaker: Darock
+  - id: 119
+    dialogueEntry: Darock
+    dialogue: "[The magic stone is becoming a vivid red] I feel the salt... \n[You
+      can indeed observe a white layer shows on the stone] \nDon\u2019t mess with
+      me human, or you\u2019ll hit rock bottom. "
+    output: 78000000
+    position: {x: 1246, y: 1305}
+    userData: 
+    speaker: Darock
+  - id: 120
+    dialogueEntry: Darock
+    dialogue: Tell me more about yourself. What is your occupation in the clan ?
+    output: 790000007a0000007b000000
+    position: {x: 210, y: 1421}
+    userData: 
+    speaker: Darock
+  - id: 121
+    dialogueEntry: Darock
+    dialogue: Provoke it
+    output: 7c000000
+    position: {x: 360, y: 1421}
+    userData: 
+    speaker: Moi
+  - id: 122
+    dialogueEntry: Darock
+    dialogue: Honor it
+    output: 7d000000
+    position: {x: 361, y: 1493}
+    userData: 
+    speaker: Moi
+  - id: 123
+    dialogueEntry: Darock
+    dialogue: Be honest
+    output: 7e000000
+    position: {x: 361, y: 1573}
+    userData: 
+    speaker: Moi
+  - id: 124
+    dialogueEntry: Darock
+    dialogue: "I\u2019m a renovation worker. I like to handle loose gravels. You know,
+      these crushed, \ndistorted stones who will have no other function than to be
+      stepped on and stepped on again\u2026"
+    output: 97000000
+    position: {x: 538, y: 1417}
+    userData: 
+    speaker: Moi
+  - id: 125
+    dialogueEntry: Darock
+    dialogue: "I\u2019m a stone cutter, I polish them, to reveal their inward beauty.
+      \nThey\u2019ve always fascinated me. It\u2019s energizing, this strength. And
+      you seem like a strong one."
+    output: 98000000
+    position: {x: 625, y: 1495}
+    userData: 
+    speaker: Moi
+  - id: 126
+    dialogueEntry: Darock
+    dialogue: "I am an honorary cabbages farmer. But I don\u2019t enjoy it. \nThat\u2019s
+      why I try to go out and meet new people, to spice my everyday life. \n"
+    output: 7f000000
+    position: {x: 510, y: 1573}
+    userData: 
+    speaker: Moi
+  - id: 127
+    dialogueEntry: Darock
+    dialogue: "I wanted to find love, but to make friends too. You know, always be
+      hitting on everyone, it doesn\u2019t help making besties\u2026 \nBut I think
+      you know more than anybody else that massacres don\u2019t help building trust."
+    output: 99000000
+    position: {x: 660, y: 1573}
+    userData: 
+    speaker: Moi
+  - id: 151
+    dialogueEntry: Darock
+    dialogue: "[The boulder turns scarlet. You notice curls of smoke emanating from
+      its surface. It\u2019s drawn face is melting because of the heat. \nBetter stay
+      away from it] You are obviously voluntarily provoking me, you mass of flesh,
+      but you really don\u2019t realize who you\u2019re talking to. \nI am way more
+      powerful than you think. If you kneel before me now, I may spare your people."
+    output: 9a0000009b000000
+    position: {x: 720, y: 1415}
+    userData: 
+    speaker: Darock
+  - id: 152
+    dialogueEntry: Darock
+    dialogue: "[You can see its surface has now completely turned rose] Oh, I guess
+      I am your type of stone then\u2026 Am I right ? \nSince the beginning I thought
+      that you liked me, but I didn\u2019t assume you were absolutely serious. Now,
+      I know you are. \n[The top of the boulder is now white-hot] You\u2019ve awakened
+      feelings in me, feelings I didn\u2019t even imagine I was capable of. \n"
+    output: c8000000
+    position: {x: 790, y: 1543}
+    userData: 
+    speaker: Darock
+  - id: 153
+    dialogueEntry: Darock
+    dialogue: "Well said, Barbarian. Well said. I haven\u2019t had a real talk in
+      ages. \nBut even before, when I was still a prophet, rare were those who completely
+      opened their hearts to me in a pure and sincere manner, like you did today.
+      \n[At this moment, you notice the stone\u2019s drawn smile seems to have widened.
+      Its mouth does seem less rigid. But you can\u2019t be sure.]"
+    output: ca000000
+    position: {x: 804, y: 1621}
+    userData: 
+    speaker: Darock
+  - id: 154
+    dialogueEntry: Darock
+    dialogue: Kneel
+    output: 9c000000
+    position: {x: 892, y: 1396}
+    userData: 
+    speaker: Moi
+  - id: 155
+    dialogueEntry: Darock
+    dialogue: Don't kneel
+    output: 9d000000
+    position: {x: 893, y: 1472}
+    userData: 
+    speaker: Moi
+  - id: 156
+    dialogueEntry: Darock
+    dialogue: "[You can feel the heat irradiate from this magic stone you\u2019ve
+      underestimated. You suddenly feel afraid and hastily kneel] \nI\u2026 I underestimated
+      you, \xD4 Stone, hm\u2026 Mighty Magic Stone\u2026 Please, spare my mediocre
+      life, spare my... \n"
+    output: 9e000000
+    position: {x: 1042, y: 1396}
+    userData: 
+    speaker: Moi
+  - id: 157
+    dialogueEntry: Darock
+    dialogue: "[You can feel the heat irradiate from DaRock, and it gives you an idea.
+      You get closer and take an egg out of your bag. \nYou\u2019ve found it earlier
+      during your morning run. You had thought about eating it raw after your workout,
+      \nbut upsetting this rock has given you the munchies. You break the egg at the
+      top of the boulder and slowly drop its content on the stone. "
+    output: 9f000000
+    position: {x: 1043, y: 1472}
+    userData: 
+    speaker: Moi
+  - id: 158
+    dialogueEntry: Darock
+    dialogue: "[You can\u2019t even finish your sentence, because the stone has literally
+      baked you where you stand, \nlike a roasted henmoth. You are dead, dead and
+      dead again.]"
+    output: cf000000
+    position: {x: 1192, y: 1396}
+    userData: 
+    speaker: Moi
+  - id: 159
+    dialogueEntry: Darock
+    dialogue: "When it falls on it, it\u2019s instantly cooked. With a cruel grin,
+      you say] \u201CAt last I see one can use you in many ways, not just as a public
+      lavatory.\u201D\n[DaRock is flabbergasted, supine and stone-faced as ever. After
+      a few seconds, it answers !] \u201CYou take more after the troll than of the
+      barbarian\u201D. \n[As it speaks, the stone begins to vibrate, an exponential
+      whistling coming from it\u2019s mantle pierces your ears as DaRock dilates. "
+    output: a0000000
+    position: {x: 1193, y: 1472}
+    userData: 
+    speaker: Moi
+  - id: 160
+    dialogueEntry: Darock
+    dialogue: "After a few seconds, your head explodes. Continuing its expansion,
+      DaRock snatches your body, and then the whole bar. \nAfter having grown 42 times
+      its original size, it explodes in a formidable shroom of scarlet light. \nThe
+      explosion has annihilated all life in a 12 mile radius."
+    output: ce000000
+    position: {x: 1343, y: 1472}
+    userData: 
+    speaker: Moi
+  - id: 200
+    dialogueEntry: Darock
+    dialogue: "I can feel the lava bubbling in me, it\u2019s overwhelming ! Oh, come
+      closer! \n[DaRock begins to vibrate and you can feel it drawing you closer.
+      No matter its gender, its age, you\u2019re giving yourself up to this force.
+      \nYour lips are irresistibly to its set smile. You feel a gentle warmth enveloping
+      you and you realise you are where you belong. "
+    output: c9000000
+    position: {x: 940, y: 1543}
+    userData: 
+    speaker: Darock
+  - id: 201
+    dialogueEntry: Darock
+    dialogue: "You even think you saw a tear drop near the stone\u2019s circled-eye.
+      \nThis sight moves you. At the moment your lips are about to meet the red line
+      of its mouth, \nDaRock leans on and whispers in your ear] \u201CLove me tender,
+      love me true\u201D."
+    output: cd000000
+    position: {x: 1090, y: 1543}
+    userData: 
+    speaker: Darock
+  - id: 202
+    dialogueEntry: Darock
+    dialogue: "You can\u2019t begin to grasp how happy you\u2019ve made me this instant.
+      \nI thought that nothing good could ever happen to me anymore, that humans were
+      mere bloody, cruel masses of flesh. \nI was filled with resentment to my top.
+      But now, I look at the future with a more serene look. \nI feel like I have
+      a lot to do before becoming a healthy stone again. \n"
+    output: cb000000
+    position: {x: 954, y: 1621}
+    userData: 
+    speaker: Darock
+  - id: 203
+    dialogueEntry: Darock
+    dialogue: "But there\u2019s always a back door, a different way to look at the
+      future. And that\u2019s all the more easy when you have someone at your side
+      to guide you, isn\u2019t it ? My\u2026 Friend ?"
+    output: cc000000
+    position: {x: 1104, y: 1621}
+    userData: 
+    speaker: Darock
+  - id: 204
+    dialogueEntry: Darock
+    dialogue: 
+    output: 
+    position: {x: 1254, y: 1621}
+    userData: End:1
+    speaker: 
+  - id: 205
+    dialogueEntry: Darock
+    dialogue: 
+    output: 
+    position: {x: 1240, y: 1543}
+    userData: End:1
+    speaker: 
+  - id: 206
+    dialogueEntry: Darock
+    dialogue: 
+    output: 
+    position: {x: 1493, y: 1472}
+    userData: End:0
+    speaker: 
+  - id: 207
+    dialogueEntry: Darock
+    dialogue: 
+    output: 
+    position: {x: 1342, y: 1396}
+    userData: End:0
+    speaker: 
+  - id: 208
+    dialogueEntry: Darock
+    dialogue: 
+    output: 
+    position: {x: 1269, y: 304}
+    userData: End:0
+    speaker: 
+  - id: 300
+    dialogueEntry: Agna
+    dialogue: 
+    output: 
+    position: {x: 1051, y: 115}
+    userData: End:0
+    speaker: 
+  - id: 301
+    dialogueEntry: Agna
+    dialogue: 
+    output: 
+    position: {x: 647, y: 441}
+    userData: End:0
+    speaker: 
+  - id: 302
+    dialogueEntry: Agna
+    dialogue: 
+    output: 
+    position: {x: 1209, y: 874}
+    userData: End:0
+    speaker: 
+  - id: 303
+    dialogueEntry: Agna
+    dialogue: 
+    output: 
+    position: {x: 1274, y: 1233}
+    userData: End:0
+    speaker: 
+  - id: 304
+    dialogueEntry: Agna
+    dialogue: 
+    output: 
+    position: {x: 551, y: 1421}
+    userData: End:1
     speaker: 

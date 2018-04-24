@@ -335,7 +335,8 @@ public class DialogueEditor : EditorWindow
 			beginLine.position = new Vector2(10, 10);
 			files[filePopupSelectedIndex].entries.Add(newEntry);
 			files[filePopupSelectedIndex].lines.Add(beginLine);
-			EditorUtility.SetDirty(files[filePopupSelectedIndex]);
+
+            EditorUtility.SetDirty(files[filePopupSelectedIndex]);
 		}
 		if (GUILayout.Button("-"))
 		{
@@ -459,6 +460,7 @@ public class DialogueEditor : EditorWindow
 				if (GUI.Button(new Rect(window.rect.xMax, window.rect.y + 10, 20, 20), "+", windowButtonStyle))
 				{
 					createWindow = true;
+
 				}
 				if (GUI.Button(new Rect(window.rect.xMax, window.rect.y + 30, 20, 20), "->", windowButtonStyle))
 				{
@@ -493,8 +495,10 @@ public class DialogueEditor : EditorWindow
 			DialogueFile.DialogueLine line = new DialogueFile.DialogueLine();
 			line.dialogue = "";
 			line.dialogueEntry = selectedEntry.id;
-			line.id = selectedEntry.maxLineId++;
-
+            //selectedEntry.maxLineId = 300;
+            line.id = selectedEntry.maxLineId++;
+            Debug.Log("lineId" + selectedEntry.id);
+            Debug.Log("lineId"+line.id);
 			// set line's position
 			Rect windowRc = windows[lastFocusWindow].rect;
 			line.position = new Vector2(windowRc.xMax + 50, windowRc.y);

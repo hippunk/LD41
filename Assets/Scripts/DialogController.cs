@@ -80,8 +80,10 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             dateImage.sprite = meSprite;
             SetName(GameLogicManager.playerName);
         }
-        else {
-            SetName(choice.speaker);
+
+        else
+        {
+            SetName(GameLogicManager.currentCharacter.characterName+"-"+ GameLogicManager.currentCharacter.titre);
             dateImage.sprite = GameLogicManager.currentCharacter.dateCard;
         }
     }
@@ -303,7 +305,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         if (dialogue.GetChoices() == null || dialogue.GetChoices().Length == 0) {
             clickFeedback.GetComponentInChildren<Text>().text = "Fin";
         }
-        else if (!textAnimator.finished) {
+        if (!textAnimator.finished) {
             textAnimator.finished = true;
             clickFeedback.SetActive(true);
         }

@@ -1,0 +1,3441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>Dialog</name>
+  <hideFlags>None</hideFlags>
+  <entries>
+    <DialogueEntry>
+      <id>Darock</id>
+      <maxLineId>13</maxLineId>
+      <speakers>
+        <string>Moi</string>
+        <string>Darock</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>Agna</id>
+      <maxLineId>53</maxLineId>
+      <speakers>
+        <string>Moi</string>
+        <string>Agna</string>
+      </speakers>
+    </DialogueEntry>
+    <DialogueEntry>
+      <id>Ratchet</id>
+      <maxLineId>15</maxLineId>
+      <speakers>
+        <string>Ratchet</string>
+        <string>Moi</string>
+      </speakers>
+    </DialogueEntry>
+  </entries>
+  <lines>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>4</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>2</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>0</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>1</int>
+      </output>
+      <position>
+        <x>10</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>1</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue>Salut wesh wesh yo [PP]!!</dialogue>
+      <output>
+        <int>13</int>
+      </output>
+      <position>
+        <x>150</x>
+        <y>17</y>
+      </position>
+      <userData />
+      <speaker>Ratchet</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue>Repaint()</dialogue>
+      <output>
+        <int>6</int>
+        <int>7</int>
+        <int>8</int>
+      </output>
+      <position>
+        <x>413</x>
+        <y>43</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue>Salut !</dialogue>
+      <output>
+        <int>9</int>
+        <int>10</int>
+      </output>
+      <position>
+        <x>567</x>
+        <y>0</y>
+      </position>
+      <userData>R:10</userData>
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue>wehs !</dialogue>
+      <output>
+        <int>9</int>
+        <int>10</int>
+      </output>
+      <position>
+        <x>574</x>
+        <y>121</y>
+      </position>
+      <userData>R:-10</userData>
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>8</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue>Yolop</dialogue>
+      <output>
+        <int>9</int>
+        <int>10</int>
+      </output>
+      <position>
+        <x>574</x>
+        <y>242</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>9</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue>bloubloup</dialogue>
+      <output />
+      <position>
+        <x>774</x>
+        <y>151</y>
+      </position>
+      <userData>|R:&lt;1000</userData>
+      <speaker>Ratchet</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>10</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue>wapwapwap</dialogue>
+      <output />
+      <position>
+        <x>773</x>
+        <y>11</y>
+      </position>
+      <userData>|R:&gt;1000</userData>
+      <speaker>Ratchet</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>13</id>
+      <dialogueEntry>Ratchet</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>5</int>
+      </output>
+      <position>
+        <x>277</x>
+        <y>97</y>
+      </position>
+      <userData>F</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>2</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[When you enter the tavern, you spot Agna directly. She’s sitting in the back of the tavern. 
+You can’t help but notice that she’s frantically glancing at every person in the bar. 
+You walk to her.]</dialogue>
+      <output>
+        <int>3</int>
+        <int>4</int>
+        <int>5</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>3</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Hello.</dialogue>
+      <output>
+        <int>13</int>
+      </output>
+      <position>
+        <x>339</x>
+        <y>-8</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Hi.</dialogue>
+      <output>
+        <int>14</int>
+      </output>
+      <position>
+        <x>339</x>
+        <y>82</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Good morning.</dialogue>
+      <output>
+        <int>15</int>
+      </output>
+      <position>
+        <x>343</x>
+        <y>174</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Agna stares at you silently with a cruel grin]
+I recognize you now. You’ve bought some venison from me last week. You looked… Different.
+</dialogue>
+      <output>
+        <int>9</int>
+        <int>10</int>
+      </output>
+      <position>
+        <x>621</x>
+        <y>61</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>9</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Acknowledge her</dialogue>
+      <output>
+        <int>11</int>
+      </output>
+      <position>
+        <x>755</x>
+        <y>13</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>10</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You’re strong for a woman</dialogue>
+      <output>
+        <int>12</int>
+      </output>
+      <position>
+        <x>751</x>
+        <y>116</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>11</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Yes. And you’re the Fear Monger, 
+the one that defeated Rarbar Steel Fists
+ in single combat. 
+I heard you ripped his heart off his ribcage and fed him. 
+I think that’s impressive.
+</dialogue>
+      <output>
+        <int>16</int>
+      </output>
+      <position>
+        <x>890</x>
+        <y>13</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>12</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Maybe. And you looked way sexier on your pictures, but you don’t see me complaining ! But I recognised you anyway, Fear Monger. You’re strong for a woman.</dialogue>
+      <output>
+        <int>300</int>
+      </output>
+      <position>
+        <x>901</x>
+        <y>115</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>13</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Hello.
+</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>485</x>
+        <y>-9</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>14</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Hi.</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>480</x>
+        <y>82</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>15</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Good morning.</dialogue>
+      <output>
+        <int>6</int>
+      </output>
+      <position>
+        <x>480</x>
+        <y>172</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>16</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Hearing the name « Fear Monger », 
+the men in the tavern exchange frightful looks. 
+Slowly, they all begin to leave their sits, 
+discreetly tiptoeing to the front door. ]
+</dialogue>
+      <output>
+        <int>18</int>
+      </output>
+      <position>
+        <x>1040</x>
+        <y>13</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>17</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>In the flesh, yes. It’s a fitting surname, judging by the reaction of these poor fools. 
+But you’re still here, and you don’t seem to be afraid. 
+You must have accomplished great things yourself. 
+Tell me about your exploits.</dialogue>
+      <output>
+        <int>19</int>
+        <int>20</int>
+        <int>23</int>
+      </output>
+      <position>
+        <x>1307</x>
+        <y>13</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>18</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Surprised, the bartender looks around, and when his eyes meet Agna’s, 
+he lets out a little squeak. 
+He hastily brings a keg, mumbling muffled excuses, and leaves the tavern. 
+You’re alone in this. 
+Agna has observed all this mouvement with a smirk of pride.]</dialogue>
+      <output>
+        <int>17</int>
+      </output>
+      <position>
+        <x>1166</x>
+        <y>12</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>19</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Overstate your achievements</dialogue>
+      <output>
+        <int>21</int>
+      </output>
+      <position>
+        <x>188</x>
+        <y>300</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>20</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>She’s wrong</dialogue>
+      <output>
+        <int>22</int>
+      </output>
+      <position>
+        <x>179</x>
+        <y>446</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>21</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Yes, actually, I have. I was a mercenary for 10 years, so I’ve fought and won many battles. 
+I once drove 5 men to cowardly take their own life by just looking threateningly at them during the battle of […].
+</dialogue>
+      <output>
+        <int>27</int>
+      </output>
+      <position>
+        <x>353</x>
+        <y>287</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>22</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She’s wrong. The ferocious light in her eyes made you piss yourself 3 times already. 
+You feel the urge to leave, right now. As she stares at you, 
+obviously waiting for your answer, you carefully observe the inside of the tavern, 
+waiting for the right occasion to flee. 
+Do you distract her ? How ?]</dialogue>
+      <output>
+        <int>26</int>
+      </output>
+      <position>
+        <x>357</x>
+        <y>443</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>23</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Tell her the truth</dialogue>
+      <output>
+        <int>24</int>
+      </output>
+      <position>
+        <x>183</x>
+        <y>373</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>24</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I have not done such things as you have. 
+But I was a good fighter. 
+There was once an ancient rivalry between my family and the barbarians of Brak. 
+We used to meet once a year, for the spring equinox. </dialogue>
+      <output>
+        <int>25</int>
+      </output>
+      <position>
+        <x>351</x>
+        <y>363</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>25</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>We’d organize a single combat, with champion from both families. 
+I used to be my family’s representative. I won for 5 years in a row, until the grudge was settled. 
+The winner had the right to take all of the loser’s newborn. 
+I put their heads on spikes to remind them of our power.</dialogue>
+      <output>
+        <int>28</int>
+      </output>
+      <position>
+        <x>497</x>
+        <y>362</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>26</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Maybe throwing your sword at her and running through the window ? 
+You sigh, count to three and jump out of the tavern. 
+Alone at her table, Agna frowns and lets a faint grown. Then, sighing, she pours herself a pint of beer.]</dialogue>
+      <output>
+        <int>301</int>
+      </output>
+      <position>
+        <x>504</x>
+        <y>443</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>27</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I find it hard to believe. You’re imaginative, I guess… But you’ll find I hate liars.
+[She really does. The pumping vein on her forehead makes you shake a little]
+</dialogue>
+      <output>
+        <int>33</int>
+      </output>
+      <position>
+        <x>502</x>
+        <y>285</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>28</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You may not have decimated a whole clan, not everyone can brag about such an accomplishment, 
+but you certainly do have respect for our ways. 
+I appreciate that in a person. </dialogue>
+      <output>
+        <int>33</int>
+      </output>
+      <position>
+        <x>625</x>
+        <y>356</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>31</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I like it here</dialogue>
+      <output>
+        <int>34</int>
+      </output>
+      <position>
+        <x>881</x>
+        <y>262</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>32</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I agree with you</dialogue>
+      <output>
+        <int>35</int>
+      </output>
+      <position>
+        <x>883</x>
+        <y>360</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>33</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>The first time I arrived to your camp, 
+I was really astonished by the oblivious customs of your people. 
+Have all of you forgotten the thrill of the fight, the freedom of nomadism ?</dialogue>
+      <output>
+        <int>31</int>
+        <int>32</int>
+      </output>
+      <position>
+        <x>753</x>
+        <y>305</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>34</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>It’s also nice to sleep in a bed and rest from battle from time to time. 
+We’ve developed a real civilization here. We have water supplies, 
+livestock and the craftsmen can have a place to work. 
+We had to change our ways if we wanted to improve our existences.</dialogue>
+      <output>
+        <int>36</int>
+      </output>
+      <position>
+        <x>1012</x>
+        <y>263</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>35</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You are right. We should have kept our traditions alive. 
+But then again, we can’t go back. 
+We have to keep remembering the glorious past and try to teach our youth about the old ways.</dialogue>
+      <output>
+        <int>37</int>
+      </output>
+      <position>
+        <x>1007</x>
+        <y>363</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>36</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>What you call civilization I call weakness. But I also see what you mean. 
+You don’t have to suffer through the winters, and the young can eat their fill. 
+I just wish we could live up to our ancestor’s glory. 
+It angers me that we’re forgetting about them.</dialogue>
+      <output>
+        <int>40</int>
+      </output>
+      <position>
+        <x>1141</x>
+        <y>258</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>37</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I’m glad you share my views. But I also understand what you mean. 
+We can’t go back now. It’s too late. Let us hope that one day, 
+the others will understand our kind does not belong in little houses planting artichokes all day.</dialogue>
+      <output>
+        <int>40</int>
+      </output>
+      <position>
+        <x>1135</x>
+        <y>357</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>40</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You talk like your way of life has changed a lot coming here. How was your first clan like ?
+</dialogue>
+      <output>
+        <int>42</int>
+      </output>
+      <position>
+        <x>1284</x>
+        <y>319</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>41</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>What do you do now, with the truce going on ? Are you a merchant ?</dialogue>
+      <output>
+        <int>43</int>
+      </output>
+      <position>
+        <x>174</x>
+        <y>618</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>42</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>My first clan was not like yours. We were always moving. Our ways were way harder than yours. Especially for the children. 
+The ones who weren’t strong enough were given to Korm as an offering of blood. But even then, I wasn’t free. 
+My mother was part of the craftsmen guild. I was her apprentice. I didn’t like this life. 
+I didn’t wanted to forge swords, but to slice through flesh with them.
+</dialogue>
+      <output>
+        <int>44</int>
+      </output>
+      <position>
+        <x>184</x>
+        <y>533</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>43</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She looks right in your eyes, looking for a hint that you’re trying to mock her] You don’t know about my shameful enterprise ? 
+I thought the entire tribe knew about it. I… I knit. I’ve always loved knitting. 
+As a child, I was hiding in our tent to make my mother everything I could : scarves, pommel ornaments… 
+I even did a blanket I embroidered with our tribe’s arms. 
+
+</dialogue>
+      <output>
+        <int>45</int>
+      </output>
+      <position>
+        <x>313</x>
+        <y>609</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>44</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>When our clan got attacked by a group of raiders in the midst of the harshest winter we’d ever had, not many did survive. 
+That was our chance to leave. But when we arrived here, my mother and I had to prove our value. 
+We always had to. Even when I came back from my solo raid after the annihilation of the Stone Prophet Clan, it wasn’t enough.
+</dialogue>
+      <output>
+        <int>48</int>
+      </output>
+      <position>
+        <x>351</x>
+        <y>523</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>45</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She’s looking a bit uncomfortable telling you that. 
+You can tell by the way she’s playing with the pommel of her sword under the table, 
+and the fact that she’s avoiding your gaze] 
+But I’ve been discovered once. Some brats in our tribe stole one of my works. </dialogue>
+      <output>
+        <int>46</int>
+      </output>
+      <position>
+        <x>455</x>
+        <y>606</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>46</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>It was a beautiful hat with a cute little pompom and a feather I had taken from the pet eagle of the Lagar’s chief. 
+Several hours of work. I was livid. 
+They paid for it. [She grins, and you fear what she’ll say next] They tried to shame me for my craft. 
+I added them to it. I used their bones to make needles. They were boneheads, but they make for fine tools. </dialogue>
+      <output>
+        <int>47</int>
+      </output>
+      <position>
+        <x>603</x>
+        <y>595</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>47</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Her grins widens as she’s waiting for your reaction]</dialogue>
+      <output>
+        <int>49</int>
+        <int>50</int>
+      </output>
+      <position>
+        <x>728</x>
+        <y>587</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>48</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You can see she’s full of rage. All these years of searching recognition have taken a toll on her mind. 
+But beneath the waves of anger that emanate from her, you feel something else. Maybe a kind of… Sadness?]</dialogue>
+      <output>
+        <int>41</int>
+      </output>
+      <position>
+        <x>544</x>
+        <y>517</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>49</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You’re admirative</dialogue>
+      <output>
+        <int>51</int>
+      </output>
+      <position>
+        <x>883</x>
+        <y>497</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>50</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You’re afraid</dialogue>
+      <output>
+        <int>54</int>
+      </output>
+      <position>
+        <x>895</x>
+        <y>594</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>51</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You feel a cold shiver running down your spine. Sweat dripping from your jaws. 
+But interestingly, at the same time… A thrill ? You weirdo.] 
+I get what you say. Battle is our natural way of life and death is part of that endless cycle. </dialogue>
+      <output>
+        <int>52</int>
+      </output>
+      <position>
+        <x>1027</x>
+        <y>486</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>52</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You see her noding] 
+Nevertheless I see the change we’re bringing right now as an another step in this cycle. 
+I don’t want to keep doing what I’m doing till I die. 
+Korm will laugh at my face when facing him in the halls of Vallhala. </dialogue>
+      <output>
+        <int>53</int>
+      </output>
+      <position>
+        <x>1174</x>
+        <y>493</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>53</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She frowns but wait for you to continue (provisoire)] 
+I am a thane of [TRIBE NAME] for Trarg’s sake ! 
+[You slam your fist against the table, prompting reactions from the nearby patrons cowering on their chair] </dialogue>
+      <output>
+        <int>55</int>
+      </output>
+      <position>
+        <x>1315</x>
+        <y>504</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>54</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue> [You feel the sudden urge to spew. When you look at Agna’s face, you see her teeth. 
+They seem so sharp. You gulp. She notices. You can almost touch her disappointment.]</dialogue>
+      <output>
+        <int>55</int>
+      </output>
+      <position>
+        <x>1075</x>
+        <y>608</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>55</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>And what is your occupation during this time of peace ?</dialogue>
+      <output>
+        <int>57</int>
+        <int>58</int>
+        <int>56</int>
+      </output>
+      <position>
+        <x>158</x>
+        <y>721</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>56</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>The holy hammer</dialogue>
+      <output>
+        <int>59</int>
+      </output>
+      <position>
+        <x>326</x>
+        <y>715</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>57</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>The mighty pole</dialogue>
+      <output>
+        <int>60</int>
+      </output>
+      <position>
+        <x>325</x>
+        <y>788</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>58</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>The sacred calice</dialogue>
+      <output>
+        <int>61</int>
+      </output>
+      <position>
+        <x>324</x>
+        <y>864</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>59</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I am the Bearer of the Holy Hammer. I work at the forge.
+</dialogue>
+      <output>
+        <int>62</int>
+      </output>
+      <position>
+        <x>476</x>
+        <y>715</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>60</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I am the Holder of the Mighty Pole. I use flies to fish. That’s it.</dialogue>
+      <output>
+        <int>63</int>
+      </output>
+      <position>
+        <x>475</x>
+        <y>788</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>61</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Straightening up, gloating]  I am the Keeper of the Sacred Chalice of Divine Bowels. 
+I work for the Sages and the good of the rituals. </dialogue>
+      <output>
+        <int>64</int>
+      </output>
+      <position>
+        <x>474</x>
+        <y>864</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>62</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She nods silently] I see. That is an honorable position for a non-warrior. 
+I guess you must be working with my mother, Dagna. But I wouldn’t boast if I were you</dialogue>
+      <output>
+        <int>65</int>
+        <int>66</int>
+        <int>67</int>
+      </output>
+      <position>
+        <x>626</x>
+        <y>715</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>63</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>A fisherman… That’s… unusual. But I guess you tried to keep fighting in the core of your job. 
+In your own way…</dialogue>
+      <output>
+        <int>66</int>
+        <int>67</int>
+        <int>65</int>
+      </output>
+      <position>
+        <x>622</x>
+        <y>788</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>64</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She gives you a disgusted look] That’s a demeaning position. 
+Wiping the arse of these old goats all day must be testing for a former warrior. 
+I’m sure you could have found better. Or at least I hope so.</dialogue>
+      <output>
+        <int>67</int>
+        <int>66</int>
+        <int>65</int>
+      </output>
+      <position>
+        <x>624</x>
+        <y>864</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>65</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I pray for it to end</dialogue>
+      <output>
+        <int>114</int>
+      </output>
+      <position>
+        <x>786</x>
+        <y>716</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>66</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>It will end</dialogue>
+      <output>
+        <int>115</int>
+      </output>
+      <position>
+        <x>767</x>
+        <y>799</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>67</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>How dare you ?</dialogue>
+      <output>
+        <int>116</int>
+      </output>
+      <position>
+        <x>776</x>
+        <y>874</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>68</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>A wish I share.</dialogue>
+      <output>
+        <int>71</int>
+      </output>
+      <position>
+        <x>1051</x>
+        <y>692</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>69</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>That’s a wise way to see it.</dialogue>
+      <output>
+        <int>71</int>
+      </output>
+      <position>
+        <x>1028</x>
+        <y>784</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>70</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I won’t let you diminish me nor the housewives. They work twice more as you lazy baboon. 
+[She says while standing up slowly, reaching for her sword. You begin to understand that it’s time for 
+you to leave if you want to keep your head. (A part) Don’t insult the barbarian lady with a double-handed sword, 
+you fool. In fact, don’t insult women. At. All.] 
+</dialogue>
+      <output>
+        <int>302</int>
+      </output>
+      <position>
+        <x>1059</x>
+        <y>874</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>71</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She rises, drinking the remaining beer in one noisy gulp, with an half-smile on her face, 
+she drops coins on the table and glance at you with a look of, what seems to be, surprise and almost satisfaction]
+I must go now, I have… responsibilities I suppose, knitting is a never-ending task. </dialogue>
+      <output>
+        <int>72</int>
+      </output>
+      <position>
+        <x>1161</x>
+        <y>748</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>72</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She sighs but regains her composure] 
+Let’s share an another beer later, [PP] !</dialogue>
+      <output>
+        <int>73</int>
+      </output>
+      <position>
+        <x>1279</x>
+        <y>747</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>73</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>74</int>
+      </output>
+      <position>
+        <x>1412</x>
+        <y>746</y>
+      </position>
+      <userData>F</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>74</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You’ve decided to meet Agna at the Axe and Roses again. You’ve arrived early. 
+Seated at the back of the tavern, you enjoy the last rays of the setting sun, a pint of fresh beer in your hand. 
+The heavy door of the pub opens in a loud crack. ]
+</dialogue>
+      <output>
+        <int>75</int>
+      </output>
+      <position>
+        <x>248</x>
+        <y>968</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>75</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[There she is. And she’s not happy. When Agna sees you, she walks to you and grabs you by your shirt. 
+She holds you so close you can sent her breath. Blueberry and a hint of peppermint.]</dialogue>
+      <output>
+        <int>76</int>
+      </output>
+      <position>
+        <x>394</x>
+        <y>967</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>76</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You ! I should never have gave you my trust. I’m sure it is you who have stolen my needles. 
+I NEED some. Badly. Do you really wish to become my next tool ? I’ll carve your bones with care. </dialogue>
+      <output>
+        <int>77</int>
+      </output>
+      <position>
+        <x>544</x>
+        <y>967</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>77</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She notices your surprise. You obviously don’t understand why she’s enraged, 
+your widen eyes and your, unwittingly of course, shaking limbs speak for you.]</dialogue>
+      <output>
+        <int>78</int>
+        <int>79</int>
+      </output>
+      <position>
+        <x>685</x>
+        <y>965</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>78</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You act strong</dialogue>
+      <output>
+        <int>80</int>
+      </output>
+      <position>
+        <x>835</x>
+        <y>965</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>79</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You’re afraid</dialogue>
+      <output>
+        <int>81</int>
+      </output>
+      <position>
+        <x>836</x>
+        <y>1047</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>80</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>(You look her straight in the eyes) What is your problem,
+ Agna, daughter of Dagna ? I didn’t steal anything from you.</dialogue>
+      <output>
+        <int>82</int>
+      </output>
+      <position>
+        <x>985</x>
+        <y>965</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>81</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You try to collect yourself and fail. Miserably. Looking for backups, you realize no one will even stand up to her. 
+You answer in a trembling voice] What…? I’m… What are you talking…?</dialogue>
+      <output>
+        <int>83</int>
+      </output>
+      <position>
+        <x>986</x>
+        <y>1047</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>82</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She stops, confused. Looking at you glassy-eyed, she, a second later, 
+seems to get a hold of herself. Nevertheless she spits at you]
+</dialogue>
+      <output>
+        <int>84</int>
+      </output>
+      <position>
+        <x>1135</x>
+        <y>965</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>83</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[It seems to deepen her anger, she’s now shouting, spluttering all over your face. 
+As usual patrons are cowering, almost as a reflex.]</dialogue>
+      <output>
+        <int>84</int>
+      </output>
+      <position>
+        <x>1136</x>
+        <y>1047</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>84</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Of course you’d say that. As everyone else would. Bunch of weak-pantied male ! Always lying, always hiding when you should woman-up. 
+But that’s the way of your clan right ? Hiding behind your axe to compensate your lack of courage, even for the most futile of things ! 
+I had to work twice as hard as the men, just because I lacked the balls they said, laughing their asses off. 
+</dialogue>
+      <output>
+        <int>85</int>
+      </output>
+      <position>
+        <x>1285</x>
+        <y>965</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>85</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Oh I sweated, in the forge, in the stables, on the battlefield ! 
+I annihilated the Stone Prophet Clan, by myself, bathing in the blood and screams of my enemies. 
+And still, still they laughed, grinned when I was there, mocking me and my mother. Oh yes. 
+Poor Dagna with her fatherless daughter, she needs to settle down, why not with Vortharg the smith apprentice or Enthek the little warrior ? 
+</dialogue>
+      <output>
+        <int>86</int>
+      </output>
+      <position>
+        <x>252</x>
+        <y>1106</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>86</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Judgement, rumors, sneaky vipers, I lived with it, with them all my life. And then, I picked up the sword. And they stopped laughing. 
+Or I made them stop. From the poor little freak, I became the big scary one. I became the mountain of [CLAN NAME] but I never forgot my little sisters, 
+I carried some of them with me here. I protected them when they were slaughtering us, my back is still carrying the scars of my fight. 
+
+</dialogue>
+      <output>
+        <int>87</int>
+      </output>
+      <position>
+        <x>399</x>
+        <y>1119</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>87</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>And you came and tell me, right in my eyes that I’ve been wronged ? I can’t tolerate it. I won’t tolerate it. 
+[Her voice made the walls tremble, her roaring grew louder and louder, causing the other patrons to hide under the bar and the tables. 
+In the end she sat on a nearby chair, exhausted radiating a mix of hate and a bit of sorrow, after pouring her heart out]</dialogue>
+      <output>
+        <int>88</int>
+        <int>89</int>
+      </output>
+      <position>
+        <x>530</x>
+        <y>1150</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>88</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You care</dialogue>
+      <output>
+        <int>90</int>
+      </output>
+      <position>
+        <x>696</x>
+        <y>1144</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>89</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You defy her</dialogue>
+      <output>
+        <int>92</int>
+      </output>
+      <position>
+        <x>700</x>
+        <y>1231</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>90</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You are stunned. You look at her, speechless. Obviously. You’re facing 6’3” barbarian woman with a sword at her side, 
+you better be careful with your next words. You answer very cautiously] I… Did not think about it. Listen, Agna. I am sorry. I didn’t really know about your story, until now. 
+I can’t fix the past, but I can help you now, if you will. Do you want me to go look for the ones who stole your needles with you ?</dialogue>
+      <output>
+        <int>91</int>
+      </output>
+      <position>
+        <x>846</x>
+        <y>1144</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>91</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue> I don’t know how to carve on bones, but maybe you could teach me ?
+I didn’t really know about your story, until now. I can’t fix the past, but I can help you now, if you will. 
+Do you want me to go look for the ones who stole your needles with you ? 
+I don’t know how to carve on bones, but maybe you could teach me ?</dialogue>
+      <output>
+        <int>93</int>
+      </output>
+      <position>
+        <x>970</x>
+        <y>1141</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>92</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You look at her, contemptuous. No one and no thing dares to move or breathe.] 
+Are you finished ? I thought you were a kind of barbarian queen and in the end you’re just weeping your strength away. 
+That’s a shame. </dialogue>
+      <output>
+        <int>94</int>
+      </output>
+      <position>
+        <x>850</x>
+        <y>1231</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>93</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She looks at you, surprised. A faint blush is colouring her cheekbones. She grabs her tankard, 
+hastily swallowing the last of her beer. When she slams her mug on the table, she’s regained her composure. 
+She looks at you intensely. In her eyes you can see something new. Something like gratitude.] 
+Yes, [PP]. Yes, I would appreciate that. Let’s go.</dialogue>
+      <output>
+        <int>96</int>
+      </output>
+      <position>
+        <x>1120</x>
+        <y>1141</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>94</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[She looks at you with a disappointed look. Too tired to shout again. Her hair falling pathetically around her head, her eyes having lost their sparkles.] 
+You should get out, return to whatever activity allow you some joy. In a way, I pity you.</dialogue>
+      <output>
+        <int>95</int>
+      </output>
+      <position>
+        <x>1000</x>
+        <y>1231</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>95</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You stand up, everyone is looking at you, some with a discontented look on their face. 
+You walk proudly, flexing your muscle. A part of you seems to think that you’ve missed something but, blinded by your ego, 
+you’re thinking that you’ve just escaped from some bad joke. You are a terrible human being.]</dialogue>
+      <output>
+        <int>303</int>
+      </output>
+      <position>
+        <x>1124</x>
+        <y>1233</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>96</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output>
+        <int>97</int>
+      </output>
+      <position>
+        <x>1270</x>
+        <y>1141</y>
+      </position>
+      <userData>F</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>97</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You come back to the tavern the next day, arm in arm with Agna, bursting with laughter while drinking pint after pint, 
+re-telling again and again the story of the last night. Surprisingly even patrons come to see the both of you, and some, the brave ones, 
+even ask Agna some details about the fight. At first she answers begrudgingly, but more and more came and she finds herself in middle of a crowd.]</dialogue>
+      <output>
+        <int>98</int>
+      </output>
+      <position>
+        <x>273</x>
+        <y>1316</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>98</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>The story, quite familiar within the barbarians, become at each iteration more and more of an epic,
+from a handful of foes it became the tale of you and her facing armies, slaying monstrous beasts.</dialogue>
+      <output>
+        <int>99</int>
+      </output>
+      <position>
+        <x>405</x>
+        <y>1321</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>99</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Then, the first one begin to fall from the beer, then the others start to leave. 
+It’s the middle of the day but you [PP] and Agna are alone in this rascal den, the soft rays of the sun heating your skin, 
+the beer rushing through their veins. She looks at you. Almost… happy ? 
+You look at each other for a long time, without a word. Then she lowers her head and mutters]</dialogue>
+      <output>
+        <int>100</int>
+      </output>
+      <position>
+        <x>544</x>
+        <y>1318</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>100</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You… I… I’d… I’d want to thank you. </dialogue>
+      <output>
+        <int>101</int>
+      </output>
+      <position>
+        <x>693</x>
+        <y>1319</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>101</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[You glance at her, a smile beginning to appear on your face before realising she’s dead serious. 
+You smile fades away. Looking at her deep brown eyes, the importance of this phrase strikes you.]</dialogue>
+      <output>
+        <int>102</int>
+      </output>
+      <position>
+        <x>845</x>
+        <y>1317</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>102</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Looking at her amused above your beer] Thanks to you, too. You were amazingly graceful with that sword. 
+But you didn’t need to kick the chief’s head in his subordinate’s face, that maybe was a tad overkill…  
+</dialogue>
+      <output>
+        <int>103</int>
+      </output>
+      <position>
+        <x>983</x>
+        <y>1318</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>103</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>[Her roaring laugh exploded. A few hours ago it would have startled you, now your smile broadens just hearing it. 
+She’s laughing for a few minutes before stopping, tears flowing down her cheeks. 
+With the rumbling noise ending she hits your shoulder] </dialogue>
+      <output>
+        <int>104</int>
+      </output>
+      <position>
+        <x>1133</x>
+        <y>1318</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>104</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>You’re terrible. I’m trying to be serious, leave the banter at bay this time. Really when I said thank you I meant it. 
+You are the first person to help me in a long time. And it seems we have the same hobbies. 
+[She says grinning tapping the pommel of her sword with her finger] 
+</dialogue>
+      <output>
+        <int>105</int>
+      </output>
+      <position>
+        <x>236</x>
+        <y>1419</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>105</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>Maybe we should, you know... Get to know each other a little bit more ? 
+[Her voice lingers on the “know’, and… you may be dreaming but… 
+Have you caught her blushing for a second ? Well. Maybe it’s something to consider...]
+</dialogue>
+      <output>
+        <int>304</int>
+      </output>
+      <position>
+        <x>401</x>
+        <y>1421</y>
+      </position>
+      <userData />
+      <speaker>Agna</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>114</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I am doing my best to help the clan. But I am praying to Korm everyday that he’ll put that time of peace to an end.
+</dialogue>
+      <output>
+        <int>68</int>
+      </output>
+      <position>
+        <x>918</x>
+        <y>695</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>115</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I don’t like what I do, but it’s temporary. I won’t let it define me. </dialogue>
+      <output>
+        <int>69</int>
+      </output>
+      <position>
+        <x>904</x>
+        <y>793</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>116</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue>I do what I have to do. At least I don’t have the hobbies of a candy-coated housewife !</dialogue>
+      <output>
+        <int>70</int>
+      </output>
+      <position>
+        <x>908</x>
+        <y>878</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>4</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[…]</dialogue>
+      <output>
+        <int>5</int>
+        <int>6</int>
+        <int>7</int>
+      </output>
+      <position>
+        <x>160</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>5</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>By the hammer of Korm, what am I doing here?</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>310</x>
+        <y>10</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>6</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Hey!</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>303</x>
+        <y>121</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>7</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>What are you supposed to be?</dialogue>
+      <output>
+        <int>8</int>
+      </output>
+      <position>
+        <x>303</x>
+        <y>205</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>8</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[...]</dialogue>
+      <output>
+        <int>9</int>
+        <int>10</int>
+        <int>11</int>
+      </output>
+      <position>
+        <x>453</x>
+        <y>20</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>9</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Is this a joke?</dialogue>
+      <output>
+        <int>12</int>
+      </output>
+      <position>
+        <x>634</x>
+        <y>-3</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>10</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I’m out of here.</dialogue>
+      <output>
+        <int>12</int>
+      </output>
+      <position>
+        <x>632</x>
+        <y>81</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>11</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[…] [You start an eye duel] </dialogue>
+      <output />
+      <position>
+        <x>518</x>
+        <y>173</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>12</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Calm Down Kiddo.
+</dialogue>
+      <output>
+        <int>16</int>
+        <int>17</int>
+        <int>18</int>
+      </output>
+      <position>
+        <x>784</x>
+        <y>-3</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>13</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[...]</dialogue>
+      <output>
+        <int>14</int>
+      </output>
+      <position>
+        <x>662</x>
+        <y>179</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>14</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[...]</dialogue>
+      <output>
+        <int>15</int>
+      </output>
+      <position>
+        <x>780</x>
+        <y>180</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>15</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>What is wrong with you?</dialogue>
+      <output>
+        <int>16</int>
+        <int>17</int>
+        <int>18</int>
+      </output>
+      <position>
+        <x>912</x>
+        <y>179</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>16</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Smash the rock</dialogue>
+      <output>
+        <int>19</int>
+      </output>
+      <position>
+        <x>1045</x>
+        <y>-17</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>17</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You can talk ?</dialogue>
+      <output>
+        <int>20</int>
+      </output>
+      <position>
+        <x>1055</x>
+        <y>77</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>18</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You don't know who i am</dialogue>
+      <output>
+        <int>21</int>
+      </output>
+      <position>
+        <x>1069</x>
+        <y>186</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>19</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Witchcraft ! [Smash the rock with your mighty axe]</dialogue>
+      <output>
+        <int>22</int>
+      </output>
+      <position>
+        <x>1195</x>
+        <y>-17</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>20</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>So you speak.</dialogue>
+      <output>
+        <int>23</int>
+      </output>
+      <position>
+        <x>1205</x>
+        <y>77</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>21</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Do you know who you are talking to?</dialogue>
+      <output>
+        <int>24</int>
+      </output>
+      <position>
+        <x>1203</x>
+        <y>188</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>22</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Rocks can feel pain too, you know ?</dialogue>
+      <output>
+        <int>25</int>
+      </output>
+      <position>
+        <x>1345</x>
+        <y>-17</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>23</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Indubitably, yes. You’re sharp.</dialogue>
+      <output>
+        <int>25</int>
+      </output>
+      <position>
+        <x>1355</x>
+        <y>77</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>24</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>A particularly annoying mortal. Ha.</dialogue>
+      <output>
+        <int>25</int>
+      </output>
+      <position>
+        <x>1351</x>
+        <y>189</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>25</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Did you come to relieve yourself too ? Make it quick, the Stoned gatherings is about to begin.</dialogue>
+      <output>
+        <int>27</int>
+        <int>28</int>
+        <int>29</int>
+      </output>
+      <position>
+        <x>243</x>
+        <y>350</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>27</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>What are you talking about ?</dialogue>
+      <output>
+        <int>30</int>
+      </output>
+      <position>
+        <x>386</x>
+        <y>310</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>28</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Why would I</dialogue>
+      <output>
+        <int>31</int>
+      </output>
+      <position>
+        <x>382</x>
+        <y>382</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>29</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You ugly</dialogue>
+      <output>
+        <int>32</int>
+      </output>
+      <position>
+        <x>384</x>
+        <y>459</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>30</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>What are you talking about ?</dialogue>
+      <output>
+        <int>33</int>
+      </output>
+      <position>
+        <x>523</x>
+        <y>313</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>31</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Why would I do such a thing? I am an almost civilized barbarian. By the way you may have to tame what’s left off savagery inside...</dialogue>
+      <output>
+        <int>34</int>
+      </output>
+      <position>
+        <x>524</x>
+        <y>392</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>32</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Seeing your… Head… I really don’t want to.</dialogue>
+      <output>
+        <int>35</int>
+      </output>
+      <position>
+        <x>519</x>
+        <y>468</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>33</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I just said that for you to leave.</dialogue>
+      <output>
+        <int>36</int>
+      </output>
+      <position>
+        <x>673</x>
+        <y>313</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>34</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Looks like I’d get my rock off getting to know you. I will not remain unmoved by you. </dialogue>
+      <output>
+        <int>36</int>
+      </output>
+      <position>
+        <x>674</x>
+        <y>392</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>35</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I don’t technically have a head.. And obviously you don’t have one either.</dialogue>
+      <output>
+        <int>36</int>
+      </output>
+      <position>
+        <x>677</x>
+        <y>464</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>36</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>And why would a mortal like you stoop so low as to talk to me ?</dialogue>
+      <output>
+        <int>37</int>
+        <int>38</int>
+        <int>39</int>
+      </output>
+      <position>
+        <x>823</x>
+        <y>313</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>37</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I’m bored</dialogue>
+      <output>
+        <int>40</int>
+      </output>
+      <position>
+        <x>969</x>
+        <y>304</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>38</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I saw you on tandaarg</dialogue>
+      <output>
+        <int>41</int>
+      </output>
+      <position>
+        <x>964</x>
+        <y>380</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>39</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Taking a leak</dialogue>
+      <output>
+        <int>42</int>
+      </output>
+      <position>
+        <x>965</x>
+        <y>458</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>40</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Now that you mention it, you’re not very interesting for a talking stone. Walk away.</dialogue>
+      <output>
+        <int>208</int>
+      </output>
+      <position>
+        <x>1119</x>
+        <y>304</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>41</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I saw your profile on tandaarg.</dialogue>
+      <output>
+        <int>43</int>
+      </output>
+      <position>
+        <x>1114</x>
+        <y>380</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>42</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I felt like taking a leek.</dialogue>
+      <output>
+        <int>44</int>
+      </output>
+      <position>
+        <x>1115</x>
+        <y>458</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>43</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Oh, I did that a long time ago. I had forgotten about it until today. 
+I was particularly depressed that day. I desperately wanted to talk to someone. 
+At all costs. But nobody came.
+</dialogue>
+      <output>
+        <int>45</int>
+        <int>46</int>
+        <int>47</int>
+      </output>
+      <position>
+        <x>241</x>
+        <y>601</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>44</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Then why did you come to talk to me ? You wanted to hurt me even more? Well done, you’ve managed to do it. 
+Stones have souls you know ? [DaRock blasts you, you are left as no more than a small pile of brutal dust.] </dialogue>
+      <output />
+      <position>
+        <x>1265</x>
+        <y>458</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>45</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You won't be alone anymore</dialogue>
+      <output>
+        <int>48</int>
+      </output>
+      <position>
+        <x>391</x>
+        <y>601</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>46</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>No wonder</dialogue>
+      <output>
+        <int>49</int>
+      </output>
+      <position>
+        <x>393</x>
+        <y>677</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>47</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Attempt at joking</dialogue>
+      <output>
+        <int>50</int>
+      </output>
+      <position>
+        <x>388</x>
+        <y>757</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>48</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You don’t have to be alone anymore. [Your insisting raised eyebrows seem quite explicit to you]</dialogue>
+      <output>
+        <int>51</int>
+      </output>
+      <position>
+        <x>541</x>
+        <y>601</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>49</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Well no wonder, judging by the atmosphere.</dialogue>
+      <output>
+        <int>52</int>
+      </output>
+      <position>
+        <x>543</x>
+        <y>677</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>50</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Ah, I’m sorry. But you know, you’re a rock and you roll ! [This attempt of a joke may not be well received...]</dialogue>
+      <output>
+        <int>53</int>
+      </output>
+      <position>
+        <x>538</x>
+        <y>757</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>51</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>What’s up with your facial hair ? I don’t get it.</dialogue>
+      <output>
+        <int>54</int>
+      </output>
+      <position>
+        <x>691</x>
+        <y>601</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>52</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>If you had been turned in a day from a mountain to a gravel, would you be in a better state ?</dialogue>
+      <output>
+        <int>56</int>
+      </output>
+      <position>
+        <x>693</x>
+        <y>677</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>53</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I am unfortunately attached to this existence and this place forever. You see, I am immortal, and unmovable.</dialogue>
+      <output>
+        <int>56</int>
+      </output>
+      <position>
+        <x>688</x>
+        <y>757</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>54</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Wait. You do have a face. And you’re drinking beer. 
+So you should be able to understand the idea of facial expression ?</dialogue>
+      <output>
+        <int>55</int>
+      </output>
+      <position>
+        <x>821</x>
+        <y>596</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>55</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Darock : This face has been painted. By children, a few years ago. Beer is just for the look, I’m a barbarian rock, remember. 
+</dialogue>
+      <output>
+        <int>56</int>
+      </output>
+      <position>
+        <x>963</x>
+        <y>596</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>56</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>But tell me, why have I done to make you interested ?</dialogue>
+      <output>
+        <int>57</int>
+        <int>58</int>
+        <int>59</int>
+      </output>
+      <position>
+        <x>227</x>
+        <y>875</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>57</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Touristic attraction</dialogue>
+      <output>
+        <int>60</int>
+      </output>
+      <position>
+        <x>371</x>
+        <y>862</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>58</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Your physique</dialogue>
+      <output>
+        <int>61</int>
+      </output>
+      <position>
+        <x>372</x>
+        <y>941</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>59</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Acknowledge its value</dialogue>
+      <output>
+        <int>62</int>
+      </output>
+      <position>
+        <x>369</x>
+        <y>1017</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>60</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Apparently you’re a touristic attraction. You were supposed to be a prophet or something like that. I wonder where they got all that. You’re just a rock after all. </dialogue>
+      <output>
+        <int>63</int>
+      </output>
+      <position>
+        <x>521</x>
+        <y>862</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>61</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Your generous ancestral stony curves...</dialogue>
+      <output>
+        <int>64</int>
+      </output>
+      <position>
+        <x>522</x>
+        <y>941</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>62</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You’ve had a living God’s life, I figured you’d have interesting things to tell.</dialogue>
+      <output>
+        <int>65</int>
+      </output>
+      <position>
+        <x>519</x>
+        <y>1017</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>63</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I may be a rock, but I know what a passive-aggressive answer is. You seem to forget I am not ANY rock.</dialogue>
+      <output>
+        <int>66</int>
+      </output>
+      <position>
+        <x>671</x>
+        <y>862</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>64</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Oh, stop it you ! *giggles* I wasn’t always so slim.</dialogue>
+      <output>
+        <int>66</int>
+      </output>
+      <position>
+        <x>672</x>
+        <y>941</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>65</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>It’s satisfying that a mortal acknowledges my true value, once again.</dialogue>
+      <output>
+        <int>66</int>
+      </output>
+      <position>
+        <x>669</x>
+        <y>1017</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>66</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Once I served as an intermediary between the Clan of the Stone Prophet and the gods : 
+I made the desires of Korm known, the mortals spoke and the gods listened. I traded worship for informations about the future of the tribe. 
+I was a recipient for praise and offerings. My people went to me for counsel. 
+</dialogue>
+      <output>
+        <int>67</int>
+      </output>
+      <position>
+        <x>831</x>
+        <y>906</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>67</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I was the catalyst. But, during a moonless night, where the clouds crowned the mountains, thunder struck me. 
+I fell from the high peak that was my altar, smashing the tribe’s leader’s head in my fall, killing him on the blow. 
+It was an accident, but it didn’t stop them from banishing me, ceasing the offerings and thus cutting the link telling them of their impending doom. 
+</dialogue>
+      <output>
+        <int>68</int>
+      </output>
+      <position>
+        <x>981</x>
+        <y>906</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>68</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>And so, two moons later, the tribesmen were unable to protect themselves from Agna Fear-Monger. 
+They perished that night. Having failed my duty as their warden, the gods took away my powers. This night I became the emblem of slaughter, the crest of crushing defeat. 
+Their contribution became with piss. They started to piss on me, those ungrateful bastards. 
+</dialogue>
+      <output>
+        <int>69</int>
+      </output>
+      <position>
+        <x>1131</x>
+        <y>906</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>69</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Those pilgrimages started to erode my precious and fragile obsidian shell, and my heart grew colder, immersing me in an ocean of bitterness and loneliness. </dialogue>
+      <output>
+        <int>101</int>
+        <int>102</int>
+        <int>103</int>
+      </output>
+      <position>
+        <x>220</x>
+        <y>1144</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>101</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>No fucks given</dialogue>
+      <output>
+        <int>106</int>
+      </output>
+      <position>
+        <x>370</x>
+        <y>1144</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>102</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Make another pun</dialogue>
+      <output>
+        <int>105</int>
+      </output>
+      <position>
+        <x>374</x>
+        <y>1228</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>103</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Be empathic</dialogue>
+      <output>
+        <int>104</int>
+      </output>
+      <position>
+        <x>372</x>
+        <y>1312</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>104</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I am so sorry for what happened to you. But if that’s what you want, I could warm you up...</dialogue>
+      <output>
+        <int>109</int>
+      </output>
+      <position>
+        <x>523</x>
+        <y>1314</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>105</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Must have dragged your mine cart down.</dialogue>
+      <output>
+        <int>108</int>
+      </output>
+      <position>
+        <x>524</x>
+        <y>1230</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>106</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Lol, didn’t read</dialogue>
+      <output>
+        <int>107</int>
+      </output>
+      <position>
+        <x>520</x>
+        <y>1143</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>107</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[You notice DaRock begins to take a rosy colour]
+I thought I had already lost my self esteem, but thanks to you, 
+I see now that I had a little more dignity for you to smash to pieces...</dialogue>
+      <output>
+        <int>110</int>
+      </output>
+      <position>
+        <x>670</x>
+        <y>1143</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>108</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[You notice DaRock begins to take a rosy colour]
+Your empathy touches me. I didn’t think a barbarian might still have this skill... </dialogue>
+      <output>
+        <int>110</int>
+      </output>
+      <position>
+        <x>674</x>
+        <y>1230</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>109</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[You notice DaRock begins to take a rosy colour]
+Nobody ever spoke to me like that, I feel new feelings shaking my minerals...</dialogue>
+      <output>
+        <int>110</int>
+      </output>
+      <position>
+        <x>674</x>
+        <y>1314</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>110</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>So is this what a date looks like ?</dialogue>
+      <output>
+        <int>111</int>
+        <int>112</int>
+        <int>113</int>
+      </output>
+      <position>
+        <x>818</x>
+        <y>1180</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>111</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I don't know</dialogue>
+      <output>
+        <int>114</int>
+      </output>
+      <position>
+        <x>968</x>
+        <y>1144</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>112</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Yes</dialogue>
+      <output>
+        <int>115</int>
+      </output>
+      <position>
+        <x>964</x>
+        <y>1225</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>113</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>This one sucks</dialogue>
+      <output>
+        <int>116</int>
+      </output>
+      <position>
+        <x>966</x>
+        <y>1304</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>114</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Well, I don’t really know. Dating is not really my strong suit.</dialogue>
+      <output>
+        <int>117</int>
+      </output>
+      <position>
+        <x>1097</x>
+        <y>1146</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>115</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Yes, and I wish they roxxed all like this one !</dialogue>
+      <output>
+        <int>118</int>
+      </output>
+      <position>
+        <x>1099</x>
+        <y>1223</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>116</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>It rarely sucks that much. I think it has to do with all these rocks in your head.</dialogue>
+      <output>
+        <int>119</int>
+      </output>
+      <position>
+        <x>1096</x>
+        <y>1305</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>117</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I appreciate your honesty, mortal. I like you. I feel something growing inside me... 
+[Indeed, the stone seems to be growing. How peculiar.]</dialogue>
+      <output>
+        <int>120</int>
+      </output>
+      <position>
+        <x>1247</x>
+        <y>1146</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>118</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[The magic stone is becoming a vivid red] Oh stop it, hu hu.</dialogue>
+      <output>
+        <int>120</int>
+      </output>
+      <position>
+        <x>1249</x>
+        <y>1223</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>119</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[The magic stone is becoming a vivid red] I feel the salt... 
+[You can indeed observe a white layer shows on the stone] 
+Don’t mess with me human, or you’ll hit rock bottom. </dialogue>
+      <output>
+        <int>120</int>
+      </output>
+      <position>
+        <x>1246</x>
+        <y>1305</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>120</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Tell me more about yourself. What is your occupation in the clan ?</dialogue>
+      <output>
+        <int>121</int>
+        <int>122</int>
+        <int>123</int>
+      </output>
+      <position>
+        <x>210</x>
+        <y>1421</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>121</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Provoke it</dialogue>
+      <output>
+        <int>124</int>
+      </output>
+      <position>
+        <x>360</x>
+        <y>1421</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>122</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Honor it</dialogue>
+      <output>
+        <int>125</int>
+      </output>
+      <position>
+        <x>361</x>
+        <y>1493</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>123</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Be honest</dialogue>
+      <output>
+        <int>126</int>
+      </output>
+      <position>
+        <x>361</x>
+        <y>1573</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>124</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I’m a renovation worker. I like to handle loose gravels. You know, these crushed, 
+distorted stones who will have no other function than to be stepped on and stepped on again…</dialogue>
+      <output>
+        <int>151</int>
+      </output>
+      <position>
+        <x>538</x>
+        <y>1417</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>125</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I’m a stone cutter, I polish them, to reveal their inward beauty. 
+They’ve always fascinated me. It’s energizing, this strength. And you seem like a strong one.</dialogue>
+      <output>
+        <int>152</int>
+      </output>
+      <position>
+        <x>625</x>
+        <y>1495</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>126</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I am an honorary cabbages farmer. But I don’t enjoy it. 
+That’s why I try to go out and meet new people, to spice my everyday life. 
+</dialogue>
+      <output>
+        <int>127</int>
+      </output>
+      <position>
+        <x>510</x>
+        <y>1573</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>127</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I wanted to find love, but to make friends too. You know, always be hitting on everyone, it doesn’t help making besties… 
+But I think you know more than anybody else that massacres don’t help building trust.</dialogue>
+      <output>
+        <int>153</int>
+      </output>
+      <position>
+        <x>660</x>
+        <y>1573</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>151</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[The boulder turns scarlet. You notice curls of smoke emanating from its surface. It’s drawn face is melting because of the heat. 
+Better stay away from it] You are obviously voluntarily provoking me, you mass of flesh, but you really don’t realize who you’re talking to. 
+I am way more powerful than you think. If you kneel before me now, I may spare your people.</dialogue>
+      <output>
+        <int>154</int>
+        <int>155</int>
+      </output>
+      <position>
+        <x>720</x>
+        <y>1415</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>152</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[You can see its surface has now completely turned rose] Oh, I guess I am your type of stone then… Am I right ? 
+Since the beginning I thought that you liked me, but I didn’t assume you were absolutely serious. Now, I know you are. 
+[The top of the boulder is now white-hot] You’ve awakened feelings in me, feelings I didn’t even imagine I was capable of. 
+</dialogue>
+      <output>
+        <int>200</int>
+      </output>
+      <position>
+        <x>790</x>
+        <y>1543</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>153</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Well said, Barbarian. Well said. I haven’t had a real talk in ages. 
+But even before, when I was still a prophet, rare were those who completely opened their hearts to me in a pure and sincere manner, like you did today. 
+[At this moment, you notice the stone’s drawn smile seems to have widened. Its mouth does seem less rigid. But you can’t be sure.]</dialogue>
+      <output>
+        <int>202</int>
+      </output>
+      <position>
+        <x>804</x>
+        <y>1621</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>154</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Kneel</dialogue>
+      <output>
+        <int>156</int>
+      </output>
+      <position>
+        <x>892</x>
+        <y>1396</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>155</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>Don't kneel</dialogue>
+      <output>
+        <int>157</int>
+      </output>
+      <position>
+        <x>893</x>
+        <y>1472</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>156</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[You can feel the heat irradiate from this magic stone you’ve underestimated. You suddenly feel afraid and hastily kneel] 
+I… I underestimated you, Ô Stone, hm… Mighty Magic Stone… Please, spare my mediocre life, spare my... 
+</dialogue>
+      <output>
+        <int>158</int>
+      </output>
+      <position>
+        <x>1042</x>
+        <y>1396</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>157</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[You can feel the heat irradiate from DaRock, and it gives you an idea. You get closer and take an egg out of your bag. 
+You’ve found it earlier during your morning run. You had thought about eating it raw after your workout, 
+but upsetting this rock has given you the munchies. You break the egg at the top of the boulder and slowly drop its content on the stone. </dialogue>
+      <output>
+        <int>159</int>
+      </output>
+      <position>
+        <x>1043</x>
+        <y>1472</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>158</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>[You can’t even finish your sentence, because the stone has literally baked you where you stand, 
+like a roasted henmoth. You are dead, dead and dead again.]</dialogue>
+      <output>
+        <int>207</int>
+      </output>
+      <position>
+        <x>1192</x>
+        <y>1396</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>159</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>When it falls on it, it’s instantly cooked. With a cruel grin, you say] “At last I see one can use you in many ways, not just as a public lavatory.”
+[DaRock is flabbergasted, supine and stone-faced as ever. After a few seconds, it answers !] “You take more after the troll than of the barbarian”. 
+[As it speaks, the stone begins to vibrate, an exponential whistling coming from it’s mantle pierces your ears as DaRock dilates. </dialogue>
+      <output>
+        <int>160</int>
+      </output>
+      <position>
+        <x>1193</x>
+        <y>1472</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>160</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>After a few seconds, your head explodes. Continuing its expansion, DaRock snatches your body, and then the whole bar. 
+After having grown 42 times its original size, it explodes in a formidable shroom of scarlet light. 
+The explosion has annihilated all life in a 12 mile radius.</dialogue>
+      <output>
+        <int>206</int>
+      </output>
+      <position>
+        <x>1343</x>
+        <y>1472</y>
+      </position>
+      <userData />
+      <speaker>Moi</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>200</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>I can feel the lava bubbling in me, it’s overwhelming ! Oh, come closer! 
+[DaRock begins to vibrate and you can feel it drawing you closer. No matter its gender, its age, you’re giving yourself up to this force. 
+Your lips are irresistibly to its set smile. You feel a gentle warmth enveloping you and you realise you are where you belong. </dialogue>
+      <output>
+        <int>201</int>
+      </output>
+      <position>
+        <x>940</x>
+        <y>1543</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>201</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You even think you saw a tear drop near the stone’s circled-eye. 
+This sight moves you. At the moment your lips are about to meet the red line of its mouth, 
+DaRock leans on and whispers in your ear] “Love me tender, love me true”.</dialogue>
+      <output>
+        <int>205</int>
+      </output>
+      <position>
+        <x>1090</x>
+        <y>1543</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>202</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>You can’t begin to grasp how happy you’ve made me this instant. 
+I thought that nothing good could ever happen to me anymore, that humans were mere bloody, cruel masses of flesh. 
+I was filled with resentment to my top. But now, I look at the future with a more serene look. 
+I feel like I have a lot to do before becoming a healthy stone again. 
+</dialogue>
+      <output>
+        <int>203</int>
+      </output>
+      <position>
+        <x>954</x>
+        <y>1621</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>203</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue>But there’s always a back door, a different way to look at the future. And that’s all the more easy when you have someone at your side to guide you, isn’t it ? My… Friend ?</dialogue>
+      <output>
+        <int>204</int>
+      </output>
+      <position>
+        <x>1104</x>
+        <y>1621</y>
+      </position>
+      <userData />
+      <speaker>Darock</speaker>
+    </DialogueLine>
+    <DialogueLine>
+      <id>204</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1254</x>
+        <y>1621</y>
+      </position>
+      <userData>End:1</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>205</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1240</x>
+        <y>1543</y>
+      </position>
+      <userData>End:1</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>206</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1493</x>
+        <y>1472</y>
+      </position>
+      <userData>End:0</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>207</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1342</x>
+        <y>1396</y>
+      </position>
+      <userData>End:0</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>208</id>
+      <dialogueEntry>Darock</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1269</x>
+        <y>304</y>
+      </position>
+      <userData>End:0</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>300</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1051</x>
+        <y>115</y>
+      </position>
+      <userData>End:0</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>301</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>647</x>
+        <y>441</y>
+      </position>
+      <userData>End:0</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>302</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1209</x>
+        <y>874</y>
+      </position>
+      <userData>End:0</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>303</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>1274</x>
+        <y>1233</y>
+      </position>
+      <userData>End:0</userData>
+      <speaker />
+    </DialogueLine>
+    <DialogueLine>
+      <id>304</id>
+      <dialogueEntry>Agna</dialogueEntry>
+      <dialogue />
+      <output />
+      <position>
+        <x>551</x>
+        <y>1421</y>
+      </position>
+      <userData>End:1</userData>
+      <speaker />
+    </DialogueLine>
+  </lines>
+</DialogueFile>

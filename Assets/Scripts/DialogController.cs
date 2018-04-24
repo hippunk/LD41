@@ -83,7 +83,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
         else
         {
-            setName(GameLogicManager.currentCharacter.characterName+"-"+ GameLogicManager.currentCharacter.titre);
+            SetName(GameLogicManager.currentCharacter.characterName+"-"+ GameLogicManager.currentCharacter.titre);
             dateImage.sprite = GameLogicManager.currentCharacter.dateCard;
         }
     }

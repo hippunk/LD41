@@ -23,7 +23,7 @@ MonoBehaviour:
     - Moi
     - Agna
   - id: Ratchet
-    maxLineId: 15
+    maxLineId: 21
     speakers:
     - Ratchet
     - Moi
@@ -91,42 +91,63 @@ MonoBehaviour:
   - id: 6
     dialogueEntry: Ratchet
     dialogue: Salut !
-    output: 090000000a000000
+    output: 
     position: {x: 567, y: 0}
     userData: R:10
     speaker: Moi
   - id: 7
     dialogueEntry: Ratchet
     dialogue: wehs !
-    output: 090000000a000000
+    output: 14000000
     position: {x: 574, y: 121}
     userData: R:-10
     speaker: Moi
   - id: 8
     dialogueEntry: Ratchet
     dialogue: Yolop
-    output: 090000000a000000
-    position: {x: 574, y: 242}
+    output: 12000000
+    position: {x: 574, y: 241}
     userData: 
     speaker: Moi
-  - id: 9
-    dialogueEntry: Ratchet
-    dialogue: bloubloup
-    output: 
-    position: {x: 774, y: 151}
-    userData: '|R:<1000'
-    speaker: Ratchet
-  - id: 10
-    dialogueEntry: Ratchet
-    dialogue: wapwapwap
-    output: 
-    position: {x: 773, y: 11}
-    userData: '|R:>1000'
-    speaker: Ratchet
   - id: 13
     dialogueEntry: Ratchet
     dialogue: 
+    output: 0f000000
+    position: {x: 207, y: 135}
+    userData: E:sadness
+    speaker: 
+  - id: 15
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 10000000
+    position: {x: 223, y: 313}
+    userData: E:joy
+    speaker: 
+  - id: 16
+    dialogueEntry: Ratchet
+    dialogue: 
     output: 05000000
-    position: {x: 277, y: 97}
-    userData: F
+    position: {x: 386, y: 272}
+    userData: E:sadness
+    speaker: 
+  - id: 18
+    dialogueEntry: Ratchet
+    dialogue: pop
+    output: 13000000
+    position: {x: 722, y: 242}
+    userData: 
+    speaker: Ratchet
+  - id: 19
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 
+    position: {x: 874, y: 242}
+    userData: End:1
+    speaker: 
+  - id: 20
+    dialogueEntry: Ratchet
+    dialogue: 
+    output: 
+    position: {x: 724, y: 121}
+    userData: End:0
     speaker: 

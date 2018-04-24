@@ -859,7 +859,7 @@ MonoBehaviour:
     dateCard: {fileID: 0}
     charaSprite: {fileID: 0}
     prefab: {fileID: 0}
-    endings: []
+    endPrefab: {fileID: 0}
 --- !u!4 &421741620
 Transform:
   m_ObjectHideFlags: 0

@@ -15,6 +15,6 @@ public class Character {
     public Sprite dateCard;
     public Sprite charaSprite;
     public GameObject prefab;
-    public GameObject[] endings;
+    public GameObject endPrefab;
 
 }

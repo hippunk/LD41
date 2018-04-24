@@ -228,8 +228,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
             var parametersData = this.GetChoiceParameters(choice);
             if (parametersData.Contains("End:")) {
                 Debug.Log("End");
-                this.SetEndNumber(choice);
-                return true;
+                return this.SetEndNumber(choice);
             }
         }
         return false;
@@ -239,14 +238,15 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
         GameObject.Find("Menu UI").GetComponent<StartOptions>().Fade(GameConstant.END_SCENE_NUMBER);
     }
 
-    private void SetEndNumber(Dialogue.Choice choice) {
+    private bool SetEndNumber(Dialogue.Choice choice) {
         var parametersData = this.GetChoiceParameters(choice);
         int endNumber = 0;
         var trimParameter = parametersData.TrimStart('E', 'n', 'd', ':');
         if (!Int32.TryParse(trimParameter, out endNumber)) {
             Debug.Log("DIALOG CONTROLLER :: Error in relation parameter value (" + GameLogicManager.currentCharacter.characterName + ")");
         }
-        GameLogicManager.endNumber = endNumber;
+        GameLogicManager.endResult = endNumber;
+        return true;
     }
 
     void UpdateCharacterData(Dialogue.Choice choice) {

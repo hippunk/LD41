@@ -35,7 +35,7 @@ public class CharacterData : ScriptableObject {
     public GameObject prefab;
 
     [Header("Endings")]
-    public GameObject[] endings;
+    public GameObject endPrefab;
 
 }
 

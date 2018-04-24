@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterAnimController : MonoBehaviour {
+public class FlameAnimController : MonoBehaviour {
 
     [SerializeField] private Animator animator;
     [SerializeField] private float delayStartAnim;
@@ -15,9 +15,9 @@ public class CharacterAnimController : MonoBehaviour {
 
     private void FixedUpdate() {
         if (Time.time - this.lastTimeAnim >= this.timeBetweenAnim) {
-            this.animator.SetTrigger("drink");
+            this.animator.SetTrigger("wave");
             this.lastTimeAnim = Time.time;
-            this.timeBetweenAnim = Random.Range(5f, 15f);
+            this.timeBetweenAnim = Random.Range(3f, 6f);
         }
     }
 

@@ -19,3 +19,5 @@ MonoBehaviour:
   emotion: 5
   dateCard: {fileID: 21300000, guid: 57704ae675ee4754481702416ec8469c, type: 3}
   charaSprite: {fileID: 0}
+  prefab: {fileID: 1964382358195472, guid: 8aa6b4b2f4c83b949ad926a552e98f3b, type: 2}
+  endings: []

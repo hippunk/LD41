@@ -30,8 +30,6 @@ public class SwipeHandler : MonoBehaviour {
         Character curentCharacter = characterPool[currentCharacterId];
         GameLogicManager.SetCurrentCharacter(curentCharacter);
         startOptions.Fade(2);
-
-
     }
 
     public void OnNo() {

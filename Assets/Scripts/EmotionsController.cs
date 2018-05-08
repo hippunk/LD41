@@ -38,7 +38,7 @@ public class EmotionsController : MonoBehaviour {
     IEnumerator TriggerEmotion(Emotion emotion) {
         while (!isAnimFinished) {
             this.isAnimFinished = this.AnimateEmotion();
-            yield return new WaitForSeconds(.1f);
+            yield return new WaitForSeconds(.2f);
         }
         this.ResetDisplayedEmotion();
     }

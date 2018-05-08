@@ -1688,9 +1688,9 @@ MonoBehaviour:
     speaker: Moi
   - id: 53
     dialogueEntry: Agna
-    dialogue: "[She frowns but wait for you to continue (provisoire)] \nI am a thane
-      of Targrak for Trarg\u2019s sake ! \n[You slam your fist against the table,
-      prompting reactions from the nearby patrons cowering on their chair] "
+    dialogue: "[She frowns but wait for you to continue] \nI am a thane of Targrak
+      for Trarg\u2019s sake ! \n[You slam your fist against the table, prompting reactions
+      from the nearby patrons cowering on their chair] "
     output: 37000000
     position: {x: 1315, y: 504}
     userData: 
@@ -1984,7 +1984,7 @@ MonoBehaviour:
       exhausted radiating a mix of hate and a bit of sorrow, after pouring her heart
       out]"
     output: 5800000059000000
-    position: {x: 530, y: 1150}
+    position: {x: 530, y: 1151}
     userData: 
     speaker: Agna
   - id: 88

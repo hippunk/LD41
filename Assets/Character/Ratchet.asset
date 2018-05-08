@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Ratchet
   m_EditorClassIdentifier: 
   characterName: Ratchet
-  titre: skull crusher
+  titre: Skull Crusher
   age: 38
   description: "\xAB The woods are lovely, dark and deep, But I have promises to keep,
     I dare say to you upon a wooded steep, With you I wish to fall asleep \xBB"

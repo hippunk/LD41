@@ -17,9 +17,9 @@ public class TextAnimator: MonoBehaviour
 	private string currentAnimatedText;
 
 	// how long will takes to go from one character to the next?
-	private float timeForSingleCharacter = 0.05f;
-	// how long will it take from the end of one sentence to start the next
-	private float timeForSentencePause = 0.50f;
+	public float timeForSingleCharacter = 0.05f;
+    // how long will it take from the end of one sentence to start the next
+    public float timeForSentencePause = 0.50f;
 
 	void OnEnable()
 	{

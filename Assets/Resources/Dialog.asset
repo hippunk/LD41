@@ -54,7 +54,7 @@ MonoBehaviour:
     dialogue: "[You\u2019ve chosen to meet Ratchet around a fresh beer at the local
       pub, the Axe and Roses. You\u2019ve arrived early because of the pouring rain
       that has been falling [till] the beginning of the day. Dripping wet, you\u2019re
-      slowly sipping on the bubbly drink near the tavern\u2019s fireplace]\n"
+      slowly sipping on the bubbly drink near the tavern\u2019s fireplace]"
     output: 12000000
     position: {x: 150, y: 17}
     userData: 
@@ -527,7 +527,7 @@ MonoBehaviour:
     dialogueEntry: Ratchet
     dialogue: I was bored anyway.
     output: 55000000
-    position: {x: 333, y: 2066}
+    position: {x: 331, y: 2060}
     userData: 
     speaker: Moi
   - id: 82
@@ -560,7 +560,7 @@ MonoBehaviour:
     dialogueEntry: Ratchet
     dialogue: "I\u2019ll take my leave then. Goodbye, sir.\n"
     output: 57000000
-    position: {x: 357, y: 2087}
+    position: {x: 400, y: 2076}
     userData: 
     speaker: Ratchet
   - id: 86
@@ -575,7 +575,7 @@ MonoBehaviour:
     dialogue: "[He\u2019s taken aback by your reaction. He looks a bit saddened, but
       shakes your hand and leave, while you enjoy your poor ale. Alone.]  \n"
     output: 4900000055010000
-    position: {x: 394, y: 2107}
+    position: {x: 488, y: 2109}
     userData: E:sadness R:-2
     speaker: Ratchet
   - id: 201
@@ -1612,7 +1612,7 @@ MonoBehaviour:
       \nWe always had to. Even when I came back from my solo raid after the annihilation
       of the Stone Prophet Clan, it wasn\u2019t enough.\n"
     output: 30000000
-    position: {x: 351, y: 523}
+    position: {x: 352, y: 523}
     userData: 
     speaker: Agna
   - id: 45

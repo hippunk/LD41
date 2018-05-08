@@ -24,6 +24,8 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     public Image dateImage;
     public bool fin = false;
 
+    private Queue<string> vNodes = new Queue<string>();
+
     void Start() {
         dialogue = GameLogicManager.currentDialogue;
         SetDialogue();
@@ -51,17 +53,23 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
 
         List<Dialogue.Choice> aviableChoices = GetAviableChoices();
 
-        if (aviableChoices.Count == 1) {
+        if(vNodes.Count > 0)
+        {
+            string node = vNodes.Dequeue();
+            SetContent(node);
+            textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
+            clickFeedback.SetActive(false);
+            
+        }
+        else if (aviableChoices.Count == 1) {
             Dialogue.Choice choice = aviableChoices.First();
 
             clickFeedback.GetComponentInChildren<Text>().text = "Next...";
-            SetContent(choice.dialogue);
-            textAnimator.ChangeText(contentGO.GetComponent<Text>().text);
-            clickFeedback.SetActive(false);
+            SplitIntoVirtualNodes(choice.dialogue);
             UpdateCharacterData(choice);
             SetImage(choice);
             dialogue.PickChoice(choice);
-
+            SetDialogue();
         }
         else {
             GenerateChoiceList(aviableChoices);
@@ -283,9 +291,198 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     }
 
     public void SetContent(string text) {
+
         var processedText = text.Replace(GameConstant.PLAYER_NAME_TEMPLATE, GameLogicManager.playerName);
         Text contentText = contentGO.GetComponent<Text>();
         contentText.text = processedText;
+    }
+
+    public class Word
+    {
+        public string text;
+        public int width;
+        public int height;
+
+        public Word(string word, int width,int height)
+        {
+            this.text = word;
+            this.width = width;
+            this.height = height;
+        }
+    }
+
+    public class Line
+    {
+        public string text;
+        public int width;
+        public int height;
+
+        public Line(string line, int width, int height)
+        {
+            this.text = line;
+            this.width = width;
+            this.height = height;
+        }
+    }
+
+    public class TextEngine
+    {
+        public Vector2 bounds;
+        public Text textObject;
+
+        private Font font;
+        private FontStyle fontStyle;
+        private int fontSize;
+
+        public TextEngine(Text textObject, Vector2 bounds)
+        {
+            this.bounds = bounds;
+            this.textObject = textObject;
+        }
+
+        private List<Word> GetWords(string text)
+        {
+            font = textObject.font;
+            fontStyle = textObject.fontStyle;
+            fontSize = textObject.fontSize;
+            textObject.font.RequestCharactersInTexture(text, fontSize, fontStyle);
+
+            List<Word> words = new List<Word>();
+            string formatedText = text.Replace("\n", " ");
+            string[] splittedText = formatedText.Split(' ');
+
+            CharacterInfo characterInfo = new CharacterInfo();
+
+            foreach (string word in splittedText)
+            {
+                if (!string.IsNullOrEmpty(word))
+                {
+                    int sum = 0;
+                    int height = 0;
+                    foreach (char c in word)
+                    {
+                        font.GetCharacterInfo(c, out characterInfo, fontSize, fontStyle);
+                        sum += characterInfo.advance;
+                        if (characterInfo.glyphHeight > height)
+                            height = characterInfo.glyphHeight;
+                    }
+                    words.Add(new Word(word, sum, height));
+                }
+            }
+
+            return words;
+        }
+
+        private List<Line> GetLines(string text)
+        {
+            List<Line> lines = new List<Line>();
+
+            List<Word> words = GetWords(text);
+
+            CharacterInfo characterInfo = new CharacterInfo();
+
+            font.GetCharacterInfo(' ', out characterInfo, fontSize, fontStyle);
+            int espace = characterInfo.advance;
+
+            int sum = 0;
+            int height = 0;
+            string line = "";
+
+            foreach (Word word in words)
+            {
+                //Cas premier mot
+                if (string.IsNullOrEmpty(line))
+                {
+                    line += word.text;
+                    sum = word.width;
+                    if (word.height > height)
+                        height = word.height;
+                }
+                //Cas place pour autre mot
+                else if ((sum + word.width + espace) < bounds.x)
+                {
+                    line += " " + word.text;
+                    sum += word.width + espace;
+                    if (word.height > height)
+                        height = word.height;
+                }
+                //Cas débordement.
+                else if ((sum + word.width + espace) >= bounds.x)
+                {
+                    lines.Add(new Line(line, sum, height));
+                    sum = word.width;
+                    line = word.text;
+                }
+            }
+
+            //Traitement fin
+            lines.Add(new Line(line, sum, height));
+
+            foreach (Line debugline in lines)
+            {
+                //Debug.Log("Line : " + debugline.text + " width : " + debugline.width + " height " + debugline.height);
+            }
+
+            return lines;
+        }
+
+        public List<string> GetVirtualNodes(string text)
+        {
+            List<string> virtualNodes = new List<string>();
+            List<Line> lines = GetLines(text);
+            int maxHeight = (int)(bounds.y * 1.1); //Offcet de 10% dont on peut se permettre de dépasser pour l'ajout de la dernière ligne (dépendant de la taille ? demande ajustements)
+            //Debug.Log("maxHeight : " + maxHeight);
+
+            int sum = 0;
+            string node = "";
+            foreach(Line line in lines)
+            {
+                //Cas premier mot
+                if (string.IsNullOrEmpty(node))
+                {
+                    node += line.text;
+                    sum = line.height;
+                }
+                //Cas place pour autre mot
+                else if ((sum + line.height) < maxHeight)
+                {
+                    node += "\n" + line.text;
+                    sum += line.height;
+                }
+                //Cas débordement.
+                else if ((sum + line.height) >= maxHeight)
+                {
+                    virtualNodes.Add(node);
+                    sum = line.height;
+                    node = line.text;
+                }
+            }
+
+            //Traitement fin
+            virtualNodes.Add(node);
+
+            foreach(string debugNode in virtualNodes)
+            {
+                Debug.Log(debugNode);
+            }
+
+            return virtualNodes;
+        }
+    }
+
+    public void SplitIntoVirtualNodes(string text)
+    {
+        RectTransform textTransform = contentGO.GetComponent<RectTransform>();
+        float width = textTransform.sizeDelta.x;
+        float height = textTransform.sizeDelta.y;
+
+        Text textComponent = contentGO.GetComponent<Text>();
+        TextEngine textEngine = new TextEngine(textComponent, new Vector2(width,height));
+        List<string> virtualNodes = textEngine.GetVirtualNodes(text);
+        foreach(string node in virtualNodes)
+        {
+            vNodes.Enqueue(node);
+        }
     }
 
     public void ClearContent() {
@@ -296,7 +493,7 @@ public class DialogController : MonoBehaviour, IPointerClickHandler {
     void SetName(string name) {
 
         Text nameText = nameGO.GetComponent<Text>();
-        nameText.text = name.Replace(" ", "-") + ")";
+        nameText.text = name;
     }
 
     void OpenDialogBox() {

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Agna
   m_EditorClassIdentifier: 
   characterName: Agna
-  titre: fear monger
+  titre: Fear Monger
   age: 32
   description: "\xAB Roses are dead, Violets I screw, I hit enemies, Why not on you
     too ? \xBB"

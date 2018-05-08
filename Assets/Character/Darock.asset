@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Darock
   m_EditorClassIdentifier: 
   characterName: Darock
-  titre: the immovable
+  titre: The Immovable
   age: 3000
   description: "\xAB Rocks have feelings too \xBB"
   relation: 0
